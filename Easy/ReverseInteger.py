@@ -17,6 +17,8 @@ class Solution(object):
                 string_representation = string_representation[:j]
                 j -= 1
             if j < i:
+                if abs(int(string_representation)) > (2 ** 31 - 1):
+                    return 0
                 return int(string_representation)
             if i != j:
                 string_list = list(string_representation)
@@ -24,7 +26,9 @@ class Solution(object):
                 string_representation = ''.join(string_list)
             j -= 1
             started = True
+        if abs(int(string_representation)) > (2 ** 31 - 1):
+            return 0
         return int(string_representation)
 
 solution = Solution()
-print(solution.reverse(-123))
+print(solution.reverse(1534236469))
