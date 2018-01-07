@@ -15,6 +15,8 @@ class Solution(object):
             reversed_int = reversed_int * 10 + math.floor(math.floor((x % multiplier)) / multiplier * 10)
             if x == reversed_int:
                 return True
+            if x / multiplier == 0 and x != reversed_int:
+                return False
             multiplier *= 10
 
         return x == reversed_int
@@ -36,4 +38,4 @@ class Solution(object):
 
 
 solution = Solution()
-print(solution.isPalindrome(9999))
+print(solution.isPalindrome(22))
