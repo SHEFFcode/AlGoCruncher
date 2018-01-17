@@ -7,8 +7,8 @@ class Solution(object):
         output_list = []
         if not matrix or len(matrix[0]) < 1:
             return output_list
-        current_item, starting_row_index, ending_row_index = 0, 0, len(matrix)  # -1 because of length vs index
-        starting_column_index, ending_column_index = 0, len(matrix[0])  # -1 because of length vs index
+        current_item, starting_row_index, ending_row_index = 0, 0, len(matrix)
+        starting_column_index, ending_column_index = 0, len(matrix[0])
         while starting_row_index < ending_row_index and starting_column_index < ending_column_index:
             # Print the first row of the remaining rows, the size of the row is from first column to last column
             for current_item in range(starting_column_index, ending_column_index):
