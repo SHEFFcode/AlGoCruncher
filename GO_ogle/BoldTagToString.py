@@ -8,6 +8,7 @@ class Solution(object):
                 words_used += print_dictionary[i]
             elif i not in print_dictionary and i > len(words_used) - 1:
                 output_string += s[i]
+                words_used += s[i]
         return output_string
 
     def addBoldTag(self, s, dict):
@@ -24,15 +25,16 @@ class Solution(object):
                 single_string += s[i]
                 print_dictionary[i] = i
                 continue
-            for j in range(i + 1, len(s)):
+            for j in range(i + 1, len(s) + 1):
                 if s[i:j] in dict:
                     if i <= end + 1:
-                        single_string += s[len(single_string):j]
+                        single_string += s[start:j]
                         end = end + j
+                        start = i
                     else:
                         string_list.append(single_string)
                         print_dictionary[start] = single_string
-                        start = j
+                        start = i
                         single_string = s[start:j]
         if len(single_string) > 0:
             print_dictionary[start] = single_string
@@ -42,5 +44,5 @@ class Solution(object):
 
 
 solution = Solution()
-print(solution.addBoldTag("aaabbcc", ["aaa", "aab", "bc"]))
+print(solution.addBoldTag("abcxyz123", ["abc","123"]))
 
