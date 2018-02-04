@@ -1,54 +1,38 @@
 class Solution(object):
-    def bold_it_up(self, s, print_dictionary):
-        output_string = ''
-        words_used = ''
-        for i in range(0, len(s)):
-            if i in print_dictionary:
-                output_string = output_string + '<b>' + print_dictionary[i] + '</b>'
-                words_used += print_dictionary[i]
-            elif i not in print_dictionary and i > len(words_used) - 1:
-                output_string += s[i]
-                words_used += s[i]
-        return output_string
-
     def addBoldTag(self, s, dict):
         """
         :type s: str
         :type dict: List[str]
         :rtype: str
         """
-        start, end = 0, 0
-        string_list, single_string = [], ''
-        print_dictionary = {}
-        for i in range(0, len(s)):
-            if len(single_string) == len(s):
+        length = len(s)
+        border_markers = [0 for i in range(length + 1)]
+        for string in dict:
+            i = -1
+            try:
+                i = s.index(string, i + 1)
+            except ValueError:
+                i = i
+            while i >= 0:
+                border_markers[i] += 1  # border opens
+                border_markers[i + len(string)] -= 1  # border closes
+                try:
+                    i = s.index(string, i + 1)
+                except ValueError:
+                    break
+        bolded_string = ""
+        border_indicator = 0
+        for i in range(0, length + 1):
+            current_char_border_indicator = border_indicator + border_markers[i]
+            if current_char_border_indicator > 0 and border_indicator == 0:  # current char is start of border
+                bolded_string += "<b>"
+            if current_char_border_indicator == 0 and border_indicator > 0:  # current char is end of border
+                bolded_string += "</b>"
+            if i == length:  # we've reached the end of the string, we end
                 break
-            if i in dict:
-                single_string += s[i]
-                print_dictionary[i] = i
-            if single_string + s[i] not in dict and len(single_string) > 0:
-                print_dictionary[i - 1] = single_string
-                single_string = ''
-                end = max(i + 1, end)
-            for j in range(i + 1, len(s) + 1):
-                if s[i:j] in dict or (s[i:j] == (j - i) * s[i] and s[i] in dict):
-                    if i <= end + 1:
-                        single_string += s[end:j]
-                        end = j
-                    else:
-                        string_list.append(single_string)
-                        print_dictionary[start] = single_string
-                        start = i
-                        single_string = s[start:j]
-                        end = j
-        if len(single_string) > 0:
-            print_dictionary[start] = single_string
-        bolded_string = self.bold_it_up(s, print_dictionary)
+            bolded_string += s[i]  # we add the current character either way
+            border_indicator = current_char_border_indicator  # we update overall border indicator to current one
         return bolded_string
 
-
-
 solution = Solution()
-# print(solution.addBoldTag("aaabbcc", ["aaa","aab","bc"]))
-print(solution.addBoldTag("aaabbcc",["a","c"]))
-
+print(solution.addBoldTag("aaabbcc", ["a", "c"]))
