@@ -7,8 +7,8 @@ class Solution(object):
         :rtype: List[List[int]]
         """
         grayscale_list = [[0 for _ in range(len(M[0]))] for _ in range(len(M))]
-        for i in range(len(M[0])):
-            for j in range(len(M)):
+        for i in range(len(M)):
+            for j in range(len(M[0])):
                 result = self.try_calculate_greyscale(i, j, M)
                 grayscale_list[i][j] = int(result)
         return grayscale_list
@@ -20,7 +20,7 @@ class Solution(object):
         :type M: List[List[int]]
         :rtype: int
         """
-        top = [(-1, -1), (-1, 0), (-1, -1)]
+        top = [(-1, -1), (-1, 0), (-1, 1)]
         row = [(0, -1), (0, 1)]
         bottom = [(1, -1), (1, 0), (1, 1)]
         result_list = list()
@@ -51,4 +51,4 @@ class Solution(object):
         return sum_items, count_items
 
 solution = Solution()
-solution.imageSmoother([[1, 1, 1], [1, 0, 1], [1, 1, 1]])
+print(solution.imageSmoother([[2,3,4],[5,6,7],[8,9,10],[11,12,13],[14,15,16]]))
