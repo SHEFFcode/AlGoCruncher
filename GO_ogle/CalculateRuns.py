@@ -15,4 +15,4 @@ class Solution(object):
             return self.cache[number_of_runs]
 
 solution = Solution()
-print(solution.calculate_runs(6))
+print(solution.calculate_runs(25))
