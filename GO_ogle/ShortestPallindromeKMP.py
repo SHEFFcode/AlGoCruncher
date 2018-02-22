@@ -11,4 +11,4 @@ class Solution(object):
 
 
 solution = Solution()
-print(solution.shortestPalindrome('aabba'))
+print(solution.shortestPalindrome('aacecaaa'))
