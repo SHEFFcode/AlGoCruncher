@@ -7,7 +7,12 @@ class Solution(object):
         minimum, maximum = 0, 0
         needed = None
         lead_pointer, follow_pointer = 1, 0
-        for _ in range(1, len(nums)):
+        while lead_pointer < len(nums):
+            if nums[follow_pointer] == 0:
+                follow_pointer, lead_pointer = follow_pointer + 1, lead_pointer + 1
+                continue
+            elif nums[lead_pointer] == 0:
+                lead_pointer += 1
             if nums[lead_pointer] > nums[follow_pointer] and minimum == 0 and maximum == 0:
                 minimum, maximum = nums[follow_pointer], nums[lead_pointer]
             elif minimum == 0 and maximum == 0:
@@ -29,4 +34,4 @@ class Solution(object):
         return needed if needed else maximum + 1
 
 solution = Solution()
-print(solution.firstMissingPositive([3,4,-1,1, 2, 0]))
+print(solution.firstMissingPositive([2,0,3,4,10]))
