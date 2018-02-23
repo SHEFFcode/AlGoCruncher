@@ -8,11 +8,13 @@ class Solution(object):
         needed = None
         lead_pointer, follow_pointer = 1, 0
         while lead_pointer < len(nums):
-            if nums[follow_pointer] == 0:
+            if nums[follow_pointer] == 0 and minimum == 0 and maximum == 0:
                 follow_pointer, lead_pointer = follow_pointer + 1, lead_pointer + 1
                 continue
-            elif nums[lead_pointer] == 0:
+            elif nums[lead_pointer] == 0 and minimum == 0 and maximum == 0:
                 lead_pointer += 1
+            if nums[follow_pointer] == 0:
+                follow_pointer += 1
             if nums[lead_pointer] > nums[follow_pointer] and minimum == 0 and maximum == 0:
                 minimum, maximum = nums[follow_pointer], nums[lead_pointer]
             elif minimum == 0 and maximum == 0:
@@ -20,8 +22,12 @@ class Solution(object):
             if nums[lead_pointer] < 1:
                 lead_pointer += 1
                 continue
-            if abs(nums[lead_pointer] - nums[follow_pointer]) > 1:
+            if abs(nums[lead_pointer] - nums[follow_pointer]) > 1 and needed is None:
                 needed = min(nums[lead_pointer], nums[follow_pointer]) + 1
+                if needed == maximum:
+                    needed = maximum + 1
+                elif needed == minimum:
+                    needed = minimum - 1
             if nums[lead_pointer] == needed:
                 needed = None
             if nums[lead_pointer] < minimum:
@@ -34,4 +40,4 @@ class Solution(object):
         return needed if needed else maximum + 1
 
 solution = Solution()
-print(solution.firstMissingPositive([2,0,3,4,10]))
+print(solution.firstMissingPositive([2, 1,0,4,10]))
