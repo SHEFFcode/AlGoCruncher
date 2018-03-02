@@ -14,22 +14,23 @@ class Solution(object):
         """
         if not root or not p:
             return None
-        if root is p:
-            return root
-        treasure_node = p.val
-        current_closest = root
-        self.traverse(root, treasure_node, current_closest)
-        return current_closest
+        if p.right:  # the node has a right child, which would contain the in order successor
+            return self.find_min(p.right)
 
-    def traverse(self, c_node, treasure_node, current_closest):
-        if abs(c_node.val - treasure_node) < current_closest.val:
-            current_closest = c_node
-        if c_node.val == treasure_node + 1:
-            return c_node
-        if c_node.val == treasure_node:
-            self.traverse(c_node.right, treasure_node, current_closest)  # have to go right because we are looking for a higher value then treasure
-        elif c_node.val > treasure_node:
-            self.traverse(c_node.left, treasure_node, current_closest)
-        elif c_node.val < treasure_node:
-            self.traverse(c_node.right, treasure_node, current_closest)
-        return current_closest
+        successor = None
+        while root:
+            if root.val > p.val:  # possible successor
+                successor = root
+                root = root.left
+            elif root.val < p.val:  # successor is on the right
+                root = root.right
+            else:  # we ran into the p node while traversing, so successor is its parent node
+                break
+        return successor
+
+    def find_min(self, node):
+        min_node = node
+        while min_node.left:  # find the min of the right child of the p node
+            min_node = min_node.left
+        return min_node
+
