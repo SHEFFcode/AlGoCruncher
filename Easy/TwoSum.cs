@@ -1,5 +1,6 @@
 public class Solution {
-    public int[] TwoSum(int[] nums, int target) {
+    public int[] TwoSum(int[] nums, int target)
+    {
         var dictionary = new Dictionary<int, int>();
         var indexArray = new int[2];
         var integer = 0;
@@ -8,17 +9,22 @@ public class Solution {
             integer = nums[i];
             if (dictionary.ContainsKey(integer))
             {
+                Console.WriteLine($@"First item in the array is ${dictionary[integer]}, second item is ${i}");
+
                 indexArray[0] = dictionary[integer];
                 indexArray[1] = i;
+                break;
             }
-            else if (integer < target)
+            else if (!dictionary.ContainsKey(target - integer))
             {
-                dictionary.Add(target - integer, i);
+                    Console.WriteLine($@"Adding key ${target - integer} and value ${i}");
+                    dictionary.Add(target - integer, i);
+             }
             }
+
+            return indexArray;
         }
 
-        return indexArray;
-    }
 }
 
 /*
