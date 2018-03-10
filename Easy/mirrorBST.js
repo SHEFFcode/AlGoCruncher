@@ -9,25 +9,25 @@
  * @param {TreeNode} root
  * @return {boolean}
  */
-var isSymmetric = function(root) {
+var isSymmetric = function (root) {
     //return traverseBST(root, root);
     return traverseIteratively(root);
 };
 
-let traverseBST = function(currentNode, mirrorNode) {
-	if (currentNode === null) {
-		return true;
-	} else if (currentNode && !mirrorNode) {
-		return false;
+let traverseBST = function (currentNode, mirrorNode) {
+    if (currentNode === null) {
+        return true;
+    } else if (currentNode && !mirrorNode) {
+        return false;
     } else if (mirrorNode && currentNode.val !== mirrorNode.val) {
-	    return false;
+        return false;
     }
     return traverseBST(currentNode.left, mirrorNode.right) && traverseBST(currentNode.right, mirrorNode.left);
 };
 
-let traverseIteratively = function(currentNode) {
-	if (!currentNode) {
-		return true;
+let traverseIteratively = function (currentNode) {
+    if (!currentNode) {
+        return true;
     }
 
     let stack = [];
@@ -36,53 +36,53 @@ let traverseIteratively = function(currentNode) {
     Basically the idea here is to create a stack where we will have the values of the nodes in the order they appear, and we are doing some                         basic checking that the nodes that appear on the left also appear on the right.
     */
     if (currentNode.left !== null) {
-	    if (!currentNode.right) {
-		    return false;
+        if (!currentNode.right) {
+            return false;
         }
         stack.push(currentNode.left);
         stack.push(currentNode.right);
     } else if (currentNode.right !== null) {
-	    return false; // because we already have the currentNode.left available per above
-    } 
+        return false; // because we already have the currentNode.left available per above
+    }
 
     let left, right;
     while (stack.length > 0) {
-	    if (stack.length % 2 !== 0) {
+        if (stack.length % 2 !== 0) {
             return false;
         }
         right = stack.pop();
         left = stack.pop();
         if (right.val !== left.val) {
             console.log(left, right, stack);
-            
+
             return false;
         }
 
         if (left.left !== null) {
             if (right.right === null) {
-                
+
                 return false;
             }
             stack.push(left.left);  // this sort of mirrors the code we had to fill up stack 
             stack.push(right.right); // before, in the code above.
         } else if (right.right !== null) {
-            
+
             return false;
-        }	
+        }
 
         if (left.right !== null) {
-	        if (right.left === null) {
-                
-		        return false;
-	        }
-	        stack.push(left.right);
-	        stack.push(right.left);
+            if (right.left === null) {
+
+                return false;
+            }
+            stack.push(left.right);
+            stack.push(right.left);
         } else if (right.left !== null) {
-	        return false;
+            return false;
         }
     }
- 
-	return true;
+
+    return true;
 }
 
 
