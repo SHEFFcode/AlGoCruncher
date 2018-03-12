@@ -2,22 +2,22 @@
  * @param {number} n
  * @return {number}
  */
-var climbStairs = function(n) {
+var climbStairs = function (n) {
     let stepCount = 0, currentStep = 0, brain = {};
-return traverseStairs(0, currentStep, n, brain);
+    return traverseStairs(0, currentStep, n, brain);
 };
 
 let traverseStairs = function (stepCount, currentStep, target, brain) {
-if (currentStep === target) {
-    return 1;	
-} else if (currentStep > target) {
-    return 0;
-}
-if (!brain.hasOwnProperty(`${currentStep}, ${stepCount}`)) {
-    brain[`${currentStep}, ${stepCount}`] =  traverseStairs(1, currentStep + 1, target, brain) + traverseStairs(2, currentStep + 2, target, brain);
-} 
+    if (currentStep === target) {
+        return 1;
+    } else if (currentStep > target) {
+        return 0;
+    }
+    if (!brain.hasOwnProperty(`${currentStep}, ${stepCount}`)) {
+        brain[`${currentStep}, ${stepCount}`] = traverseStairs(1, currentStep + 1, target, brain) + traverseStairs(2, currentStep + 2, target, brain);
+    }
 
-return brain[`${currentStep}, ${stepCount}`];
+    return brain[`${currentStep}, ${stepCount}`];
 }
 
 
