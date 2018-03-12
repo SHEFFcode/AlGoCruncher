@@ -2,17 +2,18 @@
  * @param {number[]} prices
  * @return {number}
  */
-var maxProfit = function(prices) {
-    let buyLow = prices[0], profit = 0;
+var maxProfit = function (prices) {
+    let buyLow = prices[0], 
+        profit = 0;
 
-for (let i = 1; i < prices.length; i++) {
-    profit = prices[i] - buyLow > profit ? prices[i] - buyLow : profit;
-    if (prices[i] < buyLow) {
-        buyLow = prices[i];
+    for (let i = 1; i < prices.length; i++) {
+        profit = prices[i] - buyLow > profit ? prices[i] - buyLow : profit;
+        if (prices[i] < buyLow) {
+            buyLow = prices[i];
+        }
     }
-} 
 
-return profit > -1 ? profit : 0;
+    return profit > -1 ? profit : 0;
 };
 
 /*
