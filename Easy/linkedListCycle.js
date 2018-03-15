@@ -18,7 +18,7 @@ var hasCycle = function(head) {
         fast = fast.next.next;
         slow = slow.next;
 
-        if (slow.val === fast.val) {
+        if (fast && slow.val === fast.val) {
             return true;
         }
     }
