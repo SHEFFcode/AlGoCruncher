@@ -16,11 +16,11 @@ export interface City {
 
 function main() {
   const rawCityList: RawCityArray[] = [
-    { Name: 'Seattle', Region: 'NW USA', Year: '2018', Population: 1000000, AvgPollutionIndex: 2, DaysOfRain: 300 },
-    { Name: 'Seattle', Region: 'NW USA', Year: '2017', Population: 1000000, AvgPollutionIndex: 2, DaysOfRain: 290 },
-    { Name: 'Portland', Region: 'NW USA', Year: '2018', Population: 800000, AvgPollutionIndex: 4, DaysOfRain: 200 },
-    { Name: 'Vancouver', Region: 'NW CANADA', Year: '2018', Population: 1000000, AvgPollutionIndex: 1, DaysOfRain: 310 },
-    { Name: 'Atlanta', Region: 'SE USA', Year: '2017', Population: 1000000, AvgPollutionIndex: 8, DaysOfRain: 100 },
+      { Name: 'Seattle', Region: 'NW USA', Year: '2018', Population: 1000000, AvgPollutionIndex: 2, DaysOfRain: 300 },
+      { Name: 'Seattle', Region: 'NW USA', Year: '2017', Population: 1000000, AvgPollutionIndex: 2, DaysOfRain: 290 },
+      { Name: 'Portland', Region: 'NW USA', Year: '2018', Population: 800000, AvgPollutionIndex: 4, DaysOfRain: 200 },
+      { Name: 'Vancouver', Region: 'NW CANADA', Year: '2018', Population: 1000000, AvgPollutionIndex: 1, DaysOfRain: 310 },
+      { Name: 'Atlanta', Region: 'SE USA', Year: '2017', Population: 1000000, AvgPollutionIndex: 8, DaysOfRain: 100 },
   ];
 
   const sortedList = regionifyCityList(rawCityList);
@@ -60,35 +60,20 @@ function myFunction(theRegionifiedList: Object, yearSelected: string, region: st
 // {2018: NW USA: [{ Name: 'Seattle', Region: 'NW USA', Year: '2018', Population: 1000000, AvgPollutionIndex: 2, DaysOfRain: 300]}
 
 function regionifyCityList(cities): Object {
-
-  let theRegionifiedList = {};
-
-  cities.forEach((city) => {
-
-    if (!theRegionifiedList.hasOwnProperty(city.Year)) {
-      theRegionifiedList[city.Year] = {};
-    }
-
-    if (!theRegionifiedList[city.Year].hasOwnProperty(city.Region)) {
-      theRegionifiedList[city.Year][city.Region] = [];
-    }
-
-    theRegionifiedList[city.Year][city.Region].push(city);
-
-  });
-
-  return theRegionifiedList
-
-  /* {
-  2018:{
-  'NW USA': [{"Name":"Seattle","Region":"NW USA","Year":"2018","Population":1000000,"AvgPollutionIndex":2,"DaysOfRain":300},  {"Name":"Portland","Region":"NW USA","Year":"2018","Population":800000,"AvgPollutionIndex":4,"DaysOfRain":200}]
+let regionifiedCities = {};
+cities.forEach((city) => {
+  if (!regionifiedCities.hasOwnProperty(city.year)) {  //{2018: {}}
+    regionifiedCities[city.year] = {};
   }
   
-  2017: {
-  'WEST USA': [{firstCity}]
+  if (!regionifiedCities[city.year].hasOwnProperty(city.region)) {  //{2018: {Northwest: []}}
+    regionifiedCities[city.year][city.region] = [city];
+  } else {
+    regionifiedCities[city.year][city.region].push(city);
   }
-  } */
+});
 
+return regionifiedCities;
 }
 
 main();
