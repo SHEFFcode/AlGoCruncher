@@ -3,32 +3,50 @@
  * @return {number}
  */
 var myAtoi = function(str) {
-    let sum = 0;
-    let power = 0;
-    let multiplier = 1;
-    let lookupTable = { 45: -1, 48: 0, 49: 1, 50: 2, 51: 3, 52: 4, 53: 5, 54: 6, 55: 7, 56: 8, 57: 9 };
+    let index = 0, sign = 1, total = 0;
 
-    for (let i = 0; i <= str.length; i++) {
-        if (!lookupTable.hasOwnProperty(str.charCodeAt(i)) && !power) {
-            continue;
-        } else if (!lookupTable.hasOwnProperty(str.charCodeAt(i)) && !!power) {
-            return sum;
-        } else if (lookupTable.hasOwnProperty(str.charCodeAt(i))) {
-            if (str.charCodeAt(i) === 45 && !power) {
-                multiplier = -1;
-            } else if (str.charCodeAt(i) === 45 && !!power) {
-                return sum;
-            }
-            sum *= 10;
-            sum += lookupTable[str.charCodeAt(i)];
-            power++;
-        }
+    if (str.length === 0) {  // just input check
+        return 0;
     }
 
-    return sum;
+    // Removes the spaces
+    while (str.charAt(index) === ' ' && index < str.length) {
+        index++;
+    }
+
+    if (str.charAt(index) == '+' || str.charAt(index) === '-') {
+        sign = str.charAt(index) === "+" ? 1 : -1;
+        index++;
+    }
+
+    while (index < str.length) {
+        digit = str.charAt(index) - '0';
+        if (digit < 0 || digit > 9 || digit !== digit || str.charAt(index) === ' ') {
+            break;
+        }
+
+        //Check for integer overflow
+        if ((Math.pow(2, 31) - 1) / 10 < total 
+            || (Math.pow(2, 31) - 1) / 10 === total && (Math.pow(2, 31) - 1) % 10 < digit) {
+                return sign === 1 ? (Math.pow(2, 31) - 1) : (Math.pow(2, 31) - 1);
+        }
+        total = total * 10 + digit;
+        index++;
+    }
+    if (total !== total) {
+        return 0;
+    }
+
+    if (total > 2147483647) {
+        total = 2147483647;
+    } else if (total < -2147483647) {
+        total = 2147483647;
+    }
+
+    return total * sign;
 };
 
-myAtoi("      1234556px    ");
+console.log(myAtoi("    -0012a42"));
 
 /*
 G: String => string containing a number.
