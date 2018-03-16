@@ -8,7 +8,7 @@ var groupAnagrams = function(strs) {
         index = 0;
 
     strs.forEach((word) => {
-        let sortedWord = word.split().sort();
+        let sortedWord = word.split('').sort().join('');
         if (!lookupTable.hasOwnProperty(sortedWord)) {
             lookupTable[sortedWord] = index;
             matchedAnagrams[index] = [word];
@@ -18,6 +18,8 @@ var groupAnagrams = function(strs) {
             matchedAnagrams[index].push(word);
         }
     });
+
+    return matchedAnagrams;
 };
 
 /*
