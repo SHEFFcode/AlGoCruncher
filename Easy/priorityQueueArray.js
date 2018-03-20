@@ -57,7 +57,7 @@ class PriorityQueue {
      */
     while (this.heap[currentChildIndex] && this.heap[this.currentIndex].priority <= this.heap[currentChildIndex].priority) {
       [this.heap[this.currentIndex], this.heap[currentChildIndex]] = [this.heap[currentChildIndex], this.heap[this.currentIndex]];
-      [left, right] = [2 * currentIndex, 2 * this.currentIndex + 1];
+      [left, right] = [2 * currentChildIndex, 2 * this.currentChildIndex + 1];
       currentChildIndex = this.heap[right] && this.heap[right].priority >= this.heap[left].priority ? right : left
     }
     return toRemove;
