@@ -16,6 +16,7 @@ class FluxStore extends EventEmitter {
    */
   addAnswer(answer) {
     answers.greetings.push(answer);
+    this.emitChange();
   }
 
   /**
@@ -24,6 +25,7 @@ class FluxStore extends EventEmitter {
    */
   markAsCorrect(id) {
     answers.greetings[id] = false;
+    this.emitChange();
   }
 
   /**
@@ -42,5 +44,20 @@ class FluxStore extends EventEmitter {
       default:
         break;
     }
+  }
+
+  /**
+   * Adds a listener to the change in the store.
+   * @param {Function} listener 
+   */
+  addChangeListner(listener) {
+    this.on('change', listener);
+  }
+
+  /**
+   * Store says that the data I am responsible for has changed.
+   */
+  emitChange() {
+    this.emit('change');
   }
 }
