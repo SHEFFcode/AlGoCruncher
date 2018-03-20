@@ -56,10 +56,9 @@ class PriorityQueue {
      * This while loop keeps moving the element from the front to the spot where its a priority match.
      */
     while (this.heap[currentChildIndex] && this.heap[this.currentIndex].priority <= this.heap[currentChildIndex].priority) {
-      let currentNode = this.heap[this.currentIndex];
-      let currentChildNode = this.heap[currentChildIndex];
-      this.heap[currentChildIndex] = currentChildIndex;
       [this.heap[this.currentIndex], this.heap[currentChildIndex]] = [this.heap[currentChildIndex], this.heap[this.currentIndex]];
+      [left, right] = [2 * currentIndex, 2 * this.currentIndex + 1];
+      currentChildIndex = this.heap[right] && this.heap[right].priority >= this.heap[left].priority ? right : left
     }
     return toRemove;
   }
