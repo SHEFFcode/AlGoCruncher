@@ -37,7 +37,9 @@ class PriorityQueue {
     }
   }
 
-
+  /**
+   * Function to remove the min item form the top of priority queue
+   */
   remove() {
     if (this.heap.length < 3) {
       const toReturn = this.heap.pop(); // the only number in this heap;
