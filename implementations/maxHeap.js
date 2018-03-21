@@ -27,7 +27,6 @@ class MaxHeap {
       currentNodeParentIndex
       && newNode.val > this.heap[currentNodeParentIndex].val
     ) {
-      const parent = this.heap[currentNodeParentIndex];
       [this.heap[currentNodeParentIndex], this.heap[currentNodeIndex]] = [this.heap[currentNodeIndex], this.heap[currentNodeParentIndex]];
       currentNodeIndex = currentNodeParentIndex;
       currentNodeParentIndex = Math.floor(currentNodeIndex / 2);
@@ -65,12 +64,12 @@ class MaxHeap {
 
 let heap = new MaxHeap();
 heap.insert(5);
-// heap.insert(4);
-// heap.insert(3);
-// heap.insert(6);
-// heap.insert(9);
-// heap.insert(7);
-// heap.insert(1);
+heap.insert(4);
+heap.insert(3);
+heap.insert(6);
+heap.insert(9);
+heap.insert(7);
+heap.insert(1);
 
 heap.remove();
 heap.remove();
