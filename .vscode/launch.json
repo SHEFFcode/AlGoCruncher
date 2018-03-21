@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Easy/strStr.js"
+            "program": "${workspaceFolder}/implementations/maxHeap.js"
         }
     ]
 }
