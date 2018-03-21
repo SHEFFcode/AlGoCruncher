@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/implementations/minHeap.js"
+            "program": "${workspaceFolder}/Medium/islandCount.js"
         }
     ]
 }
