@@ -6,20 +6,27 @@ var findStrobogrammatic = function (n) {
   return generatePermutations(n, n);
 };
 
-function generatePermutations(m, n) {
-  if (m === 0) return [''];
-  if (m === 1) return ['0', '1', '8'];
+function generatePermutations(cLevel, originalLength) {
+  if (cLevel === 0) return [''];
+  if (cLevel === 1) return ['0', '1', '8'];
 
-  let t = generatePermutations(m - 2, n);
-  let res = [];
+  /*
+  -2 here to keep odds and evens separate. 
+  So for odd permutations it's 0, 1, 8 && 1_1, 6_9, 8_8, 9_6
+  for evens ONLY 1__1, 6__9, 8__8, 9__6
+  */
+  let permutations = generatePermutations(cLevel - 2, originalLength);  
+  let stroboNumbers = [];
 
-  for (let item of t) {
-    if (m !== n) res.push('0' + item + '0');
-    res.push('1' + item + '1');
-    res.push('6' + item + '9');
-    res.push('8' + item + '8');
-    res.push('9' + item + '6');
+  for (let permutation of permutations) {
+    if (cLevel !== originalLength) stroboNumbers.push('0' + permutation + '0'); // root level, we only want to add zeroes in that case
+    stroboNumbers.push('1' + permutation + '1');
+    stroboNumbers.push('6' + permutation + '9');
+    stroboNumbers.push('8' + permutation + '8');
+    stroboNumbers.push('9' + permutation + '6');
   }
 
-  return res;
+  return stroboNumbers;
 }
+
+console.log(findStrobogrammatic(2));
