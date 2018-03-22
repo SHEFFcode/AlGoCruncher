@@ -15,7 +15,7 @@ function generatePermutations(cLevel, originalLength) {
   So for odd permutations it's 0, 1, 8 && 1_1, 6_9, 8_8, 9_6
   for evens ONLY 1__1, 6__9, 8__8, 9__6
   */
-  let permutations = generatePermutations(cLevel - 2, originalLength);  
+  let permutations = generatePermutations(cLevel - 2, originalLength);  // see above for -2 explanation
   let stroboNumbers = [];
 
   for (let permutation of permutations) {
