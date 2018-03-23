@@ -16,7 +16,7 @@ function generatePermutations(cLevel, originalLength) {
   for evens ONLY 1__1, 6__9, 8__8, 9__6
   */
   let permutations = generatePermutations(cLevel - 2, originalLength);  // see above for -2 explanation
-  let stroboNumbers = [];
+  let stroboNumbers = [];  // we are fine with this being overriden every time, since it will become permutations on next recursive step.
 
   for (let permutation of permutations) {
     if (cLevel !== originalLength) stroboNumbers.push('0' + permutation + '0'); // root level, we only want to add zeroes in that case
@@ -29,4 +29,4 @@ function generatePermutations(cLevel, originalLength) {
   return stroboNumbers;
 }
 
-console.log(findStrobogrammatic(2));
+console.log(findStrobogrammatic(5));
