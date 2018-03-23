@@ -42,4 +42,39 @@ class Trie {
     }
     return true;
   }
+
+  delete(word) {
+    let cNode = this.root;
+    let tempContainer = [];
+    for (let char of prefix) {
+      if (!cNode.children.hasOwnProperty(char)) {
+        return false;
+      }
+      cNode = cNode.children[char];
+      tempContainer.push(cNode, char);
+    }
+
+    if (!cNode.isWord) {
+      return false;
+    }
+
+    cNode.isWord = false;
+    
+    if (Object.keys(cNode.children).length > 0) {
+      return true;
+    }
+
+    while (tempContainer.length > 0) {
+      cNode = tempContainer.pop();
+      let char = tempContainer.pop();
+      if (Object.keys(cNode.children).length === 0) {
+        delete cNode.children[char];
+      }
+    }
+    return true;
+  }
+
+  deleteWordsWithPrefix(prefix) {
+
+  }
 }
