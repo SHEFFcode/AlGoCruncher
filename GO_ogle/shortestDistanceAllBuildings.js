@@ -47,6 +47,13 @@ class ShortestBuilding {
     let distance = 0;
     let queue = [];
     queue.push([i, j]);
+
+    while (queue.length > 0) {
+      distance++;
+      let levelCount = queue.length;
+
+      let [i, j] = queue.pop();
+    }
   }
 }
 
@@ -62,5 +69,6 @@ Solution will be pick the empty land recheable from all buildings with the minim
 Early pruning:
 * return -1 if not all buildings are connected
 
-
+Video Link:
+https://www.youtube.com/watch?v=8K98WexA8m8
 */
