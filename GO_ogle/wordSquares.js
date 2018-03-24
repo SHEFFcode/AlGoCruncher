@@ -1,11 +1,15 @@
 class TrieNode {
   constructor() {
+    this.children = {};
     this.isWord = false;
-    this.children = new Array(26);
   }
 }
 
 class WordSquares {
+  constructor() {
+    this.root = new TrieNode();
+  }
+
   wordSquares(words) {
     let root = this.buildTrie(words);
     let squares = [];
@@ -19,17 +23,16 @@ class WordSquares {
   }
 
   buildTrie(words) {
-    let root = new TrieNode();
+    let root = this.root;
 
     for (let word of words) {
       let current = root;
         
-      for (let char of word.split('')) {
-        let index = char.charCodeAt(0) - 'a'.charCodeAt(0);
-        if (!current.children[index]) {
-          current.children[index] = new TrieNode();
+      for (let char of word) {
+        if (!current.children.hasOwnProperty(char)) {
+          current.children[char] = new TrieNode();
         }
-        current = current.children[index];
+        current = current.children[char];
       }
       current.isWord = true;
     }
@@ -38,19 +41,18 @@ class WordSquares {
 
   search(root, prefix) {
     let current = root;
-    for (let char in prefix.split('')) {
-      let index = char.charCodeAt(0) - 'a'.charCodeAt(0);
-      if (!current.children[index]) {
+    for (let char of prefix) {
+      if (!current.children.hasOwnProperty(char)) {
         return null;
       }
-      current = current.children[index];
+      current = current.children[char];
     }
     return current;
   }
 
   wordSquaresLong(root, len, square, squares) {
     if (square.length === len) {
-      squares.push([square]);
+      squares.push(square.slice());
       return;
     }
     let prefix = this.getPrefix(square, square.length);
@@ -83,10 +85,8 @@ class WordSquares {
       return;
     }
 
-    for (let i = 0; i < 26; i++) {
-      if(node.children[i]) {
-        this.getChildren(node.children[i], String.fromCharCode('a'.charCodeAt(0) + i), children);
-      }
+    for (let child of Object.keys(node.children)) {
+      this.getChildren(node.children[child], str + child, children);
     }
   }
 }
@@ -101,3 +101,4 @@ var wordSquares = function(words) {
     return wordSquaresClass.wordSquares(words);
 };
 
+wordSquares(['ball', 'lady', 'lead', 'area']);
