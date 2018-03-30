@@ -37,7 +37,12 @@ function _traverse(cNode, depth = 0) {
     return [false, Math.max(leftResult[1], rightResult[1]), 0, 0, Math.max(leftResult[4], rightResult[4])];
   } else {
     if (rightResult[2] > cNode.val && leftResult[3] < cNode.val) {
-      return [true, rightResult[1] + leftResult[1], leftResult[3], rightResult[2], Math.max(leftResult[4], rightResult[4])];
+      if (rightResult[4] === 1) {
+        rightResult[1] += 1;
+      } else if (leftResult[4] === 1) {
+        leftResult[1] += 1;
+      }
+      return [true, rightResult[1] + leftResult[1] + 1, leftResult[3], rightResult[2], Math.max(leftResult[4], rightResult[4])];
     } else {
       return [false, Math.max(rightResult[1], leftResult[1]), 0, 0, Math.max(leftResult[4], rightResult[4])];
     }
