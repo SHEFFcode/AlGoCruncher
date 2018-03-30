@@ -16,6 +16,7 @@ var findMissingRanges = function(nums, lower, upper) {
         small++;
       } else {
         let start = small;
+        let end;
         let end = nums[i] - 1 !== small ? '->' + (nums[i] - 1) : '';
         missingIntervals.push(`${start}${end}`);
         small = nums[i] + 1;
