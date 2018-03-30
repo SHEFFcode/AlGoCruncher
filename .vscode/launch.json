@@ -8,7 +8,11 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/GO_ogle/maximalRectangle.js"
+            "sourceMaps": true,
+            "program": "${workspaceFolder}/Easy/towersOfHannoi.ts",
+            "outFiles": [
+                "${workspaceFolder}/Easy/"
+            ]
         }
     ]
 }
