@@ -15,13 +15,17 @@ var findMissingRanges = function(nums, lower, upper) {
       if (small === nums[i]) {
         small++;
       } else {
-        missingIntervals.push(`${small}${nums[i] - 1 !== small ? '->' + (nums[i] - 1) : ''}`);
+        let start = small;
+        let end = nums[i] - 1 !== small ? '->' + (nums[i] - 1) : '';
+        missingIntervals.push(`${start}${end}`);
         small = nums[i] + 1;
       }
     }
 
     if (nums[i - 1] !== big) {
-      missingIntervals.push(`${(nums[i - 1] || 0) + 1}${nums[i - 1] ? '->' + big : ''}`);
+      let start = (nums[i - 1] + 1 || small);
+      let end = nums[i - 1] && Math.abs(upper - lower) > 1 ? '->' + big : '';
+      missingIntervals.push(`${start}${end}`);
     }
     return missingIntervals;
   }
@@ -32,4 +36,4 @@ function _inputValid(arr) {
   return !!arr;
 }
 
-console.log(findMissingRanges([0, 1, 2, 4, 50], 0, 99));
+console.log(findMissingRanges([], -3, -1));
