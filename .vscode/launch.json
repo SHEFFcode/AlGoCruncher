@@ -8,11 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "sourceMaps": true,
-            "program": "${workspaceFolder}/Easy/towersOfHannoi.ts",
-            "outFiles": [
-                "${workspaceFolder}/Easy/"
-            ]
+            "program": "${workspaceFolder}/GO_ogle/missingRanges.js",
         }
     ]
 }
