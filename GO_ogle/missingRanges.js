@@ -1,21 +1,27 @@
-function missingRanges(arr) {
-  if (_inputValid(arr)) {
-    let small = 0,
-    big = 99,
+/**
+ * @param {number[]} nums
+ * @param {number} lower
+ * @param {number} upper
+ * @return {string[]}
+ */
+var findMissingRanges = function(nums, lower, upper) {
+  if (_inputValid(nums)) {
+    let small = lower,
+    big = upper,
     missingIntervals = [];
-    arr.sort( (a, b) => a - b);
+    nums.sort( (a, b) => a - b);
 
-    for (var i = 0; i < arr.length; i++) {
-      if (small === arr[i]) {
+    for (var i = 0; i < nums.length; i++) {
+      if (small === nums[i]) {
         small++;
       } else {
-        missingIntervals.push(`${small}${arr[i] - 1 !== small ? ' -> ' + (arr[i] - 1) : ''}`);
-        small = arr[i] + 1;
+        missingIntervals.push(`${small}${nums[i] - 1 !== small ? '->' + (nums[i] - 1) : ''}`);
+        small = nums[i] + 1;
       }
     }
 
-    if (arr[i - 1] !== big) {
-      missingIntervals.push(`${arr[i - 1] + 1} -> ${big}`);
+    if (nums[i - 1] !== big) {
+      missingIntervals.push(`${(nums[i - 1] || 0) + 1}${nums[i - 1] ? '->' + big : ''}`);
     }
     return missingIntervals;
   }
@@ -23,7 +29,7 @@ function missingRanges(arr) {
 }
 
 function _inputValid(arr) {
-  return !!arr || !(arr.length === 0);
+  return !!arr;
 }
 
-console.log(missingRanges([0, 1, 2, 4, 50]));
+console.log(findMissingRanges([0, 1, 2, 4, 50], 0, 99));
