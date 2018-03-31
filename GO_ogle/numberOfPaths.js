@@ -24,7 +24,8 @@ function _inputValid(n, m) {
 console.log(numberOfPaths(4, 5));
 
 /*
-0 0 0
-0 0 0 
-0 0 0
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0 
+0 0 0 0 0
 */
