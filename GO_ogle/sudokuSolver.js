@@ -1,10 +1,12 @@
-class SudokuValidator {
+class SudokuSolver {
   /**
-   * SudokuValidator constructor
-   * @param size 
-   */
-  constructor(size) {
-    this.validNumbers = [].fill(false, 0, size - 1);
+ * SudokuSolver constructor
+ * @param size 
+ * @param grid
+ */
+  constructor(size, grid) {
+    this._validNumbers = [].fill(false, 0, size - 1);
+    this._nums = [1, 2, 3, 4, 5, 6, 7, 8, 9];
   }
 
 
@@ -15,6 +17,74 @@ class SudokuValidator {
    */
   validateBoard(board) {
     return (this._rowValid(board) && this._colValid(board) && this._squareValid(board));
+  }
+
+  solveSudoku(grid) {
+    let openSpots = this._findOpenSpots(gird);
+    if (this._traverseGrid(0, openSpots, grid)) {
+      return grid;
+    } else {
+      console.log('board cannot be filled out');
+      return false;
+    }
+  }
+
+  _traverseGrid(index, openSpots, grid) {
+    let spot = openSpots[index];
+    let validMoves = this._generateValidMoves(spot, grid);
+
+    for (let validMove of validMoves) {
+      if (this._validateBoardWithMove(validMove, spot) && index === openSpots.length - 1) {
+        return true;
+      } else if (this._validateBoardWithMove(validMove)) {
+        return this._traverseGrid(index + 1, openSpots, grid);
+      }
+    }
+
+    return false; // we traversed the whole range of valid moves and will return false
+  }
+
+  _validateBoardWithMove(validMove, spot) {
+    
+  }
+
+  _generateValidMoves(spot, grid) {
+    let validMoves = this._nums.slice();
+    let width = grid[0].length;
+    let height = grid.length;
+    let i = spot[0];
+
+    for (let j = 0; j < width; j++) {
+      let moveIndex = validMoves.indexOf(grid[i][j]);
+
+      if (!~moveIndex) {
+        moveIndex.splice(moveIndex, 1);
+      }
+    }
+
+    let j = spot[1];
+    for (i = 0; i < height; i++) {
+      let moveIndex = validMoves.indexOf(grid[i][j]);
+
+      if (!~moveIndex) {
+        moveIndex.splice(moveIndex, 1);
+      }
+    }
+
+    let start = [spot[0] - spot[0] % 3, spot[1]];
+    let end = [spot[0], spot[1] - spot[1] % 3];
+
+    for (i = start[0]; i < end[0]; i++) {
+      for (j = start[1]; i < end[1]; j++) {
+        let moveIndex = validMoves.indexOf(grid[i][j]);
+
+        if (!~moveIndex) {
+          moveIndex.splice(moveIndex, 1);
+        }
+      }
+    }
+
+    return validMoves;
   }
 
   /**
@@ -91,7 +161,7 @@ class SudokuValidator {
    * @returns {boolean}
    */
   _unitValid(unit) {
-    let validNumbers = this.validNumbers.slice();
+    let validNumbers = this._validNumbers.slice();
     for (let i = 0; i < unit.length; i++) {
       if (!validNumbers[unit[i]]) {
         validNumbers[unit[i]] = true;
@@ -101,5 +171,3 @@ class SudokuValidator {
     }
   }
 }
-
-module.exports = SudokuValidator;
