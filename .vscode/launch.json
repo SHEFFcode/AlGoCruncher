@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/implementations/doubleGenerator.js",
+            "program": "${workspaceFolder}/Medium/longestCommonPrefix.js",
         }
     ]
 }
