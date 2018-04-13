@@ -59,8 +59,6 @@ function _backtrackingCheckNeighbors(iPos, jPos, letterIndex, word, board, visit
       }
     }
   }
-
-  return foundLetter;
+    delete visited[`${iPos},${jPos}`]
+    return foundLetter;
 }
-
-console.log(exist([["A", "B", "C", "E"], ["S", "F", "C", "S"], ["A", "D", "E", "E"]], "ABCCED"));
