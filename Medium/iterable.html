@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+
+<body>
+  <input id="input" type="text">
+  <button onclick="updateCount()">Add a person</button>
+
+  <script>
+class Employee {
+  constructor(startYear, endYear) {
+    this.start = startYear;
+    this.end = endYear;
+  }
+}
+
+
+
+    function updateCount() {
+      let inputEl = document.getElementById('input');
+      let value = inputEl.value;
+      value = value.trim();
+      let [start, end] = value.split(',');
+      findHayDay([new Employee(parseInt(start), parseInt(end))]);
+    }
+
+      /**
+ * 
+ * @param {any} people 
+ * @returns {string[]}
+ */
+      function findHayDay(people) {
+        let hayDayMap = {};
+        people.forEach((person, index) => {
+          let start = person.start;
+          let end = person.end;
+
+          for (let i = start; i <= end; i++) {
+            if (hayDayMap.hasOwnProperty(i)) {
+              hayDayMap[i]++;
+            } else {
+              hayDayMap[i] = 1;
+            }
+          }
+        });
+
+        let highestHayDayYear = -1;
+        let hayDayCount = -1;
+        let hayDayPeriod = [];
+
+        for (let year of Object.keys(hayDayMap)) {
+          if (hayDayMap[year] >= hayDayCount) {
+            if (hayDayMap[year] > hayDayCount) {
+              hayDayPeriod.length = 0;
+            }
+            hayDayCount = hayDayMap[year];
+            highestHayDayYear = year;
+            hayDayPeriod.push(highestHayDayYear);
+          }
+        }
+        console.log(hayDayPeriod);
+        return hayDayPeriod;
+      }
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <style>
+    html,
+    body {
+      height: 100%;
+    }
+
+    .container {
+      height: 100%;
+      border: 1px solid #000;
+      position: relative;
+      display: flex;
+      align-items: flex-start;
+    }
+
+    .calendar-item {
+      display: block;
+      border: 1px dashed #000;
+      position: relative;
+      flex: 1;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+  </div>
+
+
+
+
+  <script>
+    const data = {
+      "campaigns": {
+        123: {
+          "name": "Campaign ABC",
+          "medium": "Email",
+          "status": "Finished",
+          "start": "02-27-2018 09:30 am PST",
+          "end": "02-27-2018 10:05 am PST"
+        },
+        153: {
+          "name": "$20 Promotion for Early Adopters",
+          "medium": "SMS",
+          "status": "Scheduled",
+          "start": "02-27-2018 03:15 pm PST",
+          "end": undefined
+        },
+        162: {
+          "name": "1 Year Anniversary Campaign",
+          "medium": "Push",
+          "status": "Finished",
+          "start": "02-27-2018 08:45 am PST",
+          "end": "02-27-2018 09:55 am PST"
+        },
+        177: {
+          "name": "NYC Campaign",
+          "medium": "WebPush",
+          "status": "Running",
+          "start": "02-27-2018 12:15 pm PST",
+          "end": undefined
+        },
+        178: {
+          "name": "NYC Campaign",
+          "medium": "InApp",
+          "status": "Scheduled",
+          "start": "02-27-2018 08:00 pm PST",
+          "end": undefined
+        }
+      }
+    }
+  
+    let campaigns = data.campaigns; //campaigns obj
+    let cmapaignIds = Object.keys(campaigns); //[123, 153, 162...]
+    let parent = document.getElementsByClassName('container')[0];
+
+    cmapaignIds.forEach((id, index) => {
+      let totalSlots = 24 * 60;
+      let el = document.createElement('div');
+      let calItemData = campaigns[id];
+      el.classList.add('calendar-item');
+      el.textContent = campaigns[id].name;
+
+
+      let start = new Date(calItemData.start);
+      let end = new Date(calItemData.end);
+      let elapsedTime = end - start;
+
+      let morning = new Date('02-27-2018');
+      let evening = new Date('02-28-2018');
+      let dayInterval = evening - morning;
+      let percentageOfTheDay = elapsedTime / dayInterval;
+      el.style.top = `${((start - morning) / dayInterval) * 100}%`;
+      el.style.height = `${percentageOfTheDay * 100}%`;
+
+      parent.appendChild(el);
+    });
+
+
+
+  </script>
+</body>
+
+</html>
