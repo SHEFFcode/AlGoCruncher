@@ -34,4 +34,4 @@ function traverse(arr, k, result, item, temp, brain) {
   });
 }
 
-combinationSum([2,3,6,7], 7);
+combinationSum([2.15, 2.75, 3.35, 3.55, 4.20, 5.80], 15.05);
