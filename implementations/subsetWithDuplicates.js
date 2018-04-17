@@ -11,11 +11,11 @@ var subsetsWithDup = function (nums) {
     //this line is crucial! It prevents us from infinite loop
     var len = result.length;
     for (var x = 0; x < len; x++) {
-        let key = result[x].concat(array[i]);
-        if (!brain.hasOwnProperty(key)) {
-            result.push(result[x].concat(array[i]))
-            brain[key] = true;
-        }
+      let key = result[x].concat(array[i]);
+      if (!brain.hasOwnProperty(key)) {
+        result.push(result[x].concat(array[i]))
+        brain[key] = true;
+      }
     }
   }
 
