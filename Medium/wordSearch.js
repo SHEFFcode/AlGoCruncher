@@ -59,6 +59,6 @@ function _backtrackingCheckNeighbors(iPos, jPos, letterIndex, word, board, visit
       }
     }
   }
-    delete visited[`${iPos},${jPos}`]
-    return foundLetter;
+  delete visited[`${iPos},${jPos}`]
+  return foundLetter;
 }
