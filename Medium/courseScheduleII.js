@@ -21,21 +21,25 @@
 
     let unexploredKeys = Object.keys(graph);
 
-    while(unexploredKeys.length > 0) {
-      let randomKey = Math.floor(Math.random() * unexploredKeys.length);
-      _traverse(graph, randomKey, randomKey, result);
+    while (unexploredKeys.length > 0) {
+      let randomKey = unexploredKeys[Math.floor(Math.random() * unexploredKeys.length)];
+      _traverse(graph, randomKey, randomKey, result, unexploredKeys);
     }
 
     return result;
   };
 
-  function _traverse(graph, key, index, result) {
+  function _traverse(graph, key, index, result, unexploredKeys) {
     if (graph[key].length === 0) {
       result.push(key);
       graph[index].shift();
+      let unexploredIndex = unexploredKeys.indexOf(key);
+      unexploredKeys = unexploredKeys.slice(0, index).concat(unexploredKeys.slice(index + 1));
     }
 
     graph[key].forEach((keyItem) => {
-      _traverse(graph, keyItem, key, result);
+      _traverse(graph, keyItem, key, result, unexploredKeys);
     });
   }
+
+  findOrder(4, [[1,0],[2,0],[3,1],[3,2]]);
