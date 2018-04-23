@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Hard/closestWizzards.js",
+            "program": "${workspaceFolder}/Hard/portmanteau.js",
         }
     ]
 }
