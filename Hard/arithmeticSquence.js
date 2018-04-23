@@ -7,8 +7,10 @@ let sequence = [5, 10, 15, 20, 25, 30];
    *
 */
 
-
 function arithmeticSequence(sequence) {
+  if (sequence.length < 3) {
+    return sequence;
+  }
   let brain = {};
   let visited = {};
   let maxLength = 0;
