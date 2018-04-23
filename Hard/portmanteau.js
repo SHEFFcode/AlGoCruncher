@@ -11,8 +11,8 @@ function findComponents(words, portmanteaus) {
   });
 
   function _buildHash(portmanteau) {
-    let candidateForward = ['', -1];
-    let candidateBackward = ['', -1];
+    let candidateForward = [''];
+    let candidateBackward = [''];
     let matchLength = 0;
 
     _populateCandidate(FORWARD, candidateForward, portmanteau);
@@ -29,7 +29,6 @@ function findComponents(words, portmanteaus) {
       wordsCopy = _filterWrapper(wordsCopy, direction, i, portmanteau);
       if (wordsCopy.length > 0) {
         candidate[0] = wordsCopy[0];
-        candidate[1] = i + 1;
       } else {
         break;
       }
