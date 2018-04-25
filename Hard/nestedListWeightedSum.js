@@ -49,7 +49,6 @@ var depthSumInverse = function (nestedList) {
   _traverse(nestedList, levelByLevelSum, 0, maxLevel);
 
   return levelByLevelSum.reduce((accumulator, currentValue, index) => accumulator + currentValue * (maxLevel[0] - index), 0);
-
 };
 
 function _traverse(nestedList, levelByLevelSum, cLevel, maxLevel) {
