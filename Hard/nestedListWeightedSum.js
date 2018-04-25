@@ -46,17 +46,16 @@ var depthSumInverse = function (nestedList) {
   let currentLevel = 0;
   let maxLevel = [0];
 
-
   _traverse(nestedList, levelByLevelSum, 0, maxLevel);
-
-  console.log(levelByLevelSum, maxLevel[0]);
 
   return levelByLevelSum.reduce((accumulator, currentValue, index) => accumulator + currentValue * (maxLevel[0] - index), 0);
 
 };
 
 function _traverse(nestedList, levelByLevelSum, cLevel, maxLevel) {
-  maxLevel[0]++;
+  if (cLevel + 1 > maxLevel[0]) {
+    maxLevel[0] = cLevel + 1;
+  }
   nestedList.forEach((item) => {
     if (item.isInteger()) {
       if (levelByLevelSum[cLevel]) {
