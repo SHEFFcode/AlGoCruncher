@@ -41,5 +41,31 @@
  * @return {number}
  */
 var depthSumInverse = function (nestedList) {
-  
+
+  let levelByLevelSum = [0];
+  let currentLevel = 0;
+  let maxLevel = [0];
+
+
+  _traverse(nestedList, levelByLevelSum, 0, maxLevel);
+
+  console.log(levelByLevelSum, maxLevel[0]);
+
+  return levelByLevelSum.reduce((accumulator, currentValue, index) => accumulator + currentValue * (maxLevel[0] - index), 0);
+
 };
+
+function _traverse(nestedList, levelByLevelSum, cLevel, maxLevel) {
+  maxLevel[0]++;
+  nestedList.forEach((item) => {
+    if (item.isInteger()) {
+      if (levelByLevelSum[cLevel]) {
+        levelByLevelSum[cLevel] += item.getInteger();
+      } else {
+        levelByLevelSum[cLevel] = item.getInteger();
+      }
+    } else {
+      _traverse(item.getList(), levelByLevelSum, cLevel + 1, maxLevel);
+    }
+  });
+}
