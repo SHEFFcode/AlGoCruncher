@@ -8,7 +8,7 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/Medium/serverManager.js",
+            "program": "${workspaceFolder}/Hard/arithmeticSquence.js",
         }
     ]
 }

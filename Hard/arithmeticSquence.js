@@ -1,6 +1,7 @@
 // let sequence = [100, 0, 1, 0, 1, 0, 1, 0];
 // let sequence = [1, 7, 10, 15, 27, 29];
-let sequence = [9, 4, 7, 2, 10];
+// let sequence = [9, 4, 7, 2, 10];
+let sequence = [0, 1, 1];
 
 /*
   [1, 7, 10, 15, 27, 29]

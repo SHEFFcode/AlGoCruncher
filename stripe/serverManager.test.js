@@ -1,7 +1,5 @@
 // const assert = require('assert');
-const { assert } = require('chai');  // Using Assert style
-const { expect } = require('chai');  // Using Expect style
-const { should } = require('chai');  // Using Should style
+const { assert, expect, shoud } = require('chai');
 const ServerManager = require('./serverManager');
 
 let serverManager;
