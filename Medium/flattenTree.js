@@ -41,5 +41,5 @@ function flattenTree(root) {
     leftFlat = leftFlat.right;
   }
 
-  return leftFlat;
+  return leftFlat || rightFlat;
 }
