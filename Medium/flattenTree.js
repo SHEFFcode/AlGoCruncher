@@ -1,14 +1,17 @@
-class TreeNode {
-  constructor(val) {
-    this.val = val;
-    this.right = null;
-    this.left = null;
-  }
-}
-
-function createTree(root) {
-
-}
+/**
+ * Definition for a binary tree node.
+ * function TreeNode(val) {
+ *     this.val = val;
+ *     this.left = this.right = null;
+ * }
+ */
+/**
+ * @param {TreeNode} root
+ * @return {void} Do not return anything, modify root in-place instead.
+ */
+var flatten = function (root) {
+  flattenTree(root);
+};
 
 function flattenTree(root) {
   if (!root) {
@@ -22,11 +25,20 @@ function flattenTree(root) {
 
   if (root.left) {
     leftFlat = flattenTree(root.left);
+    if (leftFlat) {
+      leftFlat.right = root.right;
+
+    }
+    root.right = root.left;
+    root.left = null;
   }
 
-  if (leftFlat) {
-    leftFlat.right = root.right;
-    root.right = root.left;
+  if (root.right) {
+    rightFlat = flattenTree(root.right);
+  }
+
+  while (leftFlat && leftFlat.right) {
+    leftFlat = leftFlat.right;
   }
 
   return leftFlat;
