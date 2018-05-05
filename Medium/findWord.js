@@ -1,7 +1,5 @@
 // A R I D S
-
 // W E R O D
-
 // U E F B E
 // B E R E E
 
@@ -20,11 +18,13 @@ console.log(findWord([
 ], "UBER"));
 
 function findWord(matrix, word) {
-  if (_inputValid(matrix, word)) { //TODO: code up the validation function
+  if (_inputValid(matrix, word)) {
     for (let i = 0; i < matrix.length; i++) {
       for (let j = 0; j < matrix[0].length; j++) {
-        if (_traverse(i, j, 0, word, matrix)) {
-          return true;
+        if (matrix[i][j] === word[0]) {
+          if (_traverse(i, j, 0, word, matrix) === true) {
+            return true;
+          }
         }
       }
     }
@@ -33,27 +33,24 @@ function findWord(matrix, word) {
   return false;
 }
 
-function _traverse(i, j, wordIndex, word, matrix) {
-  if (wordIndex === word.length - 1) {
-    return (matrix[i][j] === word[wordIndex]);
-  }
-
-  
-
-  if (matrix[i][j] !== word[wordIndex]) {
+function _traverse(i, j, index, word, matrix) {
+  if (matrix[i][j] === word[index] && index === word.length - 1) {
+    return true;
+  } else if (matrix[i][j] !== word[index]) {
     return false;
   }
+
+  let neighbors = _generateNeighbors(i, j, matrix.length, matrix[0].length);
 
   let letter = matrix[i][j];
   matrix[i][j] = '.';
 
-  let neighbors = _generateNeighbors(i, j, matrix.length, matrix[0].length); //[[i, j], [i, j]]
-
-  for (let neigbor of neighbors) {
-    if (_traverse(neigbor[0], neigbor[1], wordIndex + 1, word, matrix)) {
+  for (let neighbor of neighbors) {
+    if (_traverse(neighbor[0], neighbor[1], index + 1, word, matrix)) {
       return true;
     }
   }
+
   matrix[i][j] = letter;
 }
 
@@ -62,12 +59,16 @@ function _generateNeighbors(iPos, jPos, height, width) {
 
   for (let i = -1; i < 2; i++) {
     for (let j = -1; j < 2; j++) {
-      if ((i === -1 || i === 1) && j === 0
-        || i === 0 && (j === -1 || j === 1)) {
-        if (iPos + i > -1 && jPos + j > -1 && iPos + i < height && jPos + j < width) {
-          neighbors.push([iPos + i, jPos + j]);
+      if (
+        ((i === -1 || i === 1) && j === 0)
+        || ((j === -1 || j === 1) && i === 0)
+      ) {
+        if (
+          i + iPos > -1 && i + iPos < height
+          && j + jPos > -1 && j + jPos < width
+        ) {
+          neighbors.push([i + iPos, j + jPos]);
         }
-
       }
     }
   }
@@ -76,6 +77,10 @@ function _generateNeighbors(iPos, jPos, height, width) {
 }
 
 function _inputValid(matrix, word) {
-  return matrix && word && matrix.length > 0 && word.length > 0 && matrix[0].length * matrix[1].length > word.length
+  return (
+    matrix && matrix.length > 0 
+    && word && word.length > 0 
+    && matrix[0].length * matrix[1].length > word.length
+  );
 }
 
