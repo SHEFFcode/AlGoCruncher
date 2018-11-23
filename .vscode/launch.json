@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/GO_ogle/robotCleaner.js"
+      "program": "${workspaceFolder}/Medium/longestPalSubstr.js"
     }
   ]
 }
