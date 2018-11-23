@@ -2,39 +2,55 @@
  * @param {number[]} nums
  * @return {number[][]}
  */
-var threeSum = function(nums) {
-    if (!nums || nums.length === 0) {
-      return [];
+var threeSum = function (nums) {
+  let allValidTriplets = []
+  for (let i = 0; i < nums.length - 2; i++) {
+    if (i > 0 && nums[i] === nums[i - 1]) {
+      continue
     }
-    let threeSumMatches = [];
-    nums.sort((a, b) => a - b); // sorted in place no copy is made
-
-    for (let i = 0; i < nums.length; i++) {
-      if (i - 1 >= 0 &&  nums[i] == nums[i - 1]) continue;
-
-      let leftPointer = i + 1;
-      let rightPointer = nums.length - 1;
-
-      while (leftPointer < rightPointer) {
-        let sum = nums[i] + nums[leftPointer] + nums[rightPointer];
-  
-        if (sum === 0) {
-          threeSumMatches.push([nums[i], nums[leftPointer], nums[rightPointer]]);
-          while (leftPointer + 1 < rightPointer && nums[leftPointer] == nums[leftPointer+1])// Skip equal elements to avoid duplicates
-            leftPointer++;
-          while (rightPointer -1 > leftPointer && nums[rightPointer] == nums[rightPointer-1])// Skip equal elements to avoid duplicates
-            rightPointer--;
-          leftPointer++;
-          rightPointer--;
-        } else if (sum > 0) {
-          rightPointer--;
-        } else {
-          leftPointer++;
-        }
+    const numsInBetween = new Set()
+    for (let j = i + 1; j < nums.length; j++) {
+      if (j > 0 && nums[j] === nums[j - 1]) {
+        continue
+      }
+      let sum = -(nums[i] + nums[j])
+      if (sum === -0) sum = 0
+      if (numsInBetween.has(sum)) {
+        const triplet = [nums[i], sum, nums[j]]
+        allValidTriplets.push(triplet)
+      } else {
+        numsInBetween.add(nums[j])
       }
     }
-
-    return threeSumMatches;
+  }
+  return allValidTriplets
 };
 
-console.log(threeSum([-4,-2,-2,-2,0,1,2,2,2,3,3,4,4,6,6]));
+/**
+ * @param {number[]} nums
+ * @return {number[][]}
+ */
+var threeSum = function (nums) {
+  nums.sort((a, b) => a - b)
+  let allValidTriplets = []
+  for (let i = 0, len = nums.length; i < len - 2; i++) {
+    if (i > 0 && nums[i] === nums[i - 1]) {
+      continue
+    }
+    let l = i + 1
+    let r = len - 1
+    while (l < r) {
+      let sum = nums[i] + nums[l] + nums[r]
+      if (sum === 0) {
+        allValidTriplets.push([nums[i], nums[l], nums[r]])
+        l++
+        while (l < r && nums[l] === nums[l - 1]) l++;  // skip same result
+      } else if (sum > 0) {
+        r--
+      } else if (sum < 0) {
+        l++
+      }
+    }
+  }
+  return allValidTriplets
+};
