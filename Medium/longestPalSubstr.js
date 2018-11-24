@@ -44,9 +44,6 @@ function createTable(len) {
     .map(() => new Array(len).fill(undefined))
 }
 
-const result = longestPalindrome('ccc')
-console.log(result)
-
 // Other Solution
 /**
  * @param {string} s
@@ -78,6 +75,45 @@ const longestPalindrome = str => {
 
     if (count >= longest.length) {
       longest = str.substr(head - (count - (tail - head + 1)) / 2, count)
+    }
+  }
+
+  return longest
+}
+
+/**
+ * @param {string} s
+ * @return {string}
+ */
+const longestPalindrome = str => {
+  let longest = ''
+
+  for (let i = 0; i < str.length; i++) {
+    let head = i
+    let tail
+    let offset = 0
+    let count
+
+    while (str[i] === str[i + 1]) {
+      i++
+    }
+
+    tail = i
+    count = tail - head + 1
+
+    for (
+      offset = 1;
+      head - offset > -1 && tail + offset < str.length;
+      offset++
+    ) {
+      if (str[head - offset] !== str[tail + offset]) {
+        break
+      }
+      count += 2
+    }
+
+    if (count >= longest.length) {
+      longest = str.substr(head - (offset - 1), count) //back out 1 because we break the loop at the unmodified value of offset
     }
   }
 
