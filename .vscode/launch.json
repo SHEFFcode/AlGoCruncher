@@ -8,7 +8,7 @@
       "type": "node",
       "request": "launch",
       "name": "Launch Program",
-      "program": "${workspaceFolder}/Medium/longestPalSubstr.js"
+      "program": "${workspaceFolder}/Medium/oddEventLinkedList.js"
     }
   ]
 }
