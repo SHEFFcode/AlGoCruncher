@@ -14,4 +14,4 @@ var peakIndexInMountainArray = function(A) {
   })
 
   return index
-}
+} // just doing this to stay green
