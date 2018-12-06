@@ -19,7 +19,8 @@ class Solution {
     }
     int start = 0;
     int end = inorder.length - 1;
-    Map<Integer, Integer> inOrderMap = new HashMap<Integer, Integer>();
+    Map<Integer, Integer> inOrderMap = new HashMap<Integer, Integer>(); // this map will save us the index of item
+                                                                        // search
     for (int i = 0; i < inorder.length; i++) {
       inOrderMap.put(inorder[i], i);
     }
@@ -38,7 +39,7 @@ class Solution {
       return tNode;
     }
 
-    int indexOfItem = inOrderMap.get(currentItem);
+    int indexOfItem = inOrderMap.get(currentItem); // this is where we save the index of item search
     tNode.left = traverseTree(in, pre, inStart, indexOfItem - 1, inOrderMap);
     tNode.right = traverseTree(in, pre, indexOfItem + 1, inEnd, inOrderMap);
 
