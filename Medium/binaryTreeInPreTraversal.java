@@ -1,61 +1,47 @@
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
 /**
  * Definition for a binary tree node. public class TreeNode { int val; TreeNode
  * left; TreeNode right; TreeNode(int x) { val = x; } }
  */
 class Solution {
-  public TreeNode buildTree(int[] preorder, int[] inorder) {
-    int parent = preorder[0];
-    TreeNode parentNode = new TreeNode(parent);
-    List<Integer> preOrderList = new ArrayList<Integer>();
-    for (int index = 0; index < preorder.length; index++) {
-      preOrderList.add(preorder[index]);
-    }
-    List<Integer> inOrderList = new ArrayList<Integer>();
-    for (int index = 0; index < inorder.length; index++) {
-      inOrderList.add(preorder[index]);
-    }
-    int indexOfParent = inOrderList.indexOf(parent);
+  int preIndex;
 
-    List<Integer> leftHalf = new ArrayList<Integer>();
-    if (0 < indexOfParent - 1) {
-      leftHalf = inOrderList.subList(0, indexOfParent - 1);
-    }
-    List<Integer> rightHalf = new ArrayList<Integer>();
-    if (indexOfParent + 1 < inOrderList.size()) {
-      rightHalf = inOrderList.subList(indexOfParent + 1, inOrderList.size());
-    }
-
-    TreeNode leftChild = traverse(preorder, leftHalf, 1);
-    TreeNode rightChild = traverse(preorder, rightHalf, 2);
-    parentNode.left = leftChild;
-    parentNode.right = rightChild;
-
-    return parentNode;
+  public Solution() {
+    this.preIndex = 0;
   }
 
-  private TreeNode traverse(int[] preorder, List<Integer> inOrderList, int index) {
-    if (inOrderList == null || inOrderList.size() == 0) {
+  public TreeNode buildTree(int[] preorder, int[] inorder) {
+    if (preorder.length == 0 || inorder.length == 0) {
       return null;
     }
-    int parent = preorder[index];
-    TreeNode parentNode = new TreeNode(parent);
-    if (inOrderList.size() == 1) {
-      return parentNode;
+    int start = 0;
+    int end = inorder.length - 1;
+    Map<Integer, Integer> inOrderMap = new HashMap<Integer, Integer>();
+    for (int i = 0; i < inorder.length; i++) {
+      inOrderMap.put(inorder[i], i);
     }
-    int indexOfParent = inOrderList.indexOf(parent);
+    return traverseTree(inorder, preorder, start, end, inOrderMap);
+  }
 
-    List<Integer> leftHalf = new ArrayList<Integer>();
-    if (0 < indexOfParent - 1) {
-      leftHalf = inOrderList.subList(0, indexOfParent - 1);
+  protected TreeNode traverseTree(int[] in, int[] pre, int inStart, int inEnd, Map<Integer, Integer> inOrderMap) {
+    if (inStart < 0 || inStart > inEnd) {
+      return null;
     }
-    List<Integer> rightHalf = new ArrayList<Integer>();
-    if (indexOfParent + 1 < inOrderList.size()) {
-      rightHalf = inOrderList.subList(indexOfParent + 1, inOrderList.size());
+
+    int currentItem = pre[this.preIndex++];
+    TreeNode tNode = new TreeNode(currentItem);
+
+    if (inStart == inEnd) {
+      return tNode;
     }
-    TreeNode leftChild = traverse(preorder, leftHalf, index + 1);
-    TreeNode rightChild = traverse(preorder, rightHalf, index + 2);
-    parentNode.left = leftChild;
-    parentNode.right = rightChild;
-    return parentNode;
+
+    int indexOfItem = inOrderMap.get(currentItem);
+    tNode.left = traverseTree(in, pre, inStart, indexOfItem - 1, inOrderMap);
+    tNode.right = traverseTree(in, pre, indexOfItem + 1, inEnd, inOrderMap);
+
+    return tNode;
   }
 }
