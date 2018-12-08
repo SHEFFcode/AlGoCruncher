@@ -20,10 +20,14 @@ public class Solution {
 
         cNode = cNode.next;
       }
-      levelStart = levelStart.left;
-      if (levelStart == null) {
+      if (levelStart.left != null) {
+        levelStart = levelStart.left;
+      } else if (levelStart.right != null) {
         levelStart = levelStart.right;
+      } else {
+        levelStart = null;
       }
+
     }
   }
 }
