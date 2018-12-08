@@ -21,6 +21,9 @@ public class Solution {
         cNode = cNode.next;
       }
       levelStart = levelStart.left;
+      if (levelStart == null) {
+        levelStart = levelStart.right;
+      }
     }
   }
 }
