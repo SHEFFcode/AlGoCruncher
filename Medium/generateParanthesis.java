@@ -5,23 +5,28 @@ class Solution {
       return result;
     }
     StringBuilder paransSoFar = new StringBuilder();
+    traverse(paransSoFar, n, 0, result);
 
-    return traverse(paransSoFar, n, 0);
+    return result;
   }
 
-  protected List<String> traverse(StringBuilder paransSoFar, int numberOfParensAvailable, int numberOfUnclosedParens,
+  protected void traverse(StringBuilder paransSoFar, int numberOfParensAvailable, int numberOfUnclosedParens,
       List<String> result) {
-    if (numberOfParensAvailable == 0) {
-      while (numberOfUnclosedParens > 0) {
-        paransSoFar.append(')');
-        numberOfUnclosedParens--;
-      }
-      return result.add(paransSoFar.toString());
-    } else if (numberOfUnclosedParens == 0) {
-      return generateParenthesis(paransSoFar.append('('), numberOfParensAvailable--, numberOfUnclosedParens++);
+    if (numberOfParensAvailable == 0 && numberOfUnclosedParens == 0) {
+      result.add(paransSoFar.toString());
+      return;
     }
 
-    return generateParenthesis(paransSoFar.append('('), numberOfParansAvailable--, numberOfUnclosedParens++)
-        .add(generateParenthesis(paransSoFar.append(')'), numberOfParansAvailable, numberOfUnclosedParens--));
+    if (numberOfUnclosedParens > 0) {
+      StringBuilder newParensSoFar = new StringBuilder(paransSoFar);
+      newParensSoFar.append(')');
+      traverse(newParensSoFar, numberOfParensAvailable, numberOfUnclosedParens - 1, result);
+    }
+
+    if (numberOfParensAvailable > 0) {
+      StringBuilder newParensSoFar = new StringBuilder(paransSoFar);
+      newParensSoFar.append('(');
+      traverse(newParensSoFar, numberOfParensAvailable - 1, numberOfUnclosedParens + 1, result);
+    }
   }
 }
