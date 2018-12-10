@@ -41,3 +41,35 @@ class Solution {
     map.put('9', new char[] { 'w', 'x', 'y', 'z' });
   }
 }
+
+/**
+ * Another way to do this
+ */
+class Solution {
+
+  String[] map = new String[] { "", "", "abc", "def", "ghi", "jkl", "mno", "pqrs", "tuv", "wxyz" };
+
+  public List<String> letterCombinations(String digits) {
+    // digits: 2-9
+    // res: letter combinations
+    List<String> res = new ArrayList<>();
+    if (digits.length() == 0)
+      return res;
+
+    backtrack(res, "", digits, 0);
+    return res;
+  }
+
+  private void backtrack(List<String> res, String cur, String digits, int pos) {
+    if (cur.length() == digits.length()) {
+      res.add(cur);
+      return;
+    }
+    char c = digits.charAt(pos);
+    String s = map[c - '0'];
+    for (char ch : s.toCharArray()) {
+      backtrack(res, cur + ch, digits, pos + 1);
+    }
+
+  }
+}
