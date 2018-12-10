@@ -4,29 +4,24 @@ class Solution {
     if (n == 0) {
       return result;
     }
-    StringBuilder paransSoFar = new StringBuilder();
-    traverse(paransSoFar, n, 0, result);
+    traverse("", n, 0, result);
 
     return result;
   }
 
-  protected void traverse(StringBuilder paransSoFar, int numberOfParensAvailable, int numberOfUnclosedParens,
+  protected void traverse(String paransSoFar, int numberOfParensAvailable, int numberOfUnclosedParens,
       List<String> result) {
     if (numberOfParensAvailable == 0 && numberOfUnclosedParens == 0) {
-      result.add(paransSoFar.toString());
+      result.add(paransSoFar);
       return;
     }
 
     if (numberOfUnclosedParens > 0) {
-      StringBuilder newParensSoFar = new StringBuilder(paransSoFar);
-      newParensSoFar.append(')');
-      traverse(newParensSoFar, numberOfParensAvailable, numberOfUnclosedParens - 1, result);
+      traverse(paransSoFar + ')', numberOfParensAvailable, numberOfUnclosedParens - 1, result);
     }
 
     if (numberOfParensAvailable > 0) {
-      StringBuilder newParensSoFar = new StringBuilder(paransSoFar);
-      newParensSoFar.append('(');
-      traverse(newParensSoFar, numberOfParensAvailable - 1, numberOfUnclosedParens + 1, result);
+      traverse(paransSoFar + '(', numberOfParensAvailable - 1, numberOfUnclosedParens + 1, result);
     }
   }
 }
