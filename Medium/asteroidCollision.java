@@ -47,3 +47,34 @@ class Solution {
 }
 
 // [-2,1,-2,-1]
+
+/**
+ * Better Solution
+ */
+
+class Solution {
+    public int[] asteroidCollision(int[] asteroids) {
+        if (asteroids == null || asteroids.length < 2) {
+            return asteroids;
+        }
+
+        int l = -1, r = 0;
+        while (r < asteroids.length) {
+            if (l >= 0 && asteroids[l] > 0 && asteroids[r] < 0) {
+                if (asteroids[l] > -asteroids[r])
+                    r++;
+                else if (asteroids[l] < -asteroids[r])
+                    l--;
+                else {
+                    r++;
+                    l--;
+                }
+                continue;
+            }
+
+            asteroids[++l] = asteroids[r++];
+        }
+
+        return Arrays.copyOf(asteroids, l + 1);
+    }
+}
