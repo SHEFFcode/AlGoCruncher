@@ -3,7 +3,7 @@ object Solution {
         if (x == 0 || x == 1) return x
 
         def calc(candidate: Int): Int = {
-            if (candidate <= (candidate + x / candidate) / 2) return candidate
+            if (candidate <= (candidate + x / candidate) / 2) candidate
             else calc(Math.abs((candidate + x / candidate) / 2))
         }
 
