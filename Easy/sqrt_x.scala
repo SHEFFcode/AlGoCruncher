@@ -2,9 +2,9 @@ object Solution {
     def mySqrt(x: Int): Int = {
         if (x == 0 || x == 1) return x
 
-        def calc(mid: Int): Int = {
-            if (mid <= (mid + x / mid) / 2) return mid
-            else calc(Math.abs((mid + x / mid) / 2))
+        def calc(candidate: Int): Int = {
+            if (candidate <= (candidate + x / candidate) / 2) return candidate
+            else calc(Math.abs((candidate + x / candidate) / 2))
         }
 
         calc(x)
@@ -12,22 +12,22 @@ object Solution {
 }
 
 /*
-input: 8
+Explanation:
+I believe only this line requires an explanation
 
-if (8 <= (8 + 8/8) / 2) => (8 < (8 + 1) / 2) => (8 < 9 / 2) => 8 < 4
-if (4 <= (4 + 8 / 4) / 2) => (4 <= (4 + 2) / 2) => (4 < 6 / 2) => 4 < 3
-if (3 <= (3 + (8 / 3) / 2) => (3 < (3 + 2) / 2) => (3 < 5 / 2) => 3 < 2
-if (2 <= (2 + (8 / 2) / 2) => (2 < (2 + 4) / 2) => (2 < 6 / 2) => 2 < 3 => 2
+if (candidate <= (candidate + x / candidate) / 2) return candidate
+The idea here is as follows, let's say candidate is the result of the previous candidate calculation. Then we can dig deeper into this portion:
 
+candidate <= (candidate + x / candidate) / 2
+Here we can do some refactoring without changing the underlying equation
 
-(mid + x / mid) / 2
+candidate * candidate <= (candidate * candidate + (x / candidate) * candidate) / 2
+now we get
 
-(mid * mid + x) / 2
+candidate ^ 2 <= (candidate ^ 2 + x) / 2
+But x in theory is also candidate * candidate, as if that is the case we satisfy our condition of the candidate being the square root of x, so
 
-(mid^2 + x) / 2
-
-mid ^ 2 == x
-
-(mid ^ 2 + mid ^ 2) / 2, which gets us the actual midpoint. So if the mid ^ 2 is less then the expression, we passed the solution
+candidate ^ 2 <= (candidate ^ 2 + candidate ^ 2) / 2
+Now it's abundantly clear that if the left hand side is equal to the right hand side we found the solution. Of course if it is less, we are not below the solution, which, because we are looking for an integer result, is also the right solution. Hope this helps.
 
 */
