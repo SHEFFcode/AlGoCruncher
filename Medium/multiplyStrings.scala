@@ -38,5 +38,21 @@ object Solution {
         pos(p2) = sum % 10
       }
       pos.mkString.replaceFirst("^0+(?!$)", "")
+
+      /**
+      Alternative with string builder
+      */
+      // val sb = new StringBuilder
+      // for (num <- pos) {
+      //   if (sb.length != 0 || num != 0) {
+      //     sb.append(num)
+      //   }
+      // }
+
+      // if (sb.length == 0) {
+      //   "0"
+      // } else {
+      //   sb.toString
+      // }
     }
   }
