@@ -10,7 +10,7 @@ object Solution {
     def isUnivalTree(root: TreeNode): Boolean = {
         def traverse(cNode: TreeNode, value: Int): Boolean = {
           if (cNode == null) true
-            else if (cNode.value != value) false
+          else if (cNode.value != value) false
           else traverse(cNode.left, value) && traverse(cNode.right, value)
         }
 
