@@ -34,3 +34,35 @@ class Solution {
         }
     }
 }
+
+/**
+ * Better solution O(n)
+ */
+
+class Solution {
+    public List<Integer> topKFrequent(int[] nums, int k) {
+        Map<Integer, Integer> fm = new HashMap<>(nums.length);
+        List<Integer>[] f = new List[nums.length + 1];
+        List<Integer> res = new ArrayList<>(k);
+
+        for (int num : nums) {
+            fm.put(num, fm.getOrDefault(num, 0) + 1);
+        }
+
+        for (int key : fm.keySet()) {
+            int freq = fm.get(key);
+            if (f[freq] == null) {
+                f[freq] = new ArrayList<>();
+            }
+            f[freq].add(key);
+        }
+
+        for (int i = f.length - 1; i >= 0 && res.size() < k; i--) {
+            if (f[i] != null) {
+                res.addAll(f[i]);
+            }
+        }
+
+        return res;
+    }
+}
