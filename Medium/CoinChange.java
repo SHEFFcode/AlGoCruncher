@@ -66,3 +66,8 @@ class Solution {
     }
   }
 }
+
+// For a more optimal solution please see:
+/**
+ * https://github.com/bephrem1/backtobackswe/blob/master/Dynamic%20Programming%2C%20Recursion%2C%20%26%20Backtracking/changeMakingProblem.java
+ */
