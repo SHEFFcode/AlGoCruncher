@@ -1,21 +1,21 @@
+import java.util.Arrays;
+
 class Solution {
   public int lengthOfLIS(int[] nums) {
-    int longestLIS = 0;
-    int currentLIS = 0;
-    int previousNumber = 0;
+    int max = 0;
+    int[] dp = new int[nums.length];
+    Arrays.fill(dp, 1);
 
     for (int i = 0; i < nums.length; i++) {
-      currentLIS = 1; // reset at every turn of the outer loop
-      previousNumber = nums[i];
-      for (int j = i + 1; j < nums.length; j++) {
-        if (previousNumber < nums[j]) {
-          currentLIS++;
-          previousNumber = nums[j];
+      for (int j = 0; j < i; j++) {
+        if (nums[j] < nums[i] && dp[j] + 1 > dp[i]) {
+          dp[i] = dp[j] + 1;
         }
       }
-      longestLIS = Math.max(currentLIS, longestLIS);
+      max = Math.max(max, dp[i]);
+
     }
 
-    return longestLIS;
+    return max;
   }
 }
