@@ -1,33 +1,22 @@
-import java.lang.reflect.Array;
+import java.nio.CharBuffer;
+import java.util.stream.IntStream;
 
 class Solution {
   public int compress(char[] chars) {
-    int arrLen = chars.length; // Start high, subtract away
-
-    for (int i = 0; i < chars.length; i++) {
-      for (int j = 0; j < chars.length; j++) {
-        if (chars[i] != chars[j] || j == chars.length - 1) {
-          int savings = doCompression(i + 1, chars, j == chars.length - 1 ? j - i + 1 : j - i); // Compress returns
-                                                                                                // savings through
-                                                                                                // compression
-          arrLen -= savings;
-          i = j + savings;
-        } // otherwise just keep traversing
+    IntStream charStream = CharBuffer.wrap(chars).chars();
+    StringBuilder compressedString = new StringBuilder();
+    int[] count = { 0 };
+    charStream.reduce((prevChar, currentChar) -> {
+      if (currentChar == prevChar) {
+        count[0]++;
+      } else {
+        compressedString.append("" + (char) prevChar + count[0]);
       }
-    }
+      return currentChar;
+    });
 
-    return arrLen;
-  }
+    System.out.println(compressedString.toString());
 
-  private int doCompression(int index, char[] input, int len) {
-    System.out.println(index);
-    System.out.println(len);
-    if (len == 1)
-      return 0;
-    char[] charLen = ("" + len).toCharArray();
-    for (char lenChar : charLen) {
-      Array.setChar(input, index++, lenChar);
-    }
-    return len - charLen.length - 1;
+    return compressedString.length();
   }
 }
