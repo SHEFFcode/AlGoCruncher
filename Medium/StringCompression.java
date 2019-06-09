@@ -5,7 +5,7 @@ class Solution {
   public int compress(char[] chars) {
     int i = 0; // will keep track of where to put
 
-    for (int j = 0; j < chars.length;) { // we will increment i along with j in the outer loop
+    for (int j = 0; j < chars.length;) { // we will do incrementation later in the loop when we modify char[] in place
       int count = 1; // we got at least 1 letter.
       chars[i++] = chars[j++]; // we will do our incrementation here because we want i to start at 0 for empty
                                // array, but go to 1 if we get into this loop
