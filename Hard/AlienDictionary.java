@@ -32,6 +32,9 @@ class Solution {
                     } else {
                         graph.get(firstWord[j]).add(secondWord[j]);
                     }
+                } else if (j == length - 1 && !graph.containsKey(firstWord[j])) {
+                    HashSet<Character> children = new HashSet<>();
+                    graph.put(firstWord[j], children);
                 }
             }
         }
@@ -41,8 +44,8 @@ class Solution {
 
     private String topologicalSortWithCycleDetection(Map<Character, Set<Character>> graph) {
         List<Character> characterSet = new ArrayList<>(graph.size() * 2); // let's give it some default capacity,
-                                                                          // iteration
-                                                                          // order matters
+        // iteration
+        // order matters
         StringBuilder alienOrderSBReversed = new StringBuilder(graph.size() * 2);
         Set<Character> visited = new HashSet<>(graph.size() * 2);
 
@@ -81,6 +84,10 @@ class Solution {
 
     private boolean visitChildren(Set<Character> characters, List<Character> characterSet, Set<Character> visited,
             Map<Character, Set<Character>> graph, StringBuilder sb) {
+        if (characters.isEmpty()) {
+            return true;
+        }
+
         for (char c : characters) {
             if (characterSet.contains(c)) {
                 return false;
