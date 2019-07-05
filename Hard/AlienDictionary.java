@@ -4,13 +4,16 @@ import java.util.*;
 
 class Solution {
   public String alienOrder(String[] words) {
+    if (!inputValid(words)) {
+      return "";
+    }
     Map<Character, ArrayList<Character>> graph = buildGraph(words);
 
-    LinkedHashSet<Character> characterSet = new LinkedHashSet<>();
-    StringBuilder alienOrderStringBuilder = new StringBuilder();
-    Set<Character> visited = new HashSet<>();
+    return topologicalSortWithCycleDetection(graph);
+  }
 
-    return topologicalSortWithCycleDetection(graph, characterSet, alienOrderStringBuilder, visited);
+  private boolean inputValid(String[] words) {
+    return words.length > 1;
   }
 
   private HashMap<Character, ArrayList<Character>> buildGraph(String[] words) {
@@ -24,9 +27,9 @@ class Solution {
       for (int j = 0; j < length; j++) {
         if (firstWord[j] != secondWord[j]) {
           if (!graph.containsKey(firstWord[j])) {
-            ArrayList<Character> followers = new ArrayList<>();
-            followers.add(secondWord[j]);
-            graph.put(firstWord[j], followers);
+            ArrayList<Character> children = new ArrayList<>();
+            children.add(secondWord[j]);
+            graph.put(firstWord[j], children);
           } else {
             graph.get(firstWord[j]).add(secondWord[j]);
           }
@@ -37,32 +40,47 @@ class Solution {
     return graph;
   }
 
-  private String topologicalSortWithCycleDetection(Map<Character, ArrayList<Character>> graph,
-      LinkedHashSet<Character> characterSet, StringBuilder alienOrderStringBuilder, Set<Character> visited) {
-    for (Map.Entry<Character, ArrayList<Character>> entry : graph.entrySet()) {
-      if (characterSet.contains(entry.getKey())) {
-        return ""; // we have a circular reference.
-      } else if (!visited.contains(entry.getKey())) {
-        characterSet.add(entry.getKey());
-        visited.add(entry.getKey());
-        for (char character : entry.getValue()) {
-          if (characterSet.contains(entry.getKey())) {
-            return "";
-          } else if (!visited.contains(character)) {
-            characterSet.add(character);
-            visited.add(character);
-          }
+  private String topologicalSortWithCycleDetection(Map<Character, ArrayList<Character>> graph) {
+    List<Character> characterSet = new ArrayList<>(graph.size() * 2); // let's give it some default capacity, iteration
+                                                                      // order matters
+    StringBuilder alienOrderSBReversed = new StringBuilder(graph.size() * 2);
+    Set<Character> visited = new HashSet<>(graph.size() * 2);
 
-        }
-        // we visited all the children, so lets populate the stringbilder
-        characterSet.remove(entry.getKey());
-        alienOrderStringBuilder.append(entry.getKey());
+    for (Map.Entry<Character, ArrayList<Character>> entry : graph.entrySet()) {
+      if (!visitKey(entry.getKey(), characterSet, visited)
+          || !visitChildren(entry.getValue(), characterSet, visited, alienOrderSBReversed)) {
+        return ""; // we want to short circuit here because one of the operations found an issue.
       }
     }
 
-    for (char character : characterSet) {
+    return alienOrderSBReversed.reverse().toString();
+  }
 
+  private boolean visitKey(Character c, List<Character> characterSet, Set<Character> visited) {
+    if (characterSet.contains(c)) {
+      return false; // we found a cycle
     }
+    if (!visited.contains(c)) {
+      characterSet.add(c);
+      visited.add(c);
+    }
+
+    return true; // We want to return ok even if we do not add any more characters.
+  }
+
+  private boolean visitChildren(List<Character> characters, List<Character> characterSet, Set<Character> visited,
+      StringBuilder sb) {
+    if (characters.isEmpty()) {
+      // let's populate the solution
+      char exploredChar = characterSet.remove(characterSet.size() - 1);
+      sb.append(exploredChar);
+    }
+    for (char c : characters) {
+      if (!visitKey(c, characterSet, visited)) {
+        return false;
+      }
+    }
+    return true;
   }
 
 }
