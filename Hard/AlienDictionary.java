@@ -15,8 +15,8 @@ class Solution {
         return words.length > 1;
     }
 
-    private HashMap<Character, Set<Character>> buildGraph(String[] words) {
-        HashMap<Character, Set<Character>> graph = new HashMap<>();
+    private Map<Character, Set<Character>> buildGraph(String[] words) {
+        Map<Character, Set<Character>> graph = new HashMap<>();
 
         for (int i = 0; i < words.length - 1; i++) {
             char[] firstWord = words[i].toCharArray();
