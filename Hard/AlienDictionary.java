@@ -47,36 +47,49 @@ class Solution {
     Set<Character> visited = new HashSet<>(graph.size() * 2);
 
     for (Map.Entry<Character, ArrayList<Character>> entry : graph.entrySet()) {
-      if (!visitKey(entry.getKey(), characterSet, visited)
-          || !visitChildren(entry.getValue(), characterSet, visited, alienOrderSBReversed)) {
+      if (visited.contains(entry.getKey()))
+        continue;
+      if (!visitKey(entry.getKey(), characterSet, visited, graph, alienOrderSBReversed)
+          || !visitChildren(entry.getValue(), characterSet, visited, graph, alienOrderSBReversed)) {
         return ""; // we want to short circuit here because one of the operations found an issue.
+      }
+      while (characterSet.size() > 0) {
+        char exploredChar = characterSet.remove(characterSet.size() - 1);
+        alienOrderSBReversed.append(exploredChar);
       }
     }
 
     return alienOrderSBReversed.reverse().toString();
   }
 
-  private boolean visitKey(Character c, List<Character> characterSet, Set<Character> visited) {
+  private boolean visitKey(Character c, List<Character> characterSet, Set<Character> visited,
+      Map<Character, ArrayList<Character>> graph, StringBuilder sb) {
     if (characterSet.contains(c)) {
       return false; // we found a cycle
     }
     if (!visited.contains(c)) {
       characterSet.add(c);
       visited.add(c);
+      if (graph.containsKey(c)
+          && !visitChildren(graph.getOrDefault(c, new ArrayList<>()), characterSet, visited, graph, sb)) {
+        return false;
+      }
     }
 
     return true; // We want to return ok even if we do not add any more characters.
   }
 
   private boolean visitChildren(List<Character> characters, List<Character> characterSet, Set<Character> visited,
-      StringBuilder sb) {
+      Map<Character, ArrayList<Character>> graph, StringBuilder sb) {
     if (characters.isEmpty()) {
       // let's populate the solution
       char exploredChar = characterSet.remove(characterSet.size() - 1);
       sb.append(exploredChar);
     }
     for (char c : characters) {
-      if (!visitKey(c, characterSet, visited)) {
+      if (visited.contains(c))
+        continue;
+      if (!visitKey(c, characterSet, visited, graph, sb)) {
         return false;
       }
     }
