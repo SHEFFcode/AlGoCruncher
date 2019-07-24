@@ -65,3 +65,54 @@ class Solution {
         return visited[i][j];
     } /* end explore() */
 }
+
+
+/**
+ * ================== Optimized Solution =============================
+ */
+
+ class Solution {
+    public int longestIncreasingPath(int[][] matrix) {
+                
+        if (matrix == null || matrix.length == 0) {
+            return 0;
+        }
+
+        int maxLen = 0;
+        int rows = matrix.length;
+        int cols = matrix[0].length;
+
+        int[][] dp = new int[rows][cols];
+
+        for (int i = 0; i < rows; i++) {
+            for (int j = 0; j < cols; j++) {
+                if (dp[i][j] == 0) {
+                    dfs(matrix, i, j, dp, Integer.MIN_VALUE);
+                    maxLen = Math.max(maxLen, dp[i][j]);
+                }
+            }
+        }
+
+        return maxLen;
+    }
+    
+    private int dfs(int[][] matrix, int i, int j, int[][] dp, int prev) {
+
+        if (i < 0 || j < 0 || i > matrix.length - 1 || j > matrix[0].length - 1 || matrix[i][j] <= prev) {
+            return 0;
+        }
+
+        if (dp[i][j] != 0) {
+            return dp[i][j];
+        }
+
+        int left = dfs(matrix, i - 1, j, dp, matrix[i][j]);
+        int right = dfs(matrix, i + 1, j, dp, matrix[i][j]);
+        int up = dfs(matrix, i, j - 1, dp, matrix[i][j]);
+        int down = dfs(matrix, i, j + 1, dp, matrix[i][j]);
+
+        dp[i][j] = Math.max(left, Math.max(right, Math.max(up, down))) + 1;
+
+        return dp[i][j];
+    }
+}
