@@ -1,9 +1,3 @@
-import java.util.Arrays;
-import java.util.LinkedList;
-import java.util.Queue;
-
-import javax.swing.tree.TreeNode;
-
 /**
  * Definition for a binary tree node. public class TreeNode { int val; TreeNode
  * left; TreeNode right; TreeNode(int x) { val = x; } }
@@ -45,31 +39,31 @@ class Solution {
 
   private int[] populateVals(TreeNode cNode) {
     int[] vals = new int[2];
-    vals[0] = cNode.right ? cNode.right.val : -1;
-    vals[1] = cNode.left ? cNode.left.val : -1;
+    vals[0] = cNode.right != null ? cNode.right.val : -1;
+    vals[1] = cNode.left != null ? cNode.left.val : -1;
 
     return vals;
   }
 
   private void enqueue(TreeNode cNode1, TreeNode cNode2, Queue<TreeNode> q1, Queue<TreeNode> q2) {
     if (cNode1.left != null) {
-      q1.offer(cNode1.left.val);
+      q1.offer(cNode1.left);
       if (cNode2.left != null) {
         if (cNode2.left.val == cNode1.left.val) {
-          q2.offer(cNode2.left.val);
+          q2.offer(cNode2.left);
         } else {
-          q2.offer(cNode2.right.val); // must exist because cNode1.left is not null and it is flippable.
+          q2.offer(cNode2.right); // must exist because cNode1.left is not null and it is flippable.
         }
       }
     } // if it was null, there is no point of adding it to the queue.
 
     if (cNode1.right != null) {
-      q1.offer(cNode1.right.val);
+      q1.offer(cNode1.right);
       if (cNode2.right != null) {
         if (cNode2.right.val == cNode1.right.val) {
-          q2.offer(cnode2.right.val);
+          q2.offer(cNode2.right);
         } else {
-          q2.offer(cNode2.left.val); // must exist because cNode1.left is not null and it is flippable.
+          q2.offer(cNode2.left); // must exist because cNode1.left is not null and it is flippable.
         }
       }
     }
