@@ -10,13 +10,13 @@ object Solution {
     def countNodes(root: TreeNode): Int = {
         if (root == null) 0
 
-        def calcNodes(cNode: TreeNode, height: Int = 0): Int = {
-          if (cNode == null) return height
+        def calcNodes(cNode: TreeNode, nodeCount: Int = 0): Int = {
+          if (cNode == null) return nodeCount
           val leftSubtreeHeight = calculateSubtreeHeight(cNode.left)
           val rightSubtreeHeight = calculateSubtreeHeight(cNode.right)
 
-          if (leftSubtreeHeight == rightSubtreeHeight) calcNodes(cNode.right, height + (1 << rightSubtreeHeight))
-          else calcNodes(cNode.left, height + (1 << rightSubtreeHeight))
+          if (leftSubtreeHeight == rightSubtreeHeight) calcNodes(cNode.right, nodeCount + (1 << rightSubtreeHeight))
+          else calcNodes(cNode.left, nodeCount + (1 << rightSubtreeHeight))
         }
 
         calcNodes(root)
@@ -26,4 +26,11 @@ object Solution {
       if (cNode != null) calculateSubtreeHeight(cNode.left, height + 1)
       else height
     }
+}
+
+object Solution {
+  def countNodes(root: TreeNode) = {
+    if (root == null) 0
+    else countNodes(root.left) + countNodes(root.right) + 1
+  }
 }
