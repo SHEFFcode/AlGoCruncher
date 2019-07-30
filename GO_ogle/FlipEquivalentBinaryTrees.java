@@ -77,3 +77,6 @@ class Solution {
     }
   }
 }
+
+// [0,1,2,5,null,3,6,null,null,null,4]
+// [0,1,2,null,5,3,6,null,null,4]
