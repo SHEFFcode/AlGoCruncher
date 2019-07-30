@@ -29,7 +29,7 @@ object Solution {
 }
 
 object Solution {
-  def countNodes(root: TreeNode) = {
+  def countNodes(root: TreeNode): Int = {
     if (root == null) 0
     else countNodes(root.left) + countNodes(root.right) + 1
   }
