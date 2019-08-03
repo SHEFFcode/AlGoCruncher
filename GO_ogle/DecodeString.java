@@ -1,27 +1,29 @@
 class Solution {
     public String decodeString(String s) {
-        String result =  decodeHelper(new StringBuilder(), s);
-        return result;
-    }
-
-    private String decodeHelper(StringBuilder decodedString, String remainingToDecode) {
-        for (int i = 0; i < remainingToDecode.length(); i++) {
-            if (Character.isDigit(remainingToDecode.charAt(i))) {
-                StringBuilder count = new StringBuilder(String.valueOf(remainingToDecode.charAt(i))); // instanciate with a char.
-                i++; // increment i here to move on to the next character.
-                while (Character.isDigit(remainingToDecode.charAt(i))) { // danger zone
-                    count.append(remainingToDecode.charAt(i));
-                    i++; // mitigate danger.
-                } // we now have the actual length
-                int repeat = Integer.parseInt(count.toString());
-                for (int j = 0; j < repeat; j++) {
-                    decodedString.append(decodeHelper(decodedString, remainingToDecode.substring(i)));
+        StringBuilder decoded = new StringBuilder();
+        for (int i = 0; i < s.length(); i++) {
+            char cChar = s.charAt(i);
+            if (Character.isDigit(cChar)) {
+                StringBuilder counterString = new StringBuilder(String.valueOf(cChar));
+                while (Character.isDigit(cChar = s.charAt(i + 1))) {
+                    counterString.append(cChar);
+                    i++;
                 }
+                int counter = Integer.parseInt(counterString.toString());
+                i += 2;
+                String subsequent = decodeString(s.substring(i)); // we need to to be a tuple of how many chars
+                                                                  // processed.
+                for (int c = 0; c < counter; c++) {
+                    decoded.append(subsequent);
+                }
+
+            } else if (s.charAt(i) == ']') {
+                return decoded.toString();
             } else {
-                decodedString.append(remainingToDecode.charAt(i));
+                decoded.append(s.charAt(i));
             }
         }
 
-        return decodedString.toString();
+        return decoded.toString();
     }
 }
