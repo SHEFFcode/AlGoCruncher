@@ -1,7 +1,13 @@
 class Solution {
     public String decodeString(String s) {
         StringBuilder decoded = new StringBuilder();
-        for (int i = 0; i < s.length(); i++) {
+        decodeHelper(s, decoded, 0); // we want to start at 0
+
+        return decoded.toString();
+    }
+
+    private int decodeHelper(String s, StringBuilder decoded, int i) {
+        for (; i < s.length(); i++) {
             char cChar = s.charAt(i);
             if (Character.isDigit(cChar)) {
                 StringBuilder counterString = new StringBuilder(String.valueOf(cChar));
@@ -10,20 +16,19 @@ class Solution {
                     i++;
                 }
                 int counter = Integer.parseInt(counterString.toString());
-                i += 2;
-                String subsequent = decodeString(s.substring(i)); // we need to to be a tuple of how many chars
-                                                                  // processed.
+                i += 2; // because we want to skip the [ character.
+                StringBuilder subsequent = new StringBuilder();
+                i = decodeHelper(s, subsequent, i); // we need to know how many letters we processed.
                 for (int c = 0; c < counter; c++) {
                     decoded.append(subsequent);
                 }
-
             } else if (s.charAt(i) == ']') {
-                return decoded.toString();
+                break;
             } else {
                 decoded.append(s.charAt(i));
             }
         }
 
-        return decoded.toString();
+        return i;
     }
 }
