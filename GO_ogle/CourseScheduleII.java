@@ -16,10 +16,12 @@ class Solution {
     Map<Integer, List<Integer>> graph = new HashMap<>();
 
     for (int[] pair : prerequisites) {
-      List<Integer> edges = graph.getOrDefault(pair[0], new ArrayList<>());
-      edges.add(pair[1]);
+      List<Integer> edges = new ArrayList<>(Arrays.asList(pair[1]));
+      if (!graph.containsKey(pair[1])) {
+        graph.put(pair[1], new ArrayList<>()); // let's make sure we have some empty entries.
+      }
       graph.merge(pair[0], edges, (oldValue, newValue) -> {
-        oldValue.add(pair[0]);
+        oldValue.add(pair[1]);
         return oldValue;
       });
     }
@@ -29,13 +31,14 @@ class Solution {
 
   private void visitEdgesAndChildren(int vertex, List<Integer> edges, Map<Integer, List<Integer>> graph,
       Set<Integer> visited, int[] order) {
-    if (edges.isEmpty()) {
-      visited.add(vertex);
-      order[visited.size()] = vertex;
-    } else {
-      for (int edge : edges) {
+    for (int edge : edges) {
+      if (!visited.contains(edge)) {
         visitEdgesAndChildren(edge, graph.get(edge), graph, visited, order);
       }
+    }
+    if (!visited.contains(vertex)) {
+      visited.add(vertex);
+      order[visited.size() - 1] = vertex;
     }
   }
 }
