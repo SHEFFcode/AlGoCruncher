@@ -3,9 +3,9 @@ class Solution {
     Map<Integer, List<Integer>> graph = createGraph(prerequisites);
     int[] order = new int[numCourses];
     Set<Integer> visited = new HashSet<>();
-    for (Map.Entry entry : graph.getEntries()) {
+    for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet()) {
       if (!visited.contains(entry.getKey())) {
-        visitEdgesAndChildren(entry.getKey(), entry.getValue(), visited, order, graph);
+        visitEdgesAndChildren(entry.getKey(), entry.getValue(), graph, visited, order);
       }
     }
 
@@ -13,18 +13,21 @@ class Solution {
   }
 
   private Map<Integer, List<Integer>> createGraph(int[][] prerequisites) {
-    Map<Integer, List<Integer>> graph = new HashMap<Integer, List<Integer>>();
+    Map<Integer, List<Integer>> graph = new HashMap<>();
 
     for (int[] pair : prerequisites) {
-      List<Integer> edges = graph.getOrDefault(pair[0], new ArrayList<Integer>());
-      edges.add(paris[1]);
-      graph.put(edges);
+      List<Integer> edges = graph.getOrDefault(pair[0], new ArrayList<>());
+      edges.add(pair[1]);
+      graph.merge(pair[0], edges, (oldValue, newValue) -> {
+        oldValue.add(pair[0]);
+        return oldValue;
+      });
     }
 
     return graph;
   }
 
-  private void visitEdgesAndChildren(int vertex, List<Integer> edges, Map<Integer, List<Intger>> graph,
+  private void visitEdgesAndChildren(int vertex, List<Integer> edges, Map<Integer, List<Integer>> graph,
       Set<Integer> visited, int[] order) {
     if (edges.isEmpty()) {
       visited.add(vertex);
