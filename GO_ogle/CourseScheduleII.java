@@ -1,6 +1,13 @@
+package com.company;
+
+import java.util.*;
+
 class Solution {
   public int[] findOrder(int numCourses, int[][] prerequisites) {
     Map<Integer, List<Integer>> graph = createGraph(prerequisites);
+    if (findCycle(graph)) {
+      return new int[] {};
+    }
     int[] order = new int[numCourses];
     Set<Integer> visited = new HashSet<>();
     for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet()) {
@@ -33,6 +40,7 @@ class Solution {
       Set<Integer> visited, int[] order) {
     for (int edge : edges) {
       if (!visited.contains(edge)) {
+        visited.add(edge);
         visitEdgesAndChildren(edge, graph.get(edge), graph, visited, order);
       }
     }
@@ -40,5 +48,22 @@ class Solution {
       visited.add(vertex);
       order[visited.size() - 1] = vertex;
     }
+  }
+
+  private boolean findCycle(Map<Integer, List<Integer>> graph) {
+    for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet()) {
+      int currentlyExploring = entry.getKey();
+      List<Integer> values = entry.getValue();
+      int hasCycle = values.stream().reduce(0, (valid, value) -> {
+        if (valid == 1 || graph.get(value).contains(currentlyExploring)) {
+          return 1;
+        }
+        return 0;
+      });
+      if (hasCycle == 1) {
+        return true;
+      }
+    }
+    return false;
   }
 }
