@@ -1,15 +1,19 @@
-package com.company;
-
-import java.util.*;
-
 class Solution {
   public int[] findOrder(int numCourses, int[][] prerequisites) {
-    Map<Integer, List<Integer>> graph = createGraph(prerequisites);
+    int[] order = new int[numCourses];
+    Set<Integer> visited = new HashSet<>();
+
+    Map<Integer, List<Integer>> graph = createGraph(prerequisites, numCourses, order, visited);
     if (findCycle(graph)) {
       return new int[] {};
     }
-    int[] order = new int[numCourses];
-    Set<Integer> visited = new HashSet<>();
+    for (int vertex = 0; vertex < numCourses; vertex++) {
+      if (!visited.contains(vertex)) {
+        visitEdgesAndChildren(vertex, graph.get(vertex), graph, visited, order);
+      }
+    }
+
+
     for (Map.Entry<Integer, List<Integer>> entry : graph.entrySet()) {
       if (!visited.contains(entry.getKey())) {
         visitEdgesAndChildren(entry.getKey(), entry.getValue(), graph, visited, order);
@@ -19,7 +23,7 @@ class Solution {
     return order;
   }
 
-  private Map<Integer, List<Integer>> createGraph(int[][] prerequisites) {
+  private Map<Integer, List<Integer>> createGraph(int[][] prerequisites, int numCourses, int[] order, Set<Integer> visited) {
     Map<Integer, List<Integer>> graph = new HashMap<>();
 
     for (int[] pair : prerequisites) {
@@ -31,6 +35,13 @@ class Solution {
         oldValue.add(pair[1]);
         return oldValue;
       });
+    }
+
+    for (int vertex = 0; vertex < numCourses; vertex++) {
+      if (!graph.containsKey(vertex)) {
+        visited.add(vertex);
+        order[visited.size() - 1] = vertex;
+      }
     }
 
     return graph;
