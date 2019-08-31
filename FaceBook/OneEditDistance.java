@@ -1,21 +1,21 @@
 class Solution {
   public boolean isOneEditDistance(String s, String t) {
-    int shortString = s.length();
-    int longString = t.length();
+    int shortStringLength = s.length();
+    int longStringLength = t.length();
 
     // Ensure that s is shorter than t.
-    if (shortString > longString)
+    if (shortStringLength > longStringLength)
       return isOneEditDistance(t, s);
 
     // The strings are NOT one edit away distance
     // if the length diff is more than 1.
-    if (longString - shortString > 1)
+    if (longStringLength - shortStringLength > 1)
       return false;
 
-    for (int i = 0; i < shortString; i++)
+    for (int i = 0; i < shortStringLength; i++)
       if (s.charAt(i) != t.charAt(i))
         // if strings have the same length
-        if (shortString == longString)
+        if (shortStringLength == longStringLength)
           return s.substring(i + 1).equals(t.substring(i + 1));
         // if strings have different lengths
         else
@@ -24,6 +24,6 @@ class Solution {
     // If there is no diffs on ns distance
     // the strings are one edit away only if
     // t has one more character.
-    return (shortString + 1 == longString);
+    return (shortStringLength + 1 == longStringLength);
   }
 }
