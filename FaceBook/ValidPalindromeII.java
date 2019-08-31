@@ -1,19 +1,25 @@
 class Solution {
   public boolean validPalindrome(String s) {
-    int i = 0, j = s.length();
-    int skippedCount = 0;
+    int i = 0, j = s.length() - 1;
 
-    while (i < j && skippedCount < 2) { // DANGER ZONE, make sure these values change
-      if (s.charAt(i + 2) == s.charAt(j - 1)) {
-        i++;
-        skippedCount++;
-      } else if (s.charAt(i + 1) == s.charAt(j - 2)) {
-        j--;
-        skippedCount++;
-      } else {
+    while (i < j) { // DANGER ZONE, make sure these values change
+      if (s.charAt(i) != s.charAt(j)) {
+        return validPalindromeHelper(s.substring(i + 1, j + 1)) || validPalindromeHelper(s.substring(i, j));
+      }
+      i++;
+      j--;
+    }
+
+    return true;
+  }
+
+  private boolean validPalindromeHelper(String s) {
+    int i = 0, j = s.length() - 1;
+
+    while (i < j) { // DANGER ZONE, make sure these values change
+      if (s.charAt(i) != s.charAt(j)) {
         return false;
       }
-
       i++;
       j--;
     }
