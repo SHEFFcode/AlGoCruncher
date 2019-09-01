@@ -27,6 +27,26 @@ class Solution {
     }
 }
 
+// There is a simpler solution if we assume that the other node will always be
+// in the tree
+
+class Solution {
+    public TreeNode lowestCommonAncestor(TreeNode root, TreeNode p, TreeNode q) {
+        if (root == null)
+            return null;
+        if (root.val == p.val || root.val == q.val)
+            return root;
+
+        TreeNode l = lcaR(root.left, p, q);
+        TreeNode r = lcaR(root.right, p, q);
+        if (l != null && r != null)
+            return root;
+        if (l != null)
+            return l;
+        return r;
+    }
+}
+
 /**
  * The key to understand here is that we want to treat any tree problem by
  * looking at a single node. So we basically have some base cases, then
