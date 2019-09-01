@@ -25,18 +25,16 @@ class Solution {
 
         while (!q.isEmpty()) { // DANGER ZONE, make sure that q size can reach zero
             Node cNode = q.poll(); // cNode
-            List<Node> neighbors = cNode.neighbors;
 
-            neighbors.forEach(neighbor -> {
+            cNode.neighbors.forEach(neighbor -> {
                 if (!originalToCloneMapping.containsKey(neighbor)) {
                     Node clonedNeighbor = new Node(neighbor.val, new ArrayList<Node>());
-                    clonedNeighbor.neighbors.add(originalToCloneMapping.get(cNode));
 
                     originalToCloneMapping.put(neighbor, clonedNeighbor);
                     q.offer(neighbor);
-
-                    originalToCloneMapping.get(cNode).neighbors.add(originalToCloneMapping.get(neighbor));
                 }
+
+                originalToCloneMapping.get(cNode).neighbors.add(originalToCloneMapping.get(neighbor));
             });
         }
 
