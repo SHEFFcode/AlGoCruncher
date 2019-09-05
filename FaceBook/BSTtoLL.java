@@ -16,47 +16,41 @@ class Node {
 */
 class Solution {
     public Node treeToDoublyList(Node root) {
-        Node head = new Node();
-        Node tail = findTail(root);
-
-        runInOrderTraversalonBST(root, head, tail);
-
-        tail.right = head;
-        head.left = tail;
-        return head;
-    }
-
-    private Node findTail(Node cNode) {
-        while (cNode.right != null) {
-            cNode = cNode.right;
+        if (root == null) {
+            return root;
         }
 
-        return new Node(cNode.val);
+        Node[] headTail = new Node[2]; // in the end the array will represent head and tail
+
+        runInOrderTraversalonBST(root, headTail);
+
+        headTail[1].right = headTail[0]; // let's update the head tail relationship
+        headTail[0].left = headTail[1];
+
+        return headTail[0];
     }
 
-    private Node runInOrderTraversalonBST(Node cNode, Node head, Node tail) {
-        Node llNode = new Node(cNode.val);
-        if (cNode.left == null && cNode.right == null) {
-            if (head.val == 0) {
-                head.val = cNode.val;
-                System.out.println("I am setting the head to something");
+    private void runInOrderTraversalonBST(Node cNode, Node[] headPrev) { // here the array represents head and previous
+                                                                         // visited node
+        if (cNode != null) {
+            runInOrderTraversalonBST(cNode.left, headPrev); // this will traverse all the way to the left most element,
+                                                            // finding
+            // the head
+
+            if (headPrev[1] != null) { // we explored at least one node
+                headPrev[1].right = cNode;
+                cNode.left = headPrev[1];
+            } else { // this means we are at the very leftmost node
+                headPrev[0] = cNode; // we have found the head
             }
 
-            return llNode;
+            headPrev[1] = cNode; // let's update the previous node
+            runInOrderTraversalonBST(cNode.right, headPrev); // let's explore the right subtree
         }
-
-        Node leftNode = runInOrderTraversalonBST(cNode.left, head, tail);
-        llNode.left = leftNode;
-        leftNode.right = llNode;
-        Node rightNode = runInOrderTraversalonBST(cNode.right, head, tail);
-        llNode.right = rightNode;
-        rightNode.left = llNode;
-        
-        return rightNode;
     }
 }
 
 /**
- * We will do in order traversal of a node, but we need the head and the tail first.
- * Maybe we get the tail first, and then 
+ * We will do in order traversal of a node, but we need the head and the tail
+ * first. Maybe we get the tail first, and then
  */
