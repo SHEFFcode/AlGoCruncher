@@ -15,22 +15,32 @@ class Solution {
 
     private void traverseWithBacktracking(List<List<Integer>> result, int[] nums, List<Integer> currentRow,
             boolean[] alreadyPickedAtIndex) {
+
         if (currentRow.size() == nums.length) {
+
             result.add(new ArrayList(currentRow)); // might be a way to optimize here, GOAL
+
         } else {
+
             for (int i = 0; i < nums.length; i++) {
-                // let's see if we already picked a number at index, or if the current number
-                // equals to a previous number (it's a duplicate) and we did not pick the
-                // previous number, meaning we want to skip all the subsequent duplicates of
-                // that number as well
+                /**
+                 * let's see if we already picked a number at index, or if the current number
+                 * equals to a previous number (it's a duplicate) and we did not pick the
+                 * previous number, meaning we want to skip all the subsequent duplicates of
+                 * that number as well
+                 */
+
                 if (alreadyPickedAtIndex[i] || i > 0 && nums[i] == nums[i - 1] && !alreadyPickedAtIndex[i - 1]) {
                     continue; // CONSTRAINTS
                 }
+
                 // Choose
                 alreadyPickedAtIndex[i] = true;
                 currentRow.add(nums[i]);
+
                 // Explore
                 traverseWithBacktracking(result, nums, currentRow, alreadyPickedAtIndex);
+
                 // Unchoose
                 alreadyPickedAtIndex[i] = false;
                 currentRow.remove(currentRow.size() - 1);
