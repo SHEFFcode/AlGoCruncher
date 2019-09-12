@@ -7,7 +7,7 @@
  *     TreeNode(int x) { val = x; }
  * }
  */
-public class Codec {
+class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
@@ -22,6 +22,7 @@ public class Codec {
                     sb.append(", ");
                 }
                 sb.append("null");
+                continue;
             } else {
                 if (sb.length() > 0) {
                     sb.append(", ");
@@ -40,15 +41,16 @@ public class Codec {
     public TreeNode deserialize(String data) {
         String[] serializedNodes = data.split(", ");
         Deque<String> q = new ArrayDeque<>(serializedNodes.length); // reasonable default length
+        q.addAll(Arrays.asList(serializedNodes));
         TreeNode root = null;
 
         while (!q.isEmpty()) {
             String cValue = q.poll();
             TreeNode cNode = null;
-            if (cValue == "null") {
-                cNode = null;
+            if (!cValue.equals("null")) {
+                cNode = new TreeNode(Integer.parseInt(cValue));
             } else {
-                cNode.val = Integer.parseInt(cValue);
+                continue;
             }
 
             if (root == null) {
@@ -57,20 +59,16 @@ public class Codec {
 
             TreeNode leftTree = null;
             cValue = q.pop();
-            if (cValue == "null") {
-                leftTree = null;
-            } else {
-                leftTree.val = Integer.parseInt(cValue);
+            if (!cValue.equals("null")) {
+                leftTree = new TreeNode(Integer.parseInt(cValue));
             }
 
             cNode.left = leftTree;
 
             TreeNode rightTree = null;
             cValue = q.pop();
-            if (cValue == "null") {
-                rightTree = null;
-            } else {
-                rightTree.val = Integer.parseInt(cValue);
+            if (!cValue.equals("null")) {
+                rightTree = new TreeNode(Integer.parseInt(cValue));
             }
             cNode.right = rightTree;
         }
