@@ -15,9 +15,9 @@ class Codec {
             return "null, ";
         }
 
+        String current = "" + root.val + ", ";
         String leftSerialized = serialize(root.left);
         String rightSerialized = serialize(root.right);
-        String current = "" + root.val + ", ";
 
 
         return current + leftSerialized + rightSerialized;
