@@ -11,69 +11,39 @@ class Codec {
 
     // Encodes a tree to a single string.
     public String serialize(TreeNode root) {
-        StringBuilder sb = new StringBuilder();
-        Stack<TreeNode> stack  = new Stack<>(); // It's not most efficient but we need a stack for nulls
-        stack.push(root);
-
-        while (!stack.isEmpty()) {
-            TreeNode cNode = stack.pop();
-            if (cNode == null) {
-                if (sb.length() > 0) {
-                    sb.append(", ");
-                }
-                sb.append("null");
-                continue;
-            } else {
-                if (sb.length() > 0) {
-                    sb.append(", ");
-                }
-
-                sb.append(String.valueOf(cNode.val));
-            }
-            stack.push(cNode.left);
-            stack.push(cNode.right);
+        if (root == null) {
+            return "null, ";
         }
 
-        return sb.toString();
+        String leftSerialized = serialize(root.left);
+        String rightSerialized = serialize(root.right);
+        String current = "" + root.val + ", ";
+
+
+        return current + leftSerialized + rightSerialized;
     }
 
     // Decodes your encoded data to tree.
     public TreeNode deserialize(String data) {
-        String[] serializedNodes = data.split(", ");
-        Deque<String> q = new ArrayDeque<>(serializedNodes.length); // reasonable default length
-        q.addAll(Arrays.asList(serializedNodes));
-        TreeNode root = null;
+        String[] nodes = data.split(", ");
+        Queue<String> q = new ArrayDeque<>();
+        q.addAll(Arrays.asList(nodes));
+        
 
-        while (!q.isEmpty()) {
-            String cValue = q.poll();
-            TreeNode cNode = null;
-            if (!cValue.equals("null")) {
-                cNode = new TreeNode(Integer.parseInt(cValue));
-            } else {
-                continue;
-            }
+        return deserializeImpl(q);
+    }
 
-            if (root == null) {
-                root = cNode;
-            }
-
-            TreeNode leftTree = null;
-            cValue = q.pop();
-            if (!cValue.equals("null")) {
-                leftTree = new TreeNode(Integer.parseInt(cValue));
-            }
-
-            cNode.left = leftTree;
-
-            TreeNode rightTree = null;
-            cValue = q.pop();
-            if (!cValue.equals("null")) {
-                rightTree = new TreeNode(Integer.parseInt(cValue));
-            }
-            cNode.right = rightTree;
+    private TreeNode deserializeImpl(Queue<String> q) {
+        String nodeValue = q.poll();
+        if (nodeValue.equals("null")) {
+            return null;
         }
 
-        return root;
+        TreeNode cNode = new TreeNode(Integer.parseInt(nodeValue));
+        cNode.left = deserializeImpl(q);
+        cNode.right = deserializeImpl(q);
+
+        return cNode;
     }
 }
 
