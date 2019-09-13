@@ -1,12 +1,14 @@
-import java.util.HashMap;
-import java.util.Map;
-
 class LRUCache {
     private final class ListNode {
         int key;
         int value;
         ListNode next;
         ListNode prev;
+
+        @Override
+        public String toString() {
+            return "{ key -> " + key + ", value -> " + value + "}";
+        }
     }
 
     private final Map<Integer, ListNode> map;
@@ -24,7 +26,13 @@ class LRUCache {
         this.tail = new ListNode(); // this will be a dummy tail node
         this.tail.next = null;
 
+        // let's create a relationship between head and tail
+        this.head.next = this.tail;
+        this.tail.prev = this.head;
+
         this.map = new HashMap<>(capacity); // reasonable size
+
+        System.out.println("I am done initializing");
     }
 
     public int get(int key) {
@@ -39,6 +47,7 @@ class LRUCache {
 
         // There are no changes to the map here, since no new nodes were added or
         // evicted
+
         return nodeAtIndex.value; // let's not forget to return the value here
     }
 
@@ -56,7 +65,7 @@ class LRUCache {
         ListNode nodeAfterCurrent = cNode.next;
 
         // And take ourselves out of the linked list
-        nodeAfterCurrent.next = nodeAfterCurrent;
+        nodeBeforeCurrent.next = nodeAfterCurrent;
         nodeAfterCurrent.prev = nodeBeforeCurrent;
     }
 
@@ -64,10 +73,14 @@ class LRUCache {
         // let's make node of the old head
         ListNode oldHead = this.head.next;
 
+        System.out.println(oldHead);
+
         // let's deal with new relationships between oldHead and newHead
         newHead.next = oldHead;
         newHead.prev = this.head;
         oldHead.prev = newHead;
+
+        System.out.println(newHead);
 
         // official set the newHead as the new head
         this.head.next = newHead;
@@ -79,6 +92,25 @@ class LRUCache {
 
         if (nodeAtIndex == null) {
             // we do not have a node with this key, hard path
+
+            // first we need to create a node since we do not already have it
+            ListNode nodeToInsert = new ListNode();
+            nodeToInsert.key = key;
+            nodeToInsert.value = value;
+
+            // next we need to make sure we have this node in our hashtable
+            map.put(key, nodeToInsert);
+
+            addNodeAtHeadPosition(nodeToInsert);
+            this.size++; // let's increase the size
+
+            if (this.size > this.capacity) {
+                // let's remove the node from the map
+                map.remove(this.tail.prev.key);
+                // let's remove the node from the list
+                removeNodeFromCurrentPosition(this.tail.prev);
+            }
+
         } else {
             // we already have a node with this key, easy path
             nodeAtIndex.value = value;
