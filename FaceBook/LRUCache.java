@@ -99,10 +99,12 @@ class LRUCache {
             this.size++; // let's increase the size
 
             if (this.size > this.capacity) {
-                // let's remove the node from the map
-                map.remove(this.tail.prev.key);
-                // let's remove the node from the list
-                removeNodeFromCurrentPosition(this.tail.prev);
+                // let's grab the LRU node to evict
+                ListNode lruNode = this.tail.prev;
+                // let's remove the LRU node from the map
+                map.remove(lruNode.key);
+                // let's remove the LRU node from the list
+                removeNodeFromCurrentPosition(lruNode);
             }
 
         } else {
