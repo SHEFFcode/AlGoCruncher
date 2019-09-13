@@ -31,8 +31,6 @@ class LRUCache {
         this.tail.prev = this.head;
 
         this.map = new HashMap<>(capacity); // reasonable size
-
-        System.out.println("I am done initializing");
     }
 
     public int get(int key) {
@@ -73,14 +71,10 @@ class LRUCache {
         // let's make node of the old head
         ListNode oldHead = this.head.next;
 
-        System.out.println(oldHead);
-
         // let's deal with new relationships between oldHead and newHead
         newHead.next = oldHead;
         newHead.prev = this.head;
         oldHead.prev = newHead;
-
-        System.out.println(newHead);
 
         // official set the newHead as the new head
         this.head.next = newHead;
