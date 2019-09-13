@@ -49,6 +49,8 @@ class LRUCache {
         return nodeAtIndex.value; // let's not forget to return the value here
     }
 
+    // These private methods are out of order, too lazy to refactor.
+
     private void moveNodeToHead(ListNode node) {
         // In order to move to head, we first need to remove node in question
         removeNodeFromCurrentPosition(node);
