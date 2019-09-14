@@ -1,55 +1,63 @@
 class Solution {
-    public boolean checkInclusion(String s1, String s2) {
-        // first let's make sure that s1 is the shorter sintrg
-        if (s1.length() > s2.length()) {
-            return false;
-        }
+    public List<Integer> findAnagrams(String s, String p) {
+        // let's initialize the anagram list
+        List<Integer> anagramIndex = new ArrayList<>();
 
-        for (int i = 0; i < s2.length() - s1.length() + 1; i++) {
-            int endIndex = i + s1.length();
-            int endLength = s2.length();
-            System.out.println("Processing index "  + i + " and the end index is " + endIndex + " and the length of s2 is " + endLength);
-            String window = s2.substring(i, i + s1.length());
-            if (isPermutation(window, s1) == true) {
-                return true;
+        // now let's go from 0 to length of string less length of pattern + 1, which is running off the array
+        for(int i = 0; i < s.length() - p.length() + 1; i++){
+            // first, let's grab the substring of length p.length()
+            String currentWindow = s.substring(i, p.length() + i);
+
+            // then let's use a helper function that will find whether a window is an anagram in O(m time)
+            if(isAnagram(currentWindow, p)){
+                anagramIndex.add(i);
             }
         }
 
-        return false;
+        // let's make sure to return the list as requested
+        return anagramIndex;
     }
-
-    private boolean isPermutation(String window, String pattern) {
-        if (window.length() != pattern.length()) {
+    
+    boolean isAnagram(String window, String pattern) {
+        // if the two strings are not same length, they are not anagrams
+        if(window.length() != pattern.length()){
             return false;
         }
-        int[] chars = new int[26]; // number of us letters, will get auto init with all 0s
+        
+        // there are only so many letters in lowercase english alphabet
+        int[] chars = new int[26];
 
-        for (int i = 0; i < window.length(); i++) {
-            chars[window.charAt(i) - 'a']++; // increment for when we find an item in the window
-            chars[pattern.charAt(i) - 'a']--; // decrement when we find an item in the pattern
+        // let's populate the array with chars
+        for(int i = 0; i < window.length(); i++){
+            chars[window.charAt(i)-'a']++;
+            chars[pattern.charAt(i)-'a']--;
         }
-
-        // let's get through the array and make sure that we do not have any non 0 letters
-        for (int i = 0; i < 26; i++) {
-            if (chars[i] != 0) {
+        
+        // let's see if any of the items in the array are orphaned
+        for(int i = 0; i < 26; i++) {
+            if(chars[i] != 0){
                 return false;
             }
         }
-
+        
         return true;
     }
 }
+
 /**
- * Input: s1 = "ab" s2 = "eidbaooo"
-Output: True
-Explanation: s2 contains one permutation of s1 ("ba").
-
-a b    e i d b a o o o
-                    i j
-
-[0, 0]
-
-
-
-
+ * Input: s: "cbaebabacd" p: "abc"
+ * 
+ * Output: [0, 6]
+ * 
+ * Explanation: The substring with start index = 0 is "cba", which is an anagram
+ * of "abc". The substring with start index = 6 is "bac", which is an anagram of
+ * "abc".
+ * 
+ * c b a e b a b a c d a b c i j
+ * 
+ * 
+ * { a: 1 b: 0 c: 1 }
+ * 
+ * lettersNeededToAdd = 1 lettersNeededToRemove = 0 anagram index = i [0, 6]
+ * 
  */

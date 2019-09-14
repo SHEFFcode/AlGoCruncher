@@ -1,13 +1,16 @@
 class Solution {
     public boolean checkInclusion(String s1, String s2) {
-        // first let's make sure that s1 is the shorter sintrg
+        // if s1 is longer then s2, we can no longer find a permutation of s2 in s1.
         if (s1.length() > s2.length()) {
-            return (checkInclusion(s2, s1));
+            return false;
         }
 
         for (int i = 0; i < s2.length() - s1.length() + 1; i++) {
-            String window = s2.substring(0, s1.length());
-            if (isPermutation(window, s1)) {
+            int endIndex = i + s1.length();
+            int endLength = s2.length();
+            System.out.println("Processing index "  + i + " and the end index is " + endIndex + " and the length of s2 is " + endLength);
+            String window = s2.substring(i, i + s1.length());
+            if (isPermutation(window, s1) == true) {
                 return true;
             }
         }
