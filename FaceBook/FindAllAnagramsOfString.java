@@ -1,26 +1,46 @@
-import java.util.ArrayList;
-import java.util.Map;
-
 class Solution {
     public List<Integer> findAnagrams(String s, String p) {
-        List<Integer> anagramIndexies = new ArrayList<>(s.length()); // conservatively reasonable size
-        if (s.length() == 0 || p.length() == 0) {
-            return anagramIndexies;
-        }
-        Map<Character, Integer> characterMap = new HashMap<>(s.length()); // reasonable size
+        // let's initialize the anagram list
+        List<Integer> anagramIndex = new ArrayList<>();
 
-        for (char c : p.toCharArray()) {
-            characterMap.merge(c, 1, Integer::sum);
-        }
+        // now let's go from 0 to length of string less length of pattern + 1, which is running off the array
+        for(int i = 0; i < s.length() - p.length() + 1; i++){
+            // first, let's grab the substring of length p.length()
+            String currentWindow = s.substring(i, p.length() + i);
 
-        int charsToSatisfy = characterMap.size(); // this will hold how many characters we still need to find in our window of s
-
-        for (int i = 0, j = i + (p.length() - 1); j < s.length(); i++) {
-            if ()
+            // then let's use a helper function that will find whether a window is an anagram in O(m time)
+            if(isAnagram(currentWindow, p)){
+                anagramIndex.add(i);
+            }
         }
 
+        // let's make sure to return the list as requested
+        return anagramIndex;
+    }
+    
+    boolean isAnagram(String window, String pattern) {
+        // if the two strings are not same length, they are not anagrams
+        if(window.length() != pattern.length()){
+            return false;
+        }
+        
+        // there are only so many letters in lowercase english alphabet
+        int[] chars = new int[26];
 
-
+        // let's populate the array with chars
+        for(int i = 0; i < window.length(); i++){
+            chars[window.charAt(i)-'a']++;
+            chars[pattern.charAt(i)-'a']--;
+        }
+        
+        // let's see if any of the items in the array are orphaned
+        for(int i = 0; i < 26; i++) {
+            if(chars[i] != 0){
+                return false;
+            }
+        }
+        
+        return true;
     }
 }
 
