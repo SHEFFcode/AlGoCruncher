@@ -2,11 +2,10 @@ class Solution {
     public List<String> addOperators(String num, int target) {
         Map<String, Set<Integer>> decisionSpaceToPossibleOutcomesMap = new HashMap()<>; // our cache
         List<String> opsToTargetValue = new ArrayList<>(); // no off the top of my head reasonable value
-        char[] operators = new char[]{'+', '-', '*'}; // this is our constant decision space
         int offser = 1;
 
         // Let's solve part one of this problem, which is coming up with all possible numbers, and turn that into a deicison space that we can use
-        Set<Integer> allPossibleNums = new HashSet<>();
+        List<Integer> allPossibleNums = new ArrayList<>();
         permuteNums(num, 0, allPossibleNums);
 
         // Let's now use the numeric decision space and iterate through it with our static decision space
@@ -23,14 +22,20 @@ class Solution {
         }
     }
 
-    private void permuteNumbersWithOperators(Set<Integer> numsRemaining, char[] ops, List<String> opsToTarget, Map<String, Set<Integer>> map) {
-        Set<Integer> cachedResults = map.getOrDefault(Arrays.toString(numsRemaining))
-
-
-        for (int offset = 0; offset < nums.length; offset++) {
-            for (int i = 0; i + offset < nums.length; i++) {
-
+    private void permuteNumbersWithOperators(List<Integer> numsRemaining, List<String> result, Map<String, HasMap<Integer, String>> map) {
+        int cInt = numsRemaining.remove(0); // let's get the first number in the list.
+        if (map.containsKey(numsRemaining.toString())) {
+            Map<Integer> precomputedResults = map.get(numsRemaining.toString());
+            if (precomputedResults.containsKey(target - cInt)) {
+                numsRemaining.add("" + cInt + "+" + precomputedResults.get(target - cInt));
+            } else if (precomputedResults.containsKey(target + cInt)) {
+                numsRemaining.add("" + cInt + "-" + precomputedResults.get(target - cInt));
+            } else if (precomputedResults.containsKey(target / cInt)) {
+                numsRemaining.add("" + cInt + "*" + precomputedResults.get(target - cInt));
             }
+        }
+        if (cInt + permuteNumbersWithOperators(new ArrayList<>(numsRemaining), result, map)) {
+
         }
     }
 }
