@@ -1,60 +1,70 @@
 class Solution {
     public int calculate(String s) {
-        return calculateHelper(s, 0, '+', -1, -1);
-    }
 
-    private int calculateHelper(String s, int index, char magnitude, int firstNum, int secondNum) {
-        if (index >= s.length()) {
-            return 0; // we have reached the end
-        }
+        Stack<Integer> stack = new Stack<Integer>();
+        int cNum = 0;
+        int result = 0; // For the on-going result
+        int sign = 1; // 1 means positive, -1 means negative
 
-        // we need to fast forward here
-        while (index < s.length() && s.charAt(index) == ' ') {
-            System.out.println("Skipping character " + s.charAt(index));
-            index++;
-        }
+        for (int i = 0; i < s.length(); i++) {
 
-        char c = s.charAt(index);
+            char c = s.charAt(i);
+            if (Character.isDigit(c)) {
 
-        System.out.println("Character is " + c);
+                // Forming operand, since it could be more than one digit
+                cNum = 10 * cNum + (int) (c - '0');
 
-        int result = 0;
+            } else if (c == '+') {
 
-        if (Character.isDigit(c) == true) {
-            StringBuilder numString = new StringBuilder();
+                // Evaluate the expression to the left,
+                // with result, sign, operand
+                result += sign * cNum;
 
-            while (index < s.length() && Character.isDigit(s.charAt(index))) {
-                numString.append(s.charAt(index));
-                index++;
+                // Save the recently encountered '+' sign
+                sign = 1;
+
+                // Reset operand
+                cNum = 0;
+
+            } else if (c == '-') {
+
+                result += sign * cNum;
+                sign = -1;
+                cNum = 0;
+
+            } else if (c == '(') {
+
+                // Push the result and sign on to the stack, for later
+                // We push the result first, then sign
+                stack.push(result);
+                stack.push(sign);
+
+                // Reset operand and result, as if new evaluation begins for the new sub-expression
+                sign = 1;
+                result = 0;
+
+            } else if (c == ')') {
+
+                // Evaluate the expression to the left
+                // with result, sign and operand
+                result += sign * cNum;
+
+                // ')' marks end of expression within a set of parenthesis
+                // Its result is multiplied with sign on top of stack
+                // as stack.pop() is the sign before the parenthesis
+                result *= stack.pop();
+
+                // Then add to the next operand on the top.
+                // as stack.pop() is the result calculated before this parenthesis
+                // (operand on stack) + (sign on stack * (result from parenthesis))
+                result += stack.pop();
+
+                // Reset the operand
+                cNum = 0;
             }
-
-            System.out.println("Numstring is " + numString.toString());
-
-            int num = Integer.parseInt(numString.toString()); // length will be zero if its not a digit
-            int secondNumber = calculateHelper(s, index, magnitude, num, -1);
-            System.out.println("Adding numbers  " + num + " and " + secondNumber);
-
-            int calcSoFar = num + secondNumber;
-            System.out.println("result so far is " + calcSoFar);
-            return calcSoFar; // we need to get that second num
-        } else if (c == '+') {
-            // this is a no op
-            int res = calculateHelper(s, index + 1, '+', firstNum, -1);
-            System.out.println("result is " + res);
-            return res;
-        } else if (c == '-') {
-            // this is a no op, update magnitude
-            int res = -1 * calculateHelper(s, index + 1, '+', firstNum, -1);
-            System.out.println("result is " + res);
-            return res;
-        } else if (c == '(') {
-            // this is a new recursion
-            return firstNum + calculateHelper(s, index + 1, magnitude, -1, -1); // new recursion with unknown first and second nums
-        } else {
-            return 0;
         }
+        return result + (sign * cNum);
     }
-
 }
 
 /**
