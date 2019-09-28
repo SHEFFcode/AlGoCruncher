@@ -1,3 +1,6 @@
+import java.util.*;
+import java.util.stream.Collectors;
+
 /*
 // Definition for an Interval.
 class Interval {
@@ -15,16 +18,18 @@ class Interval {
 class Solution {
     public List<Interval> employeeFreeTime(List<List<Interval>> schedule) {
         List<Interval> busyTimes = schedule.stream().flatMap(Collection::stream).collect(Collectors.toList());
-        List<Interval> freeTimes = new ArrayList<>(busyTimes.length); // resonable conservative default
+        List<Interval> freeTimes = new ArrayList<>(busyTimes.size()); // resonable conservative default
         Collections.sort(busyTimes, (previousInterval, currentInterval) -> {
             if (previousInterval.start != currentInterval.start) { // we will first sort based on start
-                return previousInterval.start < currentInterval.start; // sort them ascending
+                return previousInterval.start - currentInterval.start; // sort them ascending
             } else { // if starts are equal, we will sort by end
-                return previousInterval.end < previousInterval.end;
+                return previousInterval.end - currentInterval.end;
             }
         });
 
-        Stack<Interval> intervals = new Stack<Interval>;
+        System.out.println(Arrays.toString(busyTimes.toArray()));
+
+        Stack<Interval> intervals = new Stack<>();
 
         busyTimes.forEach(interval -> {
             if (intervals.isEmpty()) {
@@ -33,15 +38,18 @@ class Solution {
                 Interval previous = intervals.pop();
                 if (previous.end >= interval.start) { // we have overlapping intervals, let's merge them
                     if (interval.end > previous.end) { // previous interval does not fully overlap current interval, needs merging
-                        stack.push(new Interval(previous.start, interval.end));
+                        intervals.push(new Interval(previous.start, interval.end));
                     } else { // previous interval encompasses the current interval, we just push it back
                         intervals.push(previous);
                     }
                 } else { // we do not have overlapping intervals, let's push it
+                    intervals.push(previous); // we want to make sure we put the previous back in.
                     intervals.push(interval);
                 }
             }
         });
+
+        System.out.println(intervals.size());
 
         busyTimes.clear(); // let's create a new merged busy times intervals
         while (!intervals.isEmpty()) {
@@ -52,7 +60,7 @@ class Solution {
 
         for (int i = 1; i < busyTimes.size(); i++) {
             if (busyTimes.get(i).start > busyTimes.get(i - 1).end) { // if the current interval start is > then previous interval end, we want to add it to the answer
-                freeTimes.add(busyTimes.get(new Interval(busyTimes.get(i - 1).end, busyTimes.get(i).start)));
+                freeTimes.add(new Interval(busyTimes.get(i - 1).end, busyTimes.get(i).start));
             }
         }
 
