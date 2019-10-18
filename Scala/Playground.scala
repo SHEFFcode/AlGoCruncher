@@ -1,6 +1,10 @@
-def partial(): Int => String = {
-  case x: Int if x < 10 => "Hello less than 10"
-  case _ => "I cannot handle that"
-}
+val result = for {
+  a <- List(1, 2, 3)
+  b <- List(3, 4, 5)
+} yield a * b
 
-println(partial()(20))
+val anotherResult = List(1, 2, 3).flatMap(itemFromList1 => List(3, 4, 5).map(itemFromList2 => itemFromList1 * itemFromList2))
+
+println(result)
+
+println(anotherResult)
