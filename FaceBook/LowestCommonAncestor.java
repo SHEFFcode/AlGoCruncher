@@ -37,8 +37,8 @@ class Solution {
         if (root.val == p.val || root.val == q.val)
             return root;
 
-        TreeNode l = lcaR(root.left, p, q);
-        TreeNode r = lcaR(root.right, p, q);
+        TreeNode l = lowestCommonAncestor(root.left, p, q);
+        TreeNode r = lowestCommonAncestor(root.right, p, q);
         if (l != null && r != null)
             return root;
         if (l != null)
