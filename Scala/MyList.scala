@@ -4,6 +4,7 @@ abstract class MyList[+A] {
   def isEmpty: Boolean
   def add[B >: A](element: B): MyList[B]
   def printElements: String
+  
   // polymorphic call
   override def toString: String = "[" + printElements + "]"
 

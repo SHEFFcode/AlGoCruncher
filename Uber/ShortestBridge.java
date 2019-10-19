@@ -1,79 +1,79 @@
-import java.util.List;
-import java.util.Set;
-
 class Solution {
     private int bridgeLength = 0;
+    private int[][] dirs = { { 1, 0 }, { -1, 0 }, { 0, 1 }, { 0, -1 } };
 
     public int shortestBridge(int[][] A) {
-        List<String> firstIsland = new ArrayList<>();
-        List<String> secondIsland = new ArrayList<>();
-        Set<String> secondIslandCoordinates = new HashSet<>();
-        Set<String> visited = new HashSet<>();
-        int islandCount = 0;
+        int rowCount = A.length, colCount = A[0].length;
+        boolean[][] visited = new boolean[row][col];
+        Queue<Coordinate> islandLands = tabulateIslandLands(A, visited);
 
-        List<String> currentIsland = firstIsland;
-        for (int i = 0; i < A.length; i++) {
-            for (int j = 0; j < A[0].length; j++) {
-                if (A[i][j] == 1 && !visited.containsKey("" + i + "," + j)) {
-                    createIsland(i, j, A, currentIsland);
-                    islandCount++; // we created an island.
-                    if (islandCount == 1) {
-                        currentIsland = secondIsland; // this will work because we know there are always 2 islands
-                    } else {
-                        throw new Exception("There are more then 2 islands!");
-                    }
+        // now let's expand the island in a BFS fashion to find second island
+        while (!islandLands.isEmpty()) {
+            // let's do BFS here
+            int size = islandLands.size();
+            for (int i = 0; i < size; i++) {
+                Coordinate current = islandLands.poll();
+                if (growIsland(coordinate, A, islandLands, visited)) {
+                    return bridgeLength;
+                }
+            }
+            bridgeLength++;
+        }
+
+        return 1; // we are guaranteed 2 islands, so the default answer will be 1, we could throw an error also
+    }
+
+    private Queue<Coordinate> tabulateIslandLands(int[][] islandMap, boolean[][] visited) {
+        Queue<Coordinate> islandLands = new ArrayDeque<>(); // ArrayDeque is faster as a queue then linked list
+        boolean found = false;
+
+        for (int i = 0; i < row; i++) {
+            for (int j = 0; j < col; j++) {
+                if (islandMap[i][j] == 1) {
+                    found = true;
+                    getFirstIsland(i, j, islandMap, islands, visited);
+                    return islandLands;
                 }
             }
         }
 
-        // let's make a map out of that second island.
-        secondIsland.forEach(coordinate -> secondIslandCoordinates.add(coordinate)); // this way we have O(1) retrieval
-
-        // we now have the two islands.  Let's try to grow from each of their points to reach the other
-        // TODO: Mathematically optimize this
-        firstIsland.forEach(landCoordinate -> {
-            growIsland(coordinate, A, secondIslandCoordinates, 0);
-        });
-
-        return bridgeLength;
+        return islandLands;
     }
 
-    private void growIsland(String coordinate, int[][] islands, Set<String> secondIslandCoordinates, int bridgeLength) {
-        if (secondIslandCoordinates.contains(coordinate)) {
+    private void getFirstIsland(int i, int j, int[][] islandMap, Queue<Coordinate> islandLands, boolean[][] visited) {
+        int row = islandMap.length, col = islandMap[0].length;
+        if (i < 0 || i >= row || j < 0 || j >= col || visited[i][j] == true) {
             return;
         }
 
-        String[] c = coordinate.split(",");
-        int i = Integer.parseInt(c[0]);
-        int j = Integer.parseInt(c[1]);
-
-        int prevI, nextI, prevJ, nextJ; // let's define these here and use them in the loops
-
-        if (prevI = i - 1 > -1 && islands[prevI][j] == 1) {
-            createIsland(prevI, j, islands, currentIsland);
-        } else if (nextI = i + 1 < islands.length && islands[nextI][j] == 1) {
-            createIsland(nextI, j, islands, currentIsland);
-        } else if (prevJ = j - 1 > -1 && islands[i][prevJ] == 1) {
-            createIsland(i, prevJ, islands, currentIsland);
-        } else if (nextJ = j + 1 < islands.length && islands[i][nextJ] == 1) {
-            createIsland(i, nextJ, islands, currentIsland);
+        islandLands.offer(new Coordinate(i, j)); // let's fill up our queue.
+        visited[i][j] = true;
+        for (int[] dir : dirs) {
+            int x = i + dir[0], y = j + dir[1];
+            getFirstIsland(x, y, islandMap, islandLands, visited);
         }
-
     }
 
-    private void createIsland(int i, int j, int[][] islands, List<String> currentIsland) {
-        currentIsland.add("" + i + "," + j); // add a new point
+    private boolean growIsland(Coordinate coordinate, int[][] A, Queue<Coordinate> islandLands, boolean[][] visited) {
+        for (int[] dir : dirs) {
+            int x = coordinate.x + dir[0], y = coordinate.y + dir[1];
+            if (x < 0 || x >= row || y < 0 || y >= col || visited[x][y])
+                continue;
+            if (A[x][y] == 1) {
+                return true;
+            }
+            visited[x][y] = true;
+            islandLands.offer(new Coordinate(x, y));
+        }
+    }
 
-        int prevI, nextI, prevJ, nextJ; // let's define these here and use them in the loops
+    private class Coordinate {
+        public int x;
+        public int y;
 
-        if (prevI = i - 1 > -1 && islands[prevI][j] == 1) {
-            createIsland(prevI, j, islands, currentIsland);
-        } else if (nextI = i + 1 < islands.length && islands[nextI][j] == 1) {
-            createIsland(nextI, j, islands, currentIsland);
-        } else if (prevJ = j - 1 > -1 && islands[i][prevJ] == 1) {
-            createIsland(i, prevJ, islands, currentIsland);
-        } else if (nextJ = j + 1 < islands.length && islands[i][nextJ] == 1) {
-            createIsland(i, nextJ, islands, currentIsland);
+        public Coordinate(int x, int y) {
+            this.x = x;
+            this.y = y;
         }
     }
 }
