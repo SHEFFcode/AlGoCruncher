@@ -57,3 +57,19 @@ class Solution {
  * We will also pass in a newRoot with a value of -1, that will signify that we have not set it yet,
  * and once we reach the leftmost node, we will set it's value as the new root.
  */
+
+/**
+ * Another solution
+ class Solution {
+   public TreeNode upsideDownBinaryTree(TreeNode root) {
+       if (root == null || root.left == null) return root;
+       
+       TreeNode newRoot = upsideDownBinaryTree(root.left);
+       root.left.left = root.right;
+       root.left.right = root;
+       root.left = null;
+       root.right = null;
+       return newRoot;
+   }
+}
+ */
