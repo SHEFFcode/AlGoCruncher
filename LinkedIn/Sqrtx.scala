@@ -1,11 +1,9 @@
-import scala.math.max
-
 object Solution {
     def mySqrt(x: Int): Int = {
         if (x < 2) return x
 
         val left = 2
-        val right = x / 2
+        val right = x
 
         doRecursion(left, right, x)
     }
@@ -14,11 +12,11 @@ object Solution {
         if (left > right) {
             right
         } else {
-            val pivot = left + (right - left) / 2
-            val candidate = pivot * pivot
-            if (candidate > goal) doRecursion(left, pivot - 1, goal)
-            else if (candidate < goal) doRecursion(pivot + 1, right, goal)
-            else pivot;
+            val mid = left + (right - left) / 2
+            val candidate: Long = mid.toLong * mid.toLong
+            if (candidate > goal) doRecursion(left, mid - 1, goal)
+            else if (candidate < goal) doRecursion(mid + 1, right, goal)
+            else mid;
         }
     }
 }
