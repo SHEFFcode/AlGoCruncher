@@ -44,16 +44,18 @@ object Solution {
         if(costs == null || costs.length == 0) {
             return 0
         }
+
+        val cache = costs.clone()
         
         for(i <- 1 to (costs.length - 1)) {
-            costs(i)(0) = costs(i)(0) + scala.math.min(costs(i-1)(1),costs(i-1)(2))
-            costs(i)(1) = costs(i)(1) + scala.math.min(costs(i-1)(0),costs(i-1)(2))
-            costs(i)(2) = costs(i)(2) + scala.math.min(costs(i-1)(0),costs(i-1)(1))
+            cache(i)(0) = costs(i)(0) + Math.min(cache(i - 1)(1), cache(i - 1)(2))
+            cache(i)(1) = costs(i)(1) + Math.min(cache(i - 1)(0), cache(i - 1)(2))
+            cache(i)(2) = costs(i)(2) + Math.min(cache(i - 1)(0), cache(i - 1)(1))
         }
 
         Math.min(
-            Math.min(costs(costs.length - 1)(0), costs(costs.length - 1)(1)),
-            costs(costs.length - 1)(2)
+            Math.min(cache(costs.length - 1)(0), cache(costs.length - 1)(1)),
+            cache(costs.length - 1)(2)
         )
     }
 }
