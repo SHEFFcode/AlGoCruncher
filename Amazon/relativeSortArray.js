@@ -6,7 +6,6 @@
 var relativeSortArray = function (arr1, arr2) {
   let output = []
   let endArr = []
-
   let cache = {}
 
   arr2.forEach((item) => {
@@ -25,13 +24,14 @@ var relativeSortArray = function (arr1, arr2) {
     }
   })
 
-  for (let i = 0; i < arr2.length; i++) {
-    let key = arr2[i]
-    if (cache[key]) {
-      let newArr = new Array(cache[key] - 1).fill(key)
-      output.push(...newArr)
+  arr2.forEach((item) => {
+    if (cache[item]) {
+      if (cache[item]) {
+        let newArr = new Array(cache[item] - 1).fill(item)
+        output.push(...newArr)
+      }
     }
-  }
+  })
 
   return output.concat(endArr.sort((a, b) => a - b))
 }
