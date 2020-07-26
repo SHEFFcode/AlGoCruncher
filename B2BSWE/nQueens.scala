@@ -50,10 +50,7 @@ object Solution {
         for (possibleColumn <- 0 until n) {
           memory(currentRow) = possibleColumn
           if (isValid(memory, currentRow) == true) {
-              val result = runSolver(memory, currentRow + 1, n)
-            if (result.size > 0) {
-                possibleSolutions = result
-            }
+              possibleSolutions = runSolver(memory, currentRow + 1, n)
           }
         }
         possibleSolutions
@@ -67,6 +64,6 @@ object Solution {
           return false
         }
       }
-        true
+      true
     }
 }
