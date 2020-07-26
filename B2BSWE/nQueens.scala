@@ -56,7 +56,7 @@ object Solution {
             }
           }
         }
-          possibleSolutions
+        possibleSolutions
       }
     }
 
