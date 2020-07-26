@@ -1,7 +1,11 @@
 object Solution extends App {
   def reverseInt(num: Int): Int = {
-    s"$num".reverse.toInt
+    if (num < 0) {
+      s"${Math.abs(num)}".reverse.toInt * -1
+    } else {
+      s"$num".reverse.toInt
+    }
   }
 
-  println(reverseInt(556))
+  println(reverseInt(-556))
 }
