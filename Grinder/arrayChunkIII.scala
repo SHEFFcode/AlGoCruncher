@@ -5,11 +5,11 @@ object Solution extends App {
     (0 until totalChunks).foreach(chunkIndex => {
       val adjustedIndex = chunkIndex * chunk
       val currArr = arr.slice(adjustedIndex, adjustedIndex + chunk)
-      
+
       result(chunkIndex) = currArr
     })
     result
   }
 
-  println(runtime.ScalaRunTime.stringOf(chunk(Array(1, 2, 3, 4, 5), 2)))
+  println(runtime.ScalaRunTime.stringOf(chunk(Array(1, 2, 3, 4), 10)))
 }
