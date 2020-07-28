@@ -41,3 +41,7 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/a
 2020.07.27 21:55:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.07.27 21:55:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/anagrams.scala
 2020.07.27 21:55:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/anagrams.scala
+2020.07.27 21:56:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/anagrams.scala
+Jul 27, 2020 9:57:56 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 356
+2020.07.27 21:57:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/anagrams.scala

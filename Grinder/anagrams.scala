@@ -1,10 +1,12 @@
 object Solution extends App {
   def anagrams(strA: String, strB: String): Boolean = {
-    val cleanA = strA.toLowerCase().replace("!", "")
-    val cleanB = strB.toLowerCase().replace("!", "")
+    val cleanA = strA.toLowerCase().replace("!", "").filter(!_.isWhitespace)
+    val cleanB = strB.toLowerCase().replace("!", "").filter(!_.isWhitespace)
 
     val hashA = cleanA.groupBy(identity)
     val hashB = cleanB.groupBy(identity)
+
+    println(runtime.ScalaRunTime.stringOf(hashA))
 
     hashA == hashB // scala implements == as equals for all u java folks
   }
