@@ -69,3 +69,16 @@ WARNING: Unmatched cancel notification for request id 356
 2020.07.28 08:18:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/steps.scala
 2020.07.28 08:18:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/steps.scala
 2020.07.28 08:18:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/steps.scala
+2020.07.28 08:29:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/steps.scala
+2020.07.28 08:30:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:30:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:32:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 08:32:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:33:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 08:33:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 08:33:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:34:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:34:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:34:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 08:34:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
+2020.07.28 08:36:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/starsII.scala
