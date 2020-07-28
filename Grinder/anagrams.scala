@@ -6,8 +6,6 @@ object Solution extends App {
     val hashA = cleanA.groupBy(identity)
     val hashB = cleanB.groupBy(identity)
 
-    println(runtime.ScalaRunTime.stringOf(hashA))
-
     hashA == hashB // scala implements == as equals for all u java folks
   }
 
