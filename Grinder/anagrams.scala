@@ -16,4 +16,4 @@ object Solution extends App {
 anagrams("rail safety", "fairy tales") => True
 anagrams("RAIL! SAFETY!", "fairy tales") => True
 anagrams("hi there", "Bye there!") => false
-*/
+ */
