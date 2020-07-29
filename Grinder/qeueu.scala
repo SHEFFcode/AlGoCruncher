@@ -2,7 +2,7 @@ import scala.collection.mutable
 
 object Solution extends App {
   case class Queue() {
-    val container = mutable.ArrayBuffer[Int]()
+    protected val container = mutable.ArrayBuffer[Int]()
     def enq(num: Int) = {
       container += num
       println(runtime.ScalaRunTime.stringOf(container))
@@ -20,7 +20,7 @@ object Solution extends App {
     }
   }
 
-  def runExample() = {
+  def runExample(): Queue = {
     val q = Queue()
     q.enq(2).enq(3).enq(4).deq()
   }
