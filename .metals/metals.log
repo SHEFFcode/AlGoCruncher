@@ -204,3 +204,110 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/f
 2020.07.28 19:16:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
 2020.07.28 19:16:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
 2020.07.28 19:16:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:24:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:26:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:26:13 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala:7: error: identifier expected but } found
+    }
+    ^
+2020.07.28 19:26:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:26:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:28:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:28:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:29:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:30:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:30:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:30:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:31:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:31:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:31:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:31:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+Jul 28, 2020 7:31:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:340)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:317)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:317)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Jul 28, 2020 7:31:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:340)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:317)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:317)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.07.28 19:31:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:32:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:32:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:32:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:32:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:32:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:32:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:33:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:33:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:33:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:33:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:34:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:38:52 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala:18: error: unclosed string interpolation
+      s"Queue(${runtime.ScalaRunTime.stringOf(container).substring(11, 11 + container.size)})
+                                                                                            ^
+2020.07.28 19:38:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:00 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala:18: error: ; expected but ) found
+      s"Queue(${runtime.ScalaRunTime.stringOf(container).substring(11, 11 + container.size)})")
+                                                                                              ^
+2020.07.28 19:39:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:39:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:40:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:40:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:40:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:40:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.28 19:41:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
