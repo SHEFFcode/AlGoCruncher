@@ -93,3 +93,82 @@ WARNING: Unmatched cancel notification for request id 356
 2020.07.28 09:47:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/pyramid.scala
 2020.07.28 09:47:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.07.28 09:47:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/pyramid.scala
+2020.07.28 18:23:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+Jul 28, 2020 6:23:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 3473
+2020.07.28 18:24:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:25:54 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala:4: error: illegal start of simple expression
+    str.reduce((acc, char) => )
+                              ^
+2020.07.28 18:25:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:25:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:26:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:27:18 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala:4: error: ) expected but else found
+    str.foldLeft(0) {(acc, char) => if (vowels.contains(char.toLower()) acc + 1 else acc)}
+                                                                                ^
+2020.07.28 18:27:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:27:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:27:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:27:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:28:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:28:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:28:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:28:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:28:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:28:33 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala:6: error: ) expected but else found
+      else acc
+      ^
+2020.07.28 18:28:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:28:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:28:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:29:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/isVowel.scala
+2020.07.28 18:32:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:32:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:33:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:37:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+Jul 28, 2020 6:40:07 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 28, 2020 6:40:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be cast to scala.reflect.internal.Types$OverloadedType
+	at scala.reflect.internal.Symbols$Symbol.alternatives(Symbols.scala:1980)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall.alternatives(SignatureHelpProvider.scala:148)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2(SignatureHelpProvider.scala:276)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$fromTree$2$adapted(SignatureHelpProvider.scala:275)
+	at scala.Option$WithFilter.$anonfun$withFilter$1(Option.scala:332)
+	at scala.Option$WithFilter.$anonfun$withFilter$1$adapted(Option.scala:332)
+	at scala.Option.filter(Option.scala:289)
+	at scala.Option$WithFilter.map(Option.scala:329)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:275)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.07.28 18:40:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:40:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:40:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:40:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:41:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:41:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:45:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:49:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:50:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:50:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:51:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:51:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:51:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:51:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:51:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:52:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:52:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:53:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:54:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:55:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:55:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:55:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:56:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:56:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:57:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:57:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:57:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 18:57:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 18:58:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 19:00:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
