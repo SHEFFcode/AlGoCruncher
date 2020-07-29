@@ -172,3 +172,35 @@ java.lang.ClassCastException: scala.reflect.internal.Types$PolyType cannot be ca
 2020.07.28 18:57:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.07.28 18:58:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
 2020.07.28 19:00:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/matrixSpirtal.scala
+2020.07.28 19:07:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:08:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:08:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:08:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:08:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:09:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:11:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:11:44 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala:9: error: ) expected but } found
+  }
+  ^
+2020.07.28 19:11:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:11:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:11:56 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala:9: error: ) expected but } found
+  }
+  ^
+2020.07.28 19:11:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:12:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:14:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:14:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:14:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:14:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:14:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala in scala.collection.mutable.HashMap[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala, 87, 95, 117)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala in scala.collection.mutable.HashMap[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala, 87, 95, 110)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala in scala.collection.mutable.HashMap[Int,String]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala, 87, 95, 115)
+2020.07.28 19:15:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:15:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.28 19:15:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:15:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:16:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:16:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
+2020.07.28 19:16:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/fibonacci.scala
