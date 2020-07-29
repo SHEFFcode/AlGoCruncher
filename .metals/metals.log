@@ -315,3 +315,13 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.07.28 19:42:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
 2020.07.28 19:42:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
 2020.07.28 19:42:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:45:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:45:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:45:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:45:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:45:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.29 08:46:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:47:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.29 08:47:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:47:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:47:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala

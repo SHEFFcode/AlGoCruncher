@@ -10,8 +10,13 @@ object Solution extends App {
     }
 
     def deq() = {
-      container.remove(0)
+      container.remove(container.size - 1)
       println(runtime.ScalaRunTime.stringOf(container))
+      this
+    }
+
+    def peek() = {
+      println(container(container.size - 1))
       this
     }
 
@@ -22,7 +27,7 @@ object Solution extends App {
 
   def runExample(): Queue = {
     val q = Queue()
-    q.enq(2).enq(3).enq(4).deq()
+    q.enq(2).enq(3).enq(4).peek().deq()
   }
 
   println((runExample()))
