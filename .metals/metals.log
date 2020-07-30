@@ -359,3 +359,18 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.07.30 07:37:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
 2020.07.30 07:37:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
 2020.07.30 07:37:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:12:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 09:15:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:17:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:18:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:19:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:19:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 385)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 378)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 379)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 378)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 378)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 371, 371, 378)
+2020.07.30 09:21:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:22:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 09:22:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
