@@ -325,3 +325,37 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.07.29 08:47:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
 2020.07.29 08:47:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
 2020.07.29 08:47:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/qeueu.scala
+2020.07.29 08:52:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:28:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 96, 96, 110)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala in Node[T]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala, 96, 96, 103)
+2020.07.30 07:32:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:32:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:35:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+Jul 30, 2020 7:35:21 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.07.30 07:35:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:35:21 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:35:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:36:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:37:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:37:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:37:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:37:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:37:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.30 07:37:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:37:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
+2020.07.30 07:37:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/linkedList.scala
