@@ -419,3 +419,14 @@ java.lang.NullPointerException
 2020.07.31 09:13:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.07.31 09:13:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
 2020.07.31 09:13:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:15:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:16:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:22:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:22:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:23:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala in scala.collection.mutable.LinkedList[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala, 95, 95, 324)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala in scala.collection.mutable.LinkedList[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala, 95, 95, 115)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala in scala.collection.mutable.LinkedList[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala, 95, 95, 110)
+2020.07.31 09:23:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:23:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
+2020.07.31 09:26:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/nSpacesFromEnd.scala
