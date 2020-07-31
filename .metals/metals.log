@@ -379,3 +379,43 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Grinder/l
 Jul 31, 2020 8:51:39 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
 WARNING: Unmatched cancel notification for request id 12280
 2020.07.31 08:51:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointOfLL.scala
+2020.07.31 08:52:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointII.scala
+2020.07.31 08:56:08 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointII.scala:6: error: illegal start of simple expression
+    }}
+    ^
+2020.07.31 08:56:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointII.scala
+2020.07.31 08:56:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 08:56:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 08:56:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 08:56:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointOfLL.scala
+2020.07.31 08:56:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:04:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+Jul 31, 2020 9:05:10 AM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Jul 31, 2020 9:05:10 AM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:23)
+
+2020.07.31 09:07:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:07:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:08:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:08:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:09:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:09:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:11:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:11:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:12:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:12:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointOfLL.scala
+2020.07.31 09:12:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/midpointOfLL.scala
+2020.07.31 09:13:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:13:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.07.31 09:13:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Grinder/circularLL.scala
+2020.07.31 09:13:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
