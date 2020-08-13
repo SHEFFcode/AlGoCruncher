@@ -11,4 +11,13 @@ case class Node(val data: Int, var children: ArrayBuffer[Node]) {
   def remove(data: Int) = {
     children = children.filter(_.data == data)
   }
+
+  def traverseBF(func: (Int) => Unit) = {
+    val holderArr = new ArrayBuffer[Node]()
+    while (holderArr.size) {}
+  }
+}
+
+object Solution extends App {
+  val tree = new Tree(new Node(5))
 }
