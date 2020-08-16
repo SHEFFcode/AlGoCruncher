@@ -523,3 +523,140 @@ scala.reflect.internal.FatalError: no context found for source-file:///Users/she
 2020.08.12 19:53:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/twoCityScheduling.scala
 2020.08.12 20:28:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.08.12 20:28:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/twoCityScheduling.scala
+2020.08.15 14:02:48 INFO  shutting down Metals
+2020.08.15 14:28:12 INFO  started: Metals version 0.9.2 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.08.15 14:28:12 INFO  time: initialize in 0.48s
+2020.08.15 14:28:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 14:28:13 INFO  no build target: using presentation compiler with only scala-library
+2020.08.15 14:28:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/twoCityScheduling.scala
+2020.08.15 14:28:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+Aug 15, 2020 2:28:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+Aug 15, 2020 2:28:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Aug 15, 2020 2:28:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8
+2020.08.15 14:28:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:29:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 2:29:58 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:29:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-3,offset=54
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-3,offset=54
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.08.15 14:30:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:31:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:32:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 2:32:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:32:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-2,offset=18
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-2,offset=18
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.08.15 14:32:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 2:32:16 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:32:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-10,offset=214
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-10,offset=214
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.08.15 14:34:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 2:34:31 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:34:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-22,offset=428
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-22,offset=428
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+Aug 15, 2020 2:34:32 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:34:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-22,offset=422
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-22,offset=422
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.08.15 14:38:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+Aug 15, 2020 2:42:17 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 927
+2020.08.15 14:50:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:50:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:50:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 14:50:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 2:50:42 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 2:50:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-31,offset=803
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-31,offset=803
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 987)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 980)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 973)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 975)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 975)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 965, 965, 975)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 996, 996, 1009)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 996, 996, 1002)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 996, 996, 1003)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[String]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 996, 996, 1007)
+2020.08.15 14:53:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[String]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 997, 997, 1008)
+2020.08.15 14:54:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 15:00:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 15:00:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Aug 15, 2020 3:00:05 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Aug 15, 2020 3:00:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-31,offset=807
+scala.reflect.internal.FatalError: no context found for source-file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala,line-31,offset=807
+	at scala.tools.nsc.interactive.CompilerControl.$anonfun$doLocateContext$1(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext(CompilerControl.scala:100)
+	at scala.tools.nsc.interactive.CompilerControl.doLocateContext$(CompilerControl.scala:99)
+	at scala.tools.nsc.interactive.Global.doLocateContext(Global.scala:113)
+	at scala.meta.internal.pc.PcDefinitionProvider.definitionTypedTreeAt(PcDefinitionProvider.scala:102)
+	at scala.meta.internal.pc.PcDefinitionProvider.definition(PcDefinitionProvider.scala:24)
+
+2020.08.15 15:03:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 15:03:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 15:03:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 15:03:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 15:03:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala in Set[String]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala, 1067, 1067, 1078)
+2020.08.15 15:52:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 18:42:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 18:49:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 18:54:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 18:54:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
