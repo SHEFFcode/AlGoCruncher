@@ -1,8 +1,10 @@
+import scala.annotation.tailrec
 object Solution extends App {
   def isSubsequence(s: String, t: String): Boolean = {
     val sLength = s.length
     var tLength = t.length
 
+    @tailrec
     def explore(sIndex: Int, tIndex: Int): Boolean = {
       if (sIndex == sLength) {
         return true // we found all the els of s in t
