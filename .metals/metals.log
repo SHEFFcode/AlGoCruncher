@@ -660,3 +660,22 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.15 18:49:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.08.15 18:54:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.08.15 18:54:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChange2.scala
+2020.08.15 18:55:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 18:55:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 18:56:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 18:59:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:00:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:00:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:00:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:00:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:01:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:01:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:03:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:03:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:06:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:06:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:06:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:06:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:06:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:07:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:07:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
