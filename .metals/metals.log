@@ -679,3 +679,52 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.15 19:06:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
 2020.08.15 19:07:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
 2020.08.15 19:07:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:13:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/coinChangeWArray.scala
+2020.08.15 19:19:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:19:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:19:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:19:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:19:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:24:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:24:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:24:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:25:09 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala:6: error: ; expected but ) found
+  if ((2 ^ i) == n) return true)
+                               ^
+2020.08.15 19:25:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:25:17 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala:6: error: ; expected but ) found
+  if ((2 ^ i) == n) result = true)
+                                 ^
+2020.08.15 19:25:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:25:48 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala:10: error: ) expected but } found
+  }
+  ^
+2020.08.15 19:25:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:25:58 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala:9: error: ) expected but } found
+  }
+  ^
+2020.08.15 19:25:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:26:25 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala:9: error: ) expected but } found
+  })
+  ^
+2020.08.15 19:26:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:26:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:31:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:31:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:31:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:31:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:36:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:36:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:37:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:37:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:37:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.15 19:37:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:37:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:37:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:37:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
+2020.08.15 19:38:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/powerOfTwo.scala
