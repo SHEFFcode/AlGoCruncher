@@ -22,17 +22,20 @@ object Solution extends App {
       }
 
       val costAtThisEdge = arg.costSoFar + arg.edge(2)
-      val flightsFromEdge = arg.flightMap(arg.edge(0))
+      val flightsFromEdge = arg.flightMap(arg.edge(1))
+      println(
+        s"flights from edge are ${scala.runtime.ScalaRunTime.stringOf(flightsFromEdge)}"
+      )
       val costOfFlights = flightsFromEdge.map(flight =>
         explorePath(
           Args(flight, arg.flightMap, arg.dst, arg.kRemain - 1, costAtThisEdge)
         )
       )
+      println(
+        s"Cost of flights at this stage is ${scala.runtime.ScalaRunTime.stringOf(costOfFlights)}"
+      )
       costOfFlights.min
     }
-
-    var lowestCost: Int = Int.MaxValue
-    var currentLowest: Int = 0
 
     val flightMap = flights.groupBy(_(0))
     val flightsFromSource = flightMap(src)
@@ -41,17 +44,9 @@ object Solution extends App {
     )
     val minCost = costs.min
     if (minCost == Int.MaxValue) -1 else minCost
-    println(minCost)
+    println(s"The mininmum cost is ${minCost}")
     minCost
   }
-
-  findCheapestPrice(
-    3,
-    Array(Array(0, 1, 100), Array(1, 2, 100), Array(0, 2, 500)),
-    0,
-    2,
-    2
-  )
 }
 
 /*
