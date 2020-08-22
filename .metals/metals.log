@@ -759,3 +759,82 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.15 20:06:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/isSubSequence.scala
 2020.08.15 20:07:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/isSubSequence.scala
 2020.08.15 20:07:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:28:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:39:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:39:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:39:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:41:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:41:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:41:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:43:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:52:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:53:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:53:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:53:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:53:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:53:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:54:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:54:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:55:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:55:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:55:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 15:55:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:55:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 15:55:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 187, 187, 202)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 187, 187, 195)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 187, 187, 197)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 187, 187, 197)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 187, 187, 197)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 228)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 221)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 223)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 222)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 221)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 221)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 222)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 224)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Map[Int,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 210, 210, 225)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 219, 219, 234)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 219, 219, 227)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 219, 219, 229)
+Aug 22, 2020 3:58:15 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7242
+2020.08.22 16:01:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:01:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:02:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:02:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:03:07 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala:16: error: identifier expected but _ found
+    def explorePath(_: Args): Int = {
+                    ^
+2020.08.22 16:03:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:03:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:08:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:08:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 16:08:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:09:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:10:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:10:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:11:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:11:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:12:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:12:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 16:12:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 16:12:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 236, 236, 246)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala, 236, 236, 246)
+2020.08.22 16:13:33 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala:12: error: ] expected but : found
+        dst: Int,
+           ^
+2020.08.22 16:13:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:13:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:13:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:15:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:15:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:16:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 16:17:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
