@@ -858,3 +858,18 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.22 19:49:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
 2020.08.22 19:54:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
 2020.08.22 19:56:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:59:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 19:59:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 20:42:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 20:43:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 20:45:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 20:47:17 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 20:47:17 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 20:47:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala, 43, 43, 53)
+2020.08.22 20:53:43 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala:14: error: ( expected but identifier found
+    if index 
+       ^
+2020.08.22 20:53:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 20:54:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 20:59:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
