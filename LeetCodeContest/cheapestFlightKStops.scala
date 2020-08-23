@@ -6,47 +6,67 @@ object Solution extends App {
       dst: Int,
       K: Int
   ): Int = {
-    case class Args(
+    def explorePath(
         edge: Array[Int],
         flightMap: Map[Int, Array[Array[Int]]],
         dst: Int,
         kRemain: Int,
         costSoFar: Int
-    )
-    def explorePath(arg: Args): Int = {
-      if (arg.kRemain < 1) {
+    ): Int = {
+      if (kRemain < 0) {
         return Int.MaxValue
       }
-      if (arg.edge(1) == arg.dst) {
-        return arg.costSoFar + arg.edge(2)
+      if (edge(1) == dst) {
+        return costSoFar + edge(2)
       }
 
-      val costAtThisEdge = arg.costSoFar + arg.edge(2)
-      val flightsFromEdge = arg.flightMap(arg.edge(1))
-      println(
-        s"flights from edge are ${scala.runtime.ScalaRunTime.stringOf(flightsFromEdge)}"
-      )
-      val costOfFlights = flightsFromEdge.map(flight =>
-        explorePath(
-          Args(flight, arg.flightMap, arg.dst, arg.kRemain - 1, costAtThisEdge)
+      val costAtThisEdge = costSoFar + edge(2)
+      if (flightMap.exists(_._1 == edge(1))) {
+        val flightsFromEdge = flightMap(edge(1))
+        println(
+          s"flights from edge are ${scala.runtime.ScalaRunTime.stringOf(flightsFromEdge)}"
         )
-      )
-      println(
-        s"Cost of flights at this stage is ${scala.runtime.ScalaRunTime.stringOf(costOfFlights)}"
-      )
-      costOfFlights.min
+        val costOfFlights = flightsFromEdge.map(flight =>
+          explorePath(
+            flight,
+            flightMap,
+            dst,
+            kRemain - 1,
+            costAtThisEdge
+          )
+        )
+        println(
+          s"Cost of flights at this stage is ${scala.runtime.ScalaRunTime.stringOf(costOfFlights)}"
+        )
+        costOfFlights.min
+      } else {
+        Int.MaxValue
+      }
+
     }
 
     val flightMap = flights.groupBy(_(0))
-    val flightsFromSource = flightMap(src)
-    val costs = flightsFromSource.map(flight =>
-      explorePath(Args(flight, flightMap, dst, kRemain = K, 0))
-    )
-    val minCost = costs.min
-    if (minCost == Int.MaxValue) -1 else minCost
-    println(s"The mininmum cost is ${minCost}")
-    minCost
+    if (flightMap.exists(_._1 == src)) {
+      val flightsFromSource = flightMap(src)
+      val costs = flightsFromSource.map(flight =>
+        explorePath(flight, flightMap, dst, kRemain = K, 0)
+      )
+      val minCost = costs.min
+      if (minCost == Int.MaxValue) -1 else minCost
+      println(s"The mininmum cost is ${minCost}")
+      minCost
+    } else {
+      -1
+    }
   }
+
+  findCheapestPrice(
+    3,
+    Array(Array(0, 1, 100), Array(1, 2, 100), Array(0, 2, 500)),
+    0,
+    2,
+    2
+  )
 }
 
 /*

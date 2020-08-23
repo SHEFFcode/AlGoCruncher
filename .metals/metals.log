@@ -847,3 +847,14 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.22 16:24:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
 2020.08.22 16:26:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
 2020.08.22 16:26:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 19:46:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:47:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:47:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 19:47:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:47:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.22 19:47:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:48:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:48:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:49:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:54:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
+2020.08.22 19:56:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/cheapestFlightKStops.scala
