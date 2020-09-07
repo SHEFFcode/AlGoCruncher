@@ -873,3 +873,78 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/LeetCodeC
 2020.08.22 20:53:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
 2020.08.22 20:54:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
 2020.08.22 20:59:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInsertPosition.scala
+2020.08.22 21:03:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+2020.08.22 21:03:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+2020.08.22 21:03:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+2020.08.27 18:50:49 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.08.27 18:50:51 INFO  time: initialize in 1.38s
+2020.08.27 18:50:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.27 18:50:54 INFO  no build target: using presentation compiler with only scala-library
+2020.08.27 19:28:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+2020.08.29 12:36:53 INFO  shutting down Metals
+2020.08.29 13:04:04 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.08.29 13:04:04 INFO  time: initialize in 0.51s
+2020.08.29 13:04:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.29 13:04:05 INFO  no build target: using presentation compiler with only scala-library
+2020.08.29 13:04:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+Aug 30, 2020 6:43:24 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2020.08.30 18:43:29 INFO  shutting down Metals
+2020.08.30 18:56:45 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.08.30 18:56:45 INFO  time: initialize in 0.39s
+2020.08.30 18:56:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.08.30 18:56:46 INFO  no build target: using presentation compiler with only scala-library
+2020.08.30 18:56:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/LeetCodeContest/searchInBinarySearchTree.scala
+2020.08.30 18:56:48 INFO  shutting down Metals
+2020.08.30 19:26:12 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.08.30 19:26:12 INFO  time: initialize in 0.37s
+2020.09.02 23:17:46 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+java.util.concurrent.RejectedExecutionException: Task scala.concurrent.impl.CallbackRunnable@d2d14c3 rejected from java.util.concurrent.ThreadPoolExecutor@6d64dabf[Shutting down, pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 1]
+	at java.util.concurrent.ThreadPoolExecutor$AbortPolicy.rejectedExecution(ThreadPoolExecutor.java:2063)
+	at java.util.concurrent.ThreadPoolExecutor.reject(ThreadPoolExecutor.java:830)
+	at java.util.concurrent.ThreadPoolExecutor.execute(ThreadPoolExecutor.java:1379)
+	at scala.concurrent.impl.ExecutionContextImpl$$anon$4.execute(ExecutionContextImpl.scala:138)
+	at scala.concurrent.impl.CallbackRunnable.executeWithValue(Promise.scala:72)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.$anonfun$tryComplete$1$adapted(Promise.scala:288)
+	at scala.concurrent.impl.Promise$DefaultPromise.tryComplete(Promise.scala:288)
+	at scala.concurrent.Promise.complete(Promise.scala:53)
+	at scala.concurrent.Promise.complete$(Promise.scala:52)
+	at scala.concurrent.impl.Promise$DefaultPromise.complete(Promise.scala:187)
+	at scala.concurrent.impl.Promise.$anonfun$transform$1(Promise.scala:33)
+	at scala.concurrent.impl.CallbackRunnable.run(Promise.scala:64)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2020.09.07 14:01:08 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.09.07 14:01:08 INFO  time: initialize in 0.43s
+2020.09.07 14:01:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:01:19 INFO  no build target: using presentation compiler with only scala-library
+2020.09.07 14:01:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:01:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:04:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:06:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:17:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:19:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:19:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:19:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:19:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:19:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:20:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:21:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:22:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:23:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:23:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:28:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:28:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:28:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:33:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:33:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:33:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:35:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:37:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:43:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:46:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:46:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 14:46:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
+2020.09.07 14:47:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicates.scala
