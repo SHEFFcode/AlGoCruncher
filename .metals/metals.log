@@ -1000,3 +1000,142 @@ WARNING: String index out of range: -1
 2020.09.07 17:37:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.09.07 17:37:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.09.07 17:37:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:40:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 17:40:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 17:40:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 17:41:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:41:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Sep 07, 2020 5:43:18 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Sep 07, 2020 5:43:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: 
+  Something is wrong: cannot find T in applied type Array
+   sought  T in Array
+ classSym  Array in scala
+  tparams  T in Array
+
+     while compiling: file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.12
+    compiler version: version 2.12.12
+  reconstructed args: -classpath /Users/sheffmachine/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Literal(Constant(()))
+       tree position: line 3 of file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+            tree tpe: <error>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     1 object Solution {
+     2   def productExceptSelf(nums: Array[Int]): Array[Int] = {
+     3     nums.foldLeft(new Array)
+     4   }
+     5 }
+     6 
+     7 /*
+scala.reflect.internal.FatalError: 
+  Something is wrong: cannot find T in applied type Array
+   sought  T in Array
+ classSym  Array in scala
+  tparams  T in Array
+
+     while compiling: file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+        during phase: globalPhase=<no phase>, enteringPhase=parser
+     library version: version 2.12.12
+    compiler version: version 2.12.12
+  reconstructed args: -classpath /Users/sheffmachine/Library/Caches/Coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.12/scala-library-2.12.12.jar -Ymacro-expand:discard -Ycache-plugin-class-loader:last-modified -Ypresentation-any-thread
+
+  last tree to typer: Literal(Constant(()))
+       tree position: line 3 of file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+            tree tpe: <error>
+              symbol: null
+           call site: <none> in <none>
+
+== Source file context for tree position ==
+
+     1 object Solution {
+     2   def productExceptSelf(nums: Array[Int]): Array[Int] = {
+     3     nums.foldLeft(new Array)
+     4   }
+     5 }
+     6 
+     7 /*
+	at scala.reflect.internal.Reporting.abort(Reporting.scala:68)
+	at scala.reflect.internal.Reporting.abort$(Reporting.scala:64)
+	at scala.reflect.internal.SymbolTable.abort(SymbolTable.scala:28)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.correspondingTypeArgument(TypeMaps.scala:596)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.loop$3(TypeMaps.scala:632)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.classParameterAsSeen(TypeMaps.scala:637)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:512)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:483)
+	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:123)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:513)
+	at scala.reflect.internal.tpe.TypeMaps$TypeMap.mapOver(TypeMaps.scala:138)
+	at scala.reflect.internal.tpe.TypeMaps$AsSeenFromMap.apply(TypeMaps.scala:513)
+	at scala.reflect.internal.Types$Type.asSeenFrom(Types.scala:704)
+	at scala.reflect.internal.Types$Type.computeMemberType(Types.scala:739)
+	at scala.reflect.internal.Symbols$MethodSymbol.typeAsMemberOf(Symbols.scala:3023)
+	at scala.reflect.internal.Types$Type.memberType(Types.scala:730)
+	at scala.tools.nsc.interactive.Global$Members.$anonfun$add$1(Global.scala:999)
+	at scala.tools.nsc.interactive.Global$OnTypeError.onTypeError(Global.scala:1358)
+	at scala.tools.nsc.interactive.Global$Members.add(Global.scala:999)
+	at scala.tools.nsc.interactive.Global.addTypeMember$1(Global.scala:1102)
+	at scala.tools.nsc.interactive.Global.$anonfun$typeMembers$5(Global.scala:1136)
+	at scala.tools.nsc.interactive.Global.$anonfun$typeMembers$5$adapted(Global.scala:1135)
+	at scala.reflect.internal.Scopes$Scope.foreach(Scopes.scala:418)
+	at scala.tools.nsc.interactive.Global.typeMembers(Global.scala:1135)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1228)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:376)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:374)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:199)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:310)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:340)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:317)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:317)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:304)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala, 48, 48, 58)
+2020.09.07 17:47:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:47:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:47:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 17:51:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:56:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:56:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:56:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:56:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:57:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Sep 07, 2020 5:57:47 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 8178
+2020.09.07 17:58:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:58:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 17:58:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 22:49:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:00:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:08:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:08:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:08:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:08:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:10:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:11:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:12:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.07 23:14:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:14:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/validPallindrome.scala
+2020.09.07 23:14:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:14:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:15:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/validPallindrome.scala
+2020.09.07 23:20:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
