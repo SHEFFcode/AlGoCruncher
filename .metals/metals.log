@@ -1139,3 +1139,232 @@ WARNING: Unmatched cancel notification for request id 8178
 2020.09.07 23:14:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.09.07 23:15:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/validPallindrome.scala
 2020.09.07 23:20:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.07 23:21:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.07 23:21:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.07 23:24:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.07 23:27:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.08 19:54:44 INFO  started: Metals version 0.9.3 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.09.08 19:54:46 INFO  time: initialize in 1.99s
+2020.09.08 19:54:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.08 19:54:50 INFO  no build target: using presentation compiler with only scala-library
+2020.09.08 19:54:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/productOfArrayExceptSelf.scala
+2020.09.08 19:54:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:02:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:04:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:06:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:24:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:24:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:24:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:24:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:24:18 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala:15: error: is not a valid block statement
+    def traverse(cNode: TreeNode, mainArr: ArrayBuffer, sideArray: ArrayBuffer)
+    ^
+2020.09.10 21:24:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:24:27 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala:15: error: is not a valid block statement
+    def traverse(cNode: TreeNode, mainArr: ArrayBuffer, sideArray: ArrayBuffer)
+    ^
+2020.09.10 21:24:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:28:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:29:03 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala:17: error: identifier expected but def found
+    def traverse(cNode: TreeNode, mainArr: ArrayBuffer, sideArray: ArrayBuffer) = {
+    ^
+2020.09.10 21:29:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:29:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:29:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:29:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:29:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:29:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:29:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 21:33:43 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala:24: error: illegal start of simple expression
+      }
+      ^
+2020.09.10 21:33:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 21:48:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+Sep 10, 2020 9:50:45 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:484)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep 10, 2020 9:50:45 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:484)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep 10, 2020 9:50:45 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:484)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.09.10 21:51:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Sep 10, 2020 9:51:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep 10, 2020 9:51:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+Sep 10, 2020 9:51:06 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:663)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:490)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:444)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+2020.09.10 21:57:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:01:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:04:31 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala:33: error: ) expected but } found
+    }
+    ^
+2020.09.10 22:04:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:05:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:17:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:18:17 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:18:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:18:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:18:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:18:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:19:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:21:21 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:21:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:21:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:21:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:22:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:22:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:23:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:24:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:24:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:24:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:24:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:24:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:25:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:25:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:25:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:25:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:25:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:25:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:25:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala, 558, 558, 579)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala, 570, 570, 591)
+2020.09.10 22:29:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
+2020.09.10 22:29:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:29:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala in scala.collection.mutable.ArrayBuffer[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala, 569, 569, 590)
+2020.09.10 22:29:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:29:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:29:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:30:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.09.10 22:30:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/maxWithdBinaryTree.scala
