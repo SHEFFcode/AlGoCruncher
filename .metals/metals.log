@@ -1587,3 +1587,117 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/u
 2020.10.05 21:31:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.05 21:31:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/uniqueEmailAddresses.scala
 2020.10.05 21:33:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/uniqueEmailAddresses.scala
+2020.10.06 08:48:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 08:48:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 08:49:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 08:50:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:03:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:07:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:08:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:09:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:09:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:10:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:11:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:11:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:11:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:11:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:12:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:12:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:12:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:12:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:12:10 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala:9: error: illegal start of simple expression
+  }
+  ^
+2020.10.06 09:12:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:15:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 328)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 321)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 322)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 323)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 323)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 313, 313, 323)
+2020.10.06 09:15:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:16:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:16:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:16:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:17:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:18:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:19:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 507, 507, 522)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 507, 507, 515)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 507, 507, 516)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 507, 507, 517)
+2020.10.06 09:19:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:20:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:20:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:20:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 626, 626, 641)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 626, 626, 634)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 626, 626, 636)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 626, 626, 636)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 626, 626, 636)
+2020.10.06 09:20:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala, 653, 653, 663)
+2020.10.06 09:24:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.06 09:24:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.06 09:26:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+Oct 07, 2020 9:20:13 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 10764
+2020.10.07 09:20:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 09:20:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 09:29:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 12:50:16 INFO  shutting down Metals
+2020.10.07 13:08:48 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.10.07 13:08:52 INFO  time: initialize in 3.9s
+2020.10.07 13:08:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 13:08:57 INFO  no build target: using presentation compiler with only scala-library
+2020.10.07 13:08:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 18:58:57 INFO  shutting down Metals
+2020.10.07 21:03:31 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.10.07 21:03:31 INFO  time: initialize in 0.36s
+2020.10.07 21:03:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:03:33 INFO  no build target: using presentation compiler with only scala-library
+2020.10.07 21:03:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:08:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:09:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 07, 2020 9:12:40 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1058
+2020.10.07 21:13:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:15:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:15:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:16:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:16:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:16:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:17:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:21:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:21:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:21:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:21:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:21:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:22:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:22:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:22:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:22:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:23:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:17 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:25:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:25:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.07 21:26:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.07 21:26:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
