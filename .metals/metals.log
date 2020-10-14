@@ -2070,3 +2070,8 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -14
 	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:273)
 	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
 
+2020.10.13 20:04:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.13 20:24:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.13 20:25:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.13 20:25:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.13 20:25:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

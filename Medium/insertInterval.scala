@@ -18,7 +18,13 @@ object Solution {
           return mergeIntervals(intervals, idx)
         } else {
           // TODO: handle [[1,5]] || [0,0] case
-          return newInterval +: intervals
+          if (newInterval(END_TIME) > intervals(idx)(END_TIME)) {
+            // Absorb
+            intervals(idx)(START_TIME) = newInterval(START_TIME)
+            intervals(idx)(END_TIME) = newInterval(END_TIME)
+            return mergeIntervals(intervals, idx)
+          }
+          return mergeIntervals(newInterval +: intervals, idx)
         }
       }
     }
@@ -91,12 +97,17 @@ Ex2:
 Ex3:
 [[1,5]] || [0,0] => [[0,0],[1,5]]
 
+Ex4:
+
+[[1,5]] || [0,6] => [[0,6],[1,5]]
+
+
 
 Steps:
 1) Find an interval where newInterval[START_TIME] <= existingInterval[END_TIME]
   - If we cannot find just an interval, just append the interval to the end of the array
   if (newInterval[START_TIME] >= existingInterval[START_TIME]) do below,
-  If not, prepend
+  If not, prepend or absorb
 2) Modify the end time and start time of the existing interval as follows:
   - Make currentInterval[END_TIME] = newInterval[END_TIME]
 3) Merge Intervals:
