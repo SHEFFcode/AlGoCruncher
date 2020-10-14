@@ -7,15 +7,19 @@ object Solution {
   ): Array[Array[Int]] = {
     for (idx <- 0 until intervals.length) {
       if (newInterval(START_TIME) <= intervals(idx)(END_TIME)) {
-        // TODO: handle [[1,5]] || [0,0] case
-        // if we find an insertion interval, let's do the insertion
-        val smallerStart =
-          math.min(intervals(idx)(START_TIME), newInterval(START_TIME))
-        val biggestEnd =
-          math.max(intervals(idx)(END_TIME), newInterval(END_TIME))
-        intervals(idx)(START_TIME) = smallerStart // update start time
-        intervals(idx)(END_TIME) = biggestEnd // update end time
-        return mergeIntervals(intervals, idx)
+        if (newInterval(START_TIME) >= intervals(idx)(START_TIME)) {
+          // if we find an insertion interval, let's do the insertion
+          val smallerStart =
+            math.min(intervals(idx)(START_TIME), newInterval(START_TIME))
+          val biggestEnd =
+            math.max(intervals(idx)(END_TIME), newInterval(END_TIME))
+          intervals(idx)(START_TIME) = smallerStart // update start time
+          intervals(idx)(END_TIME) = biggestEnd // update end time
+          return mergeIntervals(intervals, idx)
+        } else {
+          // TODO: handle [[1,5]] || [0,0] case
+          return newInterval +: intervals
+        }
       }
     }
     // append the new interval
@@ -84,10 +88,15 @@ Ex2:
 [[1,2],[3,8],[6,7],[7,10],[12,16]]
 
 
+Ex3:
+[[1,5]] || [0,0] => [[0,0],[1,5]]
+
 
 Steps:
 1) Find an interval where newInterval[START_TIME] <= existingInterval[END_TIME]
   - If we cannot find just an interval, just append the interval to the end of the array
+  if (newInterval[START_TIME] >= existingInterval[START_TIME]) do below,
+  If not, prepend
 2) Modify the end time and start time of the existing interval as follows:
   - Make currentInterval[END_TIME] = newInterval[END_TIME]
 3) Merge Intervals:
