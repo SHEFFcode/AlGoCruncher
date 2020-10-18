@@ -2075,3 +2075,223 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -14
 2020.10.13 20:25:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
 2020.10.13 20:25:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.13 20:25:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.13 21:09:42 INFO  shutting down Metals
+2020.10.17 12:16:16 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.10.17 12:16:18 INFO  time: initialize in 1.9s
+2020.10.17 12:16:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.17 12:16:21 INFO  no build target: using presentation compiler with only scala-library
+2020.10.17 12:16:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+Oct 17, 2020 12:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 17, 2020 12:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 6
+Oct 17, 2020 12:16:21 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.10.17 12:16:21 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:60: error: } expected but end of file found
+
+^
+2020.10.17 12:16:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:21:50 INFO  shutting down Metals
+2020.10.18 13:25:00 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.10.18 13:25:01 INFO  time: initialize in 0.36s
+2020.10.18 13:25:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:25:03 INFO  no build target: using presentation compiler with only scala-library
+2020.10.18 13:25:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+Oct 18, 2020 1:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 2
+Oct 18, 2020 1:25:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 4
+2020.10.18 13:25:46 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:49: error: } expected but end of file found
+
+^
+2020.10.18 13:25:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+Oct 18, 2020 1:26:08 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 163
+2020.10.18 13:27:11 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:56: error: } expected but end of file found
+
+^
+2020.10.18 13:27:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:27:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:27:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:27:57 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:56: error: } expected but end of file found
+
+^
+2020.10.18 13:27:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:27:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:31:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:31:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:31:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:31:33 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:18: error: illegal start of simple expression
+        if ()
+            ^
+2020.10.18 13:31:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:32:39 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:66: error: } expected but end of file found
+
+^
+2020.10.18 13:32:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:34:12 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:68: error: } expected but end of file found
+
+^
+2020.10.18 13:34:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 13:53:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:53:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:54:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:54:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:54:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 13:55:11 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:70: error: } expected but end of file found
+
+^
+2020.10.18 13:55:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:14:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:14:55 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:15:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:18:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:18:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:18:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:18:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:18:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:18:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:18:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:20:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:20:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:28:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:28:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:28:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:28:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:30:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:31:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:31:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:31:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:31:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:31:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:32:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:35:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:35:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:38:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:42:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 18, 2020 2:46:50 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.10.18 14:46:55 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:48:30 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:65: error: } expected but end of file found
+
+^
+2020.10.18 14:48:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:49:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:51:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:51:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:52:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:52:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 14:52:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:53:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:55:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:55:25 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:12: error: } expected but end of file found
+
+^
+2020.10.18 14:55:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 14:55:30 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:11: error: } expected but end of file found
+
+^
+2020.10.18 14:55:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala, 185, 185, 200)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala, 185, 185, 193)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala, 185, 185, 195)
+Oct 18, 2020 2:56:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Oct 18, 2020 2:56:23 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Oct 18, 2020 2:56:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Oct 18, 2020 2:56:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.$anonfun$baseParams$1(ArgCompletions.scala:26)
+	at scala.Option.getOrElse(Option.scala:189)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams$lzycompute(ArgCompletions.scala:26)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.baseParams(ArgCompletions.scala:22)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams$lzycompute(ArgCompletions.scala:40)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.allParams(ArgCompletions.scala:39)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params$lzycompute(ArgCompletions.scala:46)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.params(ArgCompletions.scala:45)
+	at scala.meta.internal.pc.completions.ArgCompletions$ArgCompletion.contribute(ArgCompletions.scala:157)
+	at scala.meta.internal.pc.CompletionProvider.expected$1(CompletionProvider.scala:387)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:466)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+
+Oct 18, 2020 2:57:12 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Oct 18, 2020 2:59:13 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+Oct 18, 2020 2:59:13 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2020.10.18 15:00:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:00:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:00:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:00:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:02:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:02:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala, 780, 780, 790)
+2020.10.18 15:14:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:15:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:15:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:15:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:15:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:16:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:17:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:17:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:17:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:17:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:17:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:17:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:18:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:18:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:52 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala:40: error: identifier expected but ( found
+            cInterval.(START_TIME) > nextNextInterval(END_TIME)
+                      ^
+2020.10.18 15:18:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:18:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:18:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:19:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:19:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:19:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:19:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:19:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:19:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:21:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+Oct 18, 2020 3:22:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7797
+Oct 18, 2020 3:22:09 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 7799
+2020.10.18 15:22:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:22:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:23:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:23:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:23:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:23:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:23:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.18 15:23:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
+2020.10.18 15:24:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/insertInterval.scala
