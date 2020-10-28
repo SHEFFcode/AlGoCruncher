@@ -2938,3 +2938,5 @@ WARNING: Unmatched cancel notification for request id 14884
 2020.10.27 21:10:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
 2020.10.27 21:11:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.27 21:18:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:16:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicatesSortedArr.scala
+2020.10.28 09:16:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicatesSortedArr.scala
