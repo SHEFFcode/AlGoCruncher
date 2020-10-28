@@ -1,38 +1,38 @@
 import scala.collection.mutable
 object Solution extends App {
   def minSubarray(nums: Array[Int], p: Int): Int = {
-    val sum: Int = nums.sum
-    val remainder: Int = sum % p
-
-    remainder match {
+    val mod = nums.foldLeft(0)((cMod, num) => (cMod + num) % p)
+    var minAns = nums.length
+    mod match {
       case 0 => 0
       case _ => {
         val brain = mutable.HashMap(0 -> -1)
-        // min can't be n, since we cannot exclude all nums
-        val min = nums.length
-        val posResult = nums.zipWithIndex.foldLeft((brain, min, 0)) {
-          (acc, numWithIndex) =>
-            {
-              val (num, idx) = numWithIndex
-              val (brain, min, prefixSum) = acc
-
-              val cSum = prefixSum + num
-              val key = (cSum % p - remainder) % p
-              var res = min
-
-              if (brain.contains(key)) {
-                res = math.min(min, idx - brain(key))
-              }
-              brain(cSum % p) = idx
-              (brain, res, cSum)
+        nums.zipWithIndex.foldLeft(0, brain) { (modWithBrain, numWithIndex) =>
+          {
+            val (runningMod, brain) = modWithBrain
+            val (num, i) = numWithIndex
+            val modAtIdx = (runningMod + num) % p
+            val compliment = (p - mod + modAtIdx) % p
+            println(
+              s"p is $p, mod is $mod, modAtIdx is $modAtIdx, compliment is $compliment, brain is ${scala.runtime.ScalaRunTime
+                .stringOf(brain)}"
+            )
+            if (brain.contains(compliment)) {
+              println(
+                s"compliment is ${compliment}, i is ${i}, position of compliment is ${brain(compliment)}"
+              )
+              minAns = math.min(minAns, i - brain(compliment))
             }
+            brain(modAtIdx) = i
+            (modAtIdx, brain)
+          }
         }
 
-        if (posResult._2 < min) posResult._2 else -1
+        if (minAns < nums.length) minAns else -1
       }
     }
   }
-  println(minSubarray(Array(6, 3, 5, 2), 9))
+  println(minSubarray(Array(3, 1, 4, 2), 6))
 }
 
 /*
@@ -91,41 +91,9 @@ diff = 0
  *
        #
 
-
-1) Set up two pointers, slow and fast
-  - Calculate 3 items: fast, slow and diff
-  - If either of those is the number you are looking for, you are done
-  - if not
-    - if max is too low, move fast forward
-    - If diff is too high, move slow forward
-    - If diff is too low, move fast forward
-2) Once u find the value, calculate fast - slow
-
-
-[16, 10,  7,  2]
-
-[ 6 , 3 , 5 , 2 ], p = 9
- *
-
-
-
-
-EX:3
-Input: nums = [1,2,3], p = 3
-Output: 0
-Explanation: Here the sum is 6. which is already divisible by 3. Thus we do not need to remove anything.
-
-REMAINDER IS 0, so no more work needed
-[ 1 , 2 , 3 ] P = 3
-
-Ex:4
-Input: nums = [1,2,3], p = 7
-Output: -1
-Explanation: There is no way to remove a subarray in order to get a sum divisible by 7.
-
-1+2+3 = 6 if p > sum, return -1
-
-[ 1 , 2 , 3 ] p = 7
- *
+The key here is to keep track of index sum, such that:
+ * Mod of (Mod of all numbers up to this one + this one) is mapped to current index
+ * A compliment is seeked at each step of the way such that:
+ *  Divisor - total remainder + running remainder is 0
 
  */
