@@ -1,57 +1,82 @@
-import scala.collection.mutable
 object Solution extends App {
   def minFallingPathSum(A: Array[Array[Int]]): Int = {
-    val brain = mutable.HashMap[String, Int]()
-    A(0).zipWithIndex.foldLeft(Int.MaxValue) { (gMin, itemIndex) =>
-      {
-        val (item, index) = itemIndex
-        val arr = Array.fill(A.length)(0)
-        arr(index) = item
-        val cMin = traverse(A, 0, index, arr, brain)
-        math.min(gMin, cMin)
+    val dim = A.length
+    val brain = A.clone()
+
+    for (row <- 1 until dim) {
+      for (col <- 0 until dim) {
+        if (col == 0) {
+          brain(row)(col) += math.min(A(row - 1)(col), A(row - 1)(col + 1))
+        } else if (col == dim - 1) {
+          brain(row)(col) += math.min(A(row - 1)(col), A(row - 1)(col - 1))
+        } else {
+          brain(row)(col) += A(row - 1)(col - 1) min A(row - 1)(col) min A(
+            row - 1
+          )(col + 1)
+        }
       }
     }
-  }
 
-  def traverse(
-      A: Array[Array[Int]],
-      currentRow: Int,
-      currentCol: Int,
-      soFar: Array[Int],
-      brain: mutable.HashMap[String, Int]
-  ): Int = {
-    val key = s"${soFar.mkString(",")}"
-    if (brain.contains(key)) {
-      println(s"taking from the brain ${key}")
-      brain(key)
-    } else if (
-      currentRow < A.length && (currentCol > -1 && currentCol < A(0).length)
-    ) {
-      soFar(currentRow) = A(currentRow)(currentCol)
-      val res = math.min(
-        math.min(
-          traverse(A, currentRow + 1, currentCol - 1, soFar.clone(), brain),
-          traverse(A, currentRow + 1, currentCol, soFar.clone(), brain)
-        ),
-        traverse(A, currentRow + 1, currentCol + 1, soFar.clone(), brain)
-      )
-      // brain(key) = res
-      res
-    } else if (currentRow == A.length) {
-      println(soFar.mkString(","))
-      brain(key) = soFar.sum
-      soFar.sum
-    } else {
-      Int.MaxValue
-    }
+    brain(dim - 1).min
   }
-
-  println(
-    minFallingPathSum(
-      Array(Array(-80, -13, 22), Array(83, 94, -5), Array(73, -48, 61))
-    )
-  )
 }
+
+/*================= My Original Solution =======================*/
+
+// import scala.collection.mutable
+// object Solution extends App {
+//   def minFallingPathSum(A: Array[Array[Int]]): Int = {
+//     val brain = mutable.HashMap[String, Int]()
+//     A(0).zipWithIndex.foldLeft(Int.MaxValue) { (gMin, itemIndex) =>
+//       {
+//         val (item, index) = itemIndex
+//         val arr = Array.fill(A.length)(0)
+//         arr(index) = item
+//         val cMin = traverse(A, 0, index, arr, brain)
+//         math.min(gMin, cMin)
+//       }
+//     }
+//   }
+
+//   def traverse(
+//       A: Array[Array[Int]],
+//       currentRow: Int,
+//       currentCol: Int,
+//       soFar: Array[Int],
+//       brain: mutable.HashMap[String, Int]
+//   ): Int = {
+//     val key = s"${soFar.mkString(",")}"
+//     if (brain.contains(key)) {
+//       println(s"taking from the brain ${key}")
+//       brain(key)
+//     } else if (
+//       currentRow < A.length && (currentCol > -1 && currentCol < A(0).length)
+//     ) {
+//       soFar(currentRow) = A(currentRow)(currentCol)
+//       val res = math.min(
+//         math.min(
+//           traverse(A, currentRow + 1, currentCol - 1, soFar.clone(), brain),
+//           traverse(A, currentRow + 1, currentCol, soFar.clone(), brain)
+//         ),
+//         traverse(A, currentRow + 1, currentCol + 1, soFar.clone(), brain)
+//       )
+//       // brain(key) = res
+//       res
+//     } else if (currentRow == A.length) {
+//       println(soFar.mkString(","))
+//       brain(key) = soFar.sum
+//       soFar.sum
+//     } else {
+//       Int.MaxValue
+//     }
+//   }
+
+//   println(
+//     minFallingPathSum(
+//       Array(Array(-80, -13, 22), Array(83, 94, -5), Array(73, -48, 61))
+//     )
+//   )
+// }
 /*
 G: squareArray: Array[Array[Int]]
 O: minimumSum: Int
