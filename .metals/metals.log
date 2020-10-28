@@ -2902,3 +2902,39 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/mi
 2020.10.27 20:38:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minimumFallingPathSum.scala
 2020.10.27 20:38:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.27 20:41:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minimumFallingPathSum.scala
+2020.10.27 20:48:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 20:48:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 20:49:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Oct 27, 2020 8:52:03 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14884
+2020.10.27 20:52:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:00:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minimumFallingPathSum.scala
+2020.10.27 21:05:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:06:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:06:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:06:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:06:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:06:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:06:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:07:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:07:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:07:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:07:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:07:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:08:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:09:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:09:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:09:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:09:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:09:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:10:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:10:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:10:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:10:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Hard/minFallingSumII.scala
+2020.10.27 21:11:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.27 21:18:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
