@@ -1,6 +1,14 @@
 import scala.collection.mutable
 object Solution extends App {
   def groupAnagrams(strs: Array[String]): List[List[String]] = {
+    strs.groupBy(_.sorted).values.map(_.toList).toList
+  }
+}
+
+/*
+object Solution extends App {
+
+    def groupAnagrams(strs: Array[String]): List[List[String]] = {
     val brain = mutable.HashMap[String, List[String]]()
     strs.foldLeft(brain) { (acc, str) =>
       {
@@ -18,13 +26,6 @@ object Solution extends App {
   }
 
   println(groupAnagrams(Array("eat", "tea", "tan", "ate", "nat", "bat")))
-}
-
-/*
-object Solution extends App {
-  def groupAnagrams(strs: Array[String]): List[List[String]] = {
-    strs.groupBy(_.sorted).values.map(_.toList).toList
-  }
 }
  */
 
