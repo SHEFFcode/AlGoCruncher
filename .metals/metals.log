@@ -2940,3 +2940,256 @@ WARNING: Unmatched cancel notification for request id 14884
 2020.10.27 21:18:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.28 09:16:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicatesSortedArr.scala
 2020.10.28 09:16:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/removeDuplicatesSortedArr.scala
+2020.10.28 09:17:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:17:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:19:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:19:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:20:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:20:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:24:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:24:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:27:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:28:04 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:5: error: illegal start of simple expression
+  }
+  ^
+2020.10.28 09:28:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:29:04 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:10: error: illegal start of simple expression
+        if ()
+            ^
+2020.10.28 09:29:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:29:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:30:52 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:13: error: ; expected but = found
+          (nums(i), nums(j)) = (nums(j), nums(i))
+                             ^
+2020.10.28 09:30:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:33:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:33:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:33:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:33:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:33:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:34:13 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:23: error: ) expected but } found
+}
+^
+2020.10.28 09:34:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:34:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:34:56 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:5: error: ; expected but ) found
+      return ())
+               ^
+2020.10.28 09:34:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:34:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:34:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:36:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+Oct 28, 2020 9:36:52 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 17915
+2020.10.28 09:36:54 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:20: error: ; expected but ) found
+    ())
+      ^
+2020.10.28 09:36:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:36:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:37:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+Oct 28, 2020 9:37:29 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.10.28 09:37:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:37:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:37:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:37:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:37:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:37:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:37:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:38:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:38:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:39:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:40:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:40:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:40:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:40:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:40:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:41:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:41:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:41:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 09:41:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:41:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:41:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:41:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 09:41:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:18:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:18:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:18:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:18:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 407, 407, 422)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 407, 407, 416)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 407, 407, 417)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 407, 407, 417)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 407, 407, 417)
+2020.10.28 19:20:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:20:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:20:48 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:24: error: illegal start of simple expression
+    }
+    ^
+2020.10.28 19:20:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:22:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:22:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+Oct 28, 2020 7:23:21 PM scala.meta.internal.pc.CompilerAccess retryWithCleanCompiler
+INFO: compiler crashed due to an error in the Scala compiler, retrying with new compiler instance.
+Oct 28, 2020 7:23:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: null
+java.lang.NullPointerException
+	at scala.reflect.internal.Definitions$DefinitionsClass.isByNameParamType(Definitions.scala:417)
+	at scala.reflect.internal.TreeInfo.isStableIdent(TreeInfo.scala:138)
+	at scala.reflect.internal.TreeInfo.isStableIdentifier(TreeInfo.scala:113)
+	at scala.reflect.internal.TreeInfo.isPath(TreeInfo.scala:102)
+	at scala.reflect.internal.TreeInfo.admitsTypeSelection(TreeInfo.scala:156)
+	at scala.tools.nsc.interactive.Global.stabilizedType(Global.scala:959)
+	at scala.tools.nsc.interactive.Global.typedTreeAt(Global.scala:807)
+	at scala.meta.internal.pc.HoverProvider.typedHoverTreeAt(HoverProvider.scala:239)
+	at scala.meta.internal.pc.HoverProvider.hover(HoverProvider.scala:26)
+
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 681, 681, 692)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 681, 681, 693)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 681, 681, 695)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 694, 694, 709)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 694, 694, 704)
+2020.10.28 19:24:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:24:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:24:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:25:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:25:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:26:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:26:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:26:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 393, 393, 403)
+2020.10.28 19:34:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:34:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:35:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:35:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:35:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:35:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:35:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:36:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:36:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:37:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:37:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:37:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:38:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:38:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:39:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:39:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:39:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:39:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:39:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:39:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:40:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:40:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:40:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:41:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:43:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 1001, 1001, 1011)
+2020.10.28 19:44:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 984, 984, 994)
+2020.10.28 19:44:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:45:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:46:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:53:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:53:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 19:55:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:56:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 219)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 212)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 213)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 214)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 214)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 214)
+2020.10.28 19:57:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:57:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:57:58 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:10: error: illegal start of simple expression
+  }
+  ^
+2020.10.28 19:57:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:57:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 204, 204, 214)
+2020.10.28 19:58:13 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:11: error: illegal start of simple expression
+  }
+  ^
+2020.10.28 19:58:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:58:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:58:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:58:18 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:11: error: illegal start of simple expression
+  }
+  ^
+2020.10.28 19:58:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:58:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:58:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 19:58:24 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala:12: error: illegal start of simple expression
+  }
+  ^
+2020.10.28 19:58:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 19:59:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 389)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 382)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 383)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 384)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 384)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 384)
+2020.10.28 20:01:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:02:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 374, 374, 384)
+2020.10.28 20:02:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:03:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:04:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:06:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:07:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:07:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 570, 570, 580)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 807, 807, 822)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 807, 807, 815)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 807, 807, 817)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 807, 807, 817)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 807, 807, 817)
+2020.10.28 20:09:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:10:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:10:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:10:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:10:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 644, 644, 654)
+2020.10.28 20:12:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 644, 644, 654)
+2020.10.28 20:17:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:18:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:19:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:19:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:19:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+Oct 28, 2020 8:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23836
+Oct 28, 2020 8:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23835
+Oct 28, 2020 8:19:42 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 23837
+2020.10.28 20:19:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:19:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:19:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:20:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:23:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:23:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 624, 624, 634)
+2020.10.28 20:24:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:24:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:25:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:25:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:25:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:28:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:28:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:29:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:29:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:29:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:30:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala, 248, 248, 258)
+2020.10.28 20:30:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:37:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:37:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 20:39:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
+2020.10.28 20:42:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/nextPermutation.scala
