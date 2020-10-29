@@ -3229,3 +3229,28 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/
 2020.10.28 21:11:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
 2020.10.28 21:12:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.28 21:12:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:13:58 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala:10: error: expected class or object definition
+  println(groupAnagrams(Array("eat", "tea", "tan", "ate", "nat", "bat")))
+  ^
+2020.10.28 21:13:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:13:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:14:02 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala:8: error: expected class or object definition
+  println(groupAnagrams(Array("eat", "tea", "tan", "ate", "nat", "bat")))
+  ^
+2020.10.28 21:14:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:14:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:14:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:15:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:15:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:15:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:15:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:15:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:16:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:16:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:17:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:17:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:17:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:17:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:17:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.28 21:17:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.28 21:17:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala

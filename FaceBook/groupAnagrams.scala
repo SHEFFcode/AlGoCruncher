@@ -21,6 +21,14 @@ object Solution extends App {
 }
 
 /*
+object Solution extends App {
+  def groupAnagrams(strs: Array[String]): List[List[String]] = {
+    strs.groupBy(_.sorted).values.map(_.toList).toList
+  }
+}
+ */
+
+/*
 G: strings: Array[String]
 O: groupedAnagrams: List[List[String]]
 T: O(Nk) where k is the average length of each word
