@@ -3258,3 +3258,87 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/
 2020.10.28 21:18:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.28 21:18:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.28 21:18:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/groupAnagrams.scala
+2020.10.30 08:57:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 08:57:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:05:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:05:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:08:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:09:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:13:36 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala:9: error: illegal start of simple pattern
+      }}
+      ^
+2020.10.30 09:13:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:15:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:16:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:16:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:16:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:16:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:17:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:17:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:20:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:20:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:20:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:21:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:21:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:21:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:21:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:21:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:21:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:22:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:22:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:22:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:22:41 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala:9: error: = expected but } found
+        }
+        ^
+2020.10.30 09:22:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:22:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:22:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:23:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:23:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:23:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:23:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:23:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:24:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:24:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:25:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:25:31 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala:6: error: illegal start of simple expression
+        (count + countUniqDigitsCurrN, )
+                                       ^
+2020.10.30 09:25:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:25:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:25:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:25:38 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala:6: error: illegal start of simple expression
+        (count + countCurrN, )
+                             ^
+2020.10.30 09:25:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:25:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:26:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:26:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:26:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:26:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:26:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:27:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:29:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:31:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:32:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:32:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:32:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:32:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:32:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:33:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:33:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:33:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:33:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:34:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:34:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:36:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:37:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:37:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:37:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:37:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:37:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:38:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:38:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:38:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.30 09:38:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.30 09:38:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
