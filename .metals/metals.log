@@ -3342,3 +3342,417 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/
 2020.10.30 09:38:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
 2020.10.30 09:38:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.10.30 09:38:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/countNumsWithUniqDigits.scala
+2020.10.31 13:07:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 13:08:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 13:11:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 13:11:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 13:18:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 13:57:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:08:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:08:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Oct 31, 2020 2:11:58 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 30832
+2020.10.31 14:12:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:13:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:13:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:14:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:25:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:27:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:41:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:43:21 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:50:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:50:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:50:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:50:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:51:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:52:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:52:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 14:52:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:53:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:54:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:54:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:56:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 14:58:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 15:04:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 15:06:10 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:25: error: illegal start of simple expression
+  }
+  ^
+2020.10.31 15:06:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 15:07:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 15:09:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 15:09:55 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 15:09:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Oct 31, 2020 3:12:27 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 36030
+2020.10.31 18:16:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 18:17:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 18:23:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in scala.collection.immutable.HashMap[Char,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 248, 248, 271)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in scala.collection.immutable.HashMap[Char,<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 248, 248, 264)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in scala.collection.immutable.HashMap[Char,Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 248, 248, 266)
+2020.10.31 18:25:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 18:26:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 18:27:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 18:27:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:02:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:02:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:04:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:04:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:04:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:05:26 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:12: error: } expected but case found
+        case (acc, (char, idx)) => {
+        ^
+2020.10.31 19:05:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:06:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:06:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:07:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:07:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:07:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:07:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:07:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:08:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:08:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:08:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:08:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:08:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:10:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 392, 392, 518)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[_CURSOR_]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 392, 392, 406)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in () => <error>RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 397, 399, 520)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in (Char, _CURSOR_)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 397, 397, 413)
+2020.10.31 19:10:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:10:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:11:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:11:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:11:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:11:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:12:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:12:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:13:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:13:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:13:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:13:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:14:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:14:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 364, 364, 480)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[_CURSOR_]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 364, 364, 378)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[_CURSOR_]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 364, 364, 380)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 364, 364, 373)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in List[Char]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 364, 364, 376)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in (Char, _CURSOR_)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 369, 369, 384)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala in (Char, _CURSOR_)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala, 369, 369, 385)
+2020.10.31 19:15:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:15:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:17:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:17:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:17:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:18:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:18:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:19:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:19:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:19:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:20:02 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:20:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:20:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:20:53 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:20:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:20:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:21:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:22:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:22:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:29:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:35:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/GO_ogle/candy.scala
+2020.10.31 19:35:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:36:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:36:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:43 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:36:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:37:23 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:71: error: } expected but end of file found
+
+^
+2020.10.31 19:37:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:37:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:38:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:38:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:38:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:38:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:38:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:39:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:39:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Oct 31, 2020 7:40:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 40306
+2020.10.31 19:41:45 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:34: error: illegal start of simple expression
+    }
+    ^
+2020.10.31 19:41:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:43:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:43:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:43:14 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:33: error: illegal start of simple expression
+      if () {
+          ^
+2020.10.31 19:43:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:43:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:43:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:43:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:43:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:45:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:48:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:49:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:49:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:49:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:51:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:52:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:52:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:12 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:52:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.10.31 19:52:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.10.31 19:52:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:46:32 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:104: error: } expected but end of file found
+
+^
+2020.11.01 08:46:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:46:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:46:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:46:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:46:33 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:103: error: } expected but end of file found
+
+^
+2020.11.01 08:46:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:46:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:46:37 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:103: error: } expected but end of file found
+
+^
+2020.11.01 08:46:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:46:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:47:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:47:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:47:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 08:47:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:48:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:48:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:48:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:48:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:50:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 08:51:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:07:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:09:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:09:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:09:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:09:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:09:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:10:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:10:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:10:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:10:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:10:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:10:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:10:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:11:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:11:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:55 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:11:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:12:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:12:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:13:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Nov 01, 2020 9:16:01 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 42958
+2020.11.01 09:16:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:16:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:16:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:17:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:17:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:17:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:17:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:17:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:17:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:17:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:18:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:18:41 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:18:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:20:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:20:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:21:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:23:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:24:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:24:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:29:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:30:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:31:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:31:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:32:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:35:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:36:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:37:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:37:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:38:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 09:38:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:39:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 09:39:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:05:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:05:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:05:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:07:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:07:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:07:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:07:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:07:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:08:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:08:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:08:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:08:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:08:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:08:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:08:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:08:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:08:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:10:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:10:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:10:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:10:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:10:50 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:84: error: ) expected but string constant found
+"aba")
+^
+2020.11.01 10:10:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:10:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:11:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:11:03 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:84: error: ) expected but string constant found
+"abcdd")
+^
+2020.11.01 10:11:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:11:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:11:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:20:15 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:20:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:21:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:21:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:21:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:21:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:22:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:22:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:22:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:22:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:23:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:24:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:26:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:27:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:29:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Nov 01, 2020 10:30:23 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+2020.11.01 10:30:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:32:11 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:26: error: illegal start of simple expression
+    }
+    ^
+2020.11.01 10:32:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:38:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:39:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:39:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:39:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:39:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:39:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:39:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:39:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:40:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:40:37 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:41:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:41:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:43:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:43:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:43:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:44:13 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:44:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:44:25 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:45:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:46:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46535
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46538
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46540
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46539
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46543
+Nov 01, 2020 10:46:35 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 46537
+2020.11.01 10:46:48 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:46:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:47:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:49:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:51:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:52:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:53:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:53:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:54:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:54:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:54:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:54:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:55:07 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:55:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:55:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:56:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:58:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:58:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:58:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:58:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:58:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:58:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:58:58 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:59:15 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala:64: error: ) expected but string constant found
+"aba"))
+^
+2020.11.01 10:59:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:59:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:59:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 10:59:50 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 10:59:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:00:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:01:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:01:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:01:26 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:01:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:01:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:01:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:01:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:01:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:01:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:02:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:03:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:03:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.01 11:03:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:03:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.01 11:04:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
