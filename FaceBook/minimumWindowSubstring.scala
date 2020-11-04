@@ -3,15 +3,15 @@ object Solution extends App {
   def minWindow(s: String, t: String): String = {
     if (s.isEmpty() || t.isEmpty()) return ""
 
-    val tHash = mutable.HashMap() ++ t.groupBy(identity).mapValues(_.length())
+    val charCountNeeded = t.groupBy(identity).mapValues(_.length)
     val charCountInWdw = mutable.HashMap[Char, Int]()
     val sList = s.zipWithIndex.foldLeft(List[(Char, Int)]()) {
       case (acc, (char, idx)) => {
-        if (tHash.contains(char)) acc :+ (char, idx) else acc
+        if (charCountNeeded.contains(char)) acc :+ (char, idx) else acc
       }
     }
 
-    var charsRemain = tHash.size
+    var uniqCharsRemain = charCountNeeded.size
     var ans = Array[Int](-1, 0, 0)
     var r = 0
     var l = 0
@@ -20,11 +20,11 @@ object Solution extends App {
       val (rChar, rIdx) = sList(r)
       charCountInWdw(rChar) = charCountInWdw.getOrElse(rChar, 0) + 1
 
-      if (charCountInWdw(rChar) == tHash(rChar)) {
-        charsRemain -= 1
+      if (charCountInWdw(rChar) == charCountNeeded(rChar)) {
+        uniqCharsRemain -= 1
       }
 
-      while (l <= r && charsRemain == 0) {
+      while (l <= r && uniqCharsRemain == 0) {
         val (rChar, end) = sList(r)
         val (lChar, start) = sList(l)
 
@@ -34,8 +34,8 @@ object Solution extends App {
 
         charCountInWdw(lChar) -= 1
 
-        if (charCountInWdw(lChar) < tHash(lChar)) {
-          charsRemain += 1
+        if (charCountInWdw(lChar) < charCountNeeded(lChar)) {
+          uniqCharsRemain += 1
         }
         l += 1
       }
