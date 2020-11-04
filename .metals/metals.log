@@ -3772,3 +3772,84 @@ WARNING: Unmatched cancel notification for request id 46537
 2020.11.04 08:22:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
 2020.11.04 08:23:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
 2020.11.04 08:23:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.04 08:28:08 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:28:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:28:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:28:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:28:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:28:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:34:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.04 08:34:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/minimumWindowSubstring.scala
+2020.11.04 08:36:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:36:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:38:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:38:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:39:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:39:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:39:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:40:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:43:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:49:59 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 114, 114, 129)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 114, 114, 122)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 114, 114, 124)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 114, 114, 124)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 114, 114, 124)
+2020.11.04 08:55:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:56:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 08:58:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:58:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:59:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:59:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 08:59:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+Nov 04, 2020 9:01:21 AM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: null
+2020.11.04 09:01:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:01:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:01:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:02:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:02:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:02:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:04:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:04:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:04:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:04:56 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:04:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:05:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:05:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:05:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:05:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:06:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:06:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:06:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:06:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:06:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:07:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:08:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:08:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:12:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:12:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:12:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:12:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:12:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:12:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:13:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:13:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 389)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[<error>]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 382)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 384)
+2020.11.04 09:14:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 384)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 384)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in (Int, <error>)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 388)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala in (Int, Int, <error>)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala, 374, 374, 393)
+2020.11.04 09:15:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:15:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:16:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:16:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:16:11 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.04 09:16:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:16:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:17:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:18:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.04 09:23:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
