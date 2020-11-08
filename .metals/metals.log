@@ -3853,3 +3853,47 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/FaceBook/
 2020.11.04 09:17:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
 2020.11.04 09:18:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
 2020.11.04 09:23:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.06 09:35:07 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.11.06 09:35:10 INFO  time: initialize in 2.6s
+2020.11.06 09:35:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.06 09:35:17 INFO  no build target: using presentation compiler with only scala-library
+2020.11.06 09:35:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/firstAndLastPosSortedArray.scala
+2020.11.07 08:08:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/mergeSortedArray.scala
+Nov 07, 2020 8:08:41 AM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 5
+2020.11.07 08:10:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 08:26:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 08:26:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 08:28:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 08:28:12 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:09:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:09:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:09:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:09:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:10:00 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:10:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:10:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:10:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:10:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:10:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:11:08 INFO  shutting down Metals
+2020.11.07 19:15:23 INFO  started: Metals version 0.9.4 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.11.07 19:15:24 INFO  time: initialize in 0.35s
+2020.11.07 19:15:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:15:26 INFO  no build target: using presentation compiler with only scala-library
+2020.11.07 19:15:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:16:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:16:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:16:40 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:16:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:20:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:20:01 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:22:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/mergeSortedArray.scala
+2020.11.07 19:23:05 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:23:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:23:09 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:23:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:24:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:24:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
+2020.11.07 19:24:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.07 19:24:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MergeSortedArrayTry2.scala
