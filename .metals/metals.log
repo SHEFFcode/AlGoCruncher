@@ -4078,3 +4078,118 @@ WARNING: Unmatched cancel notification for request id 4987
 2020.11.08 13:11:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.08 13:11:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
 2020.11.08 20:42:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 20:43:34 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.08 20:43:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.08 20:43:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.08 20:44:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.08 20:44:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 20:44:57 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 20:59:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 07:49:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 07:58:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:00:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:01:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:02:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:02:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:06:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:06:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:08:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:08:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:08:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:08:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:09:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:09:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:09:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:09:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:09:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:10:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:10:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:11:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:11:22 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:11:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:11:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:11:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:12:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:12:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:13:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:13:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:13:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:13:42 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:13:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:14:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:14:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:15:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:15:38 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:15:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:16:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:18:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:18:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:18:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:19:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:20:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:22:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:22:14 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:22:19 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:22:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:22:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:22:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:23:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:36 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:23:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:23:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:24:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:24:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:24:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:25:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:26:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:28:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:28:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:28:34 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:31:47 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:31:52 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala:30: error: expected class or object definition
+  println(lengthOfLongestSubstringKDistinct("abccccccccccccdddddddddddde", 3))
+  ^
+2020.11.09 08:31:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:32:02 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala:30: error: expected class or object definition
+  println(lengthOfLongestSubstringKDistinct("abccccccccccccdddddddddddde", 3))
+  ^
+2020.11.09 08:32:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:32:11 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala:28: error: expected class or object definition
+  println(lengthOfLongestSubstringKDistinct("abccccccccccccdddddddddddde", 3))
+  ^
+2020.11.09 08:32:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:32:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:32:18 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:32:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:32:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:34:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:35:36 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:35:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:35:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:35:51 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:36:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:36:37 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:37:04 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala:9: error: ) expected but <- found
+    while (r <- 0 until s.length) {
+             ^
+2020.11.09 08:37:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:37:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:37:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:37:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:37:10 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:37:10 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:37:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:38:07 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:38:17 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:38:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:38:53 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:40:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:40:57 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:41:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:41:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.09 08:41:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:41:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
