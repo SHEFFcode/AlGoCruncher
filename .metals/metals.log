@@ -4060,3 +4060,21 @@ WARNING: Unmatched cancel notification for request id 4987
 2020.11.08 10:02:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/OneEditDistance.scala
 2020.11.08 10:03:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.08 10:03:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/OneEditDistance.scala
+2020.11.08 10:03:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 10:06:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 10:06:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 11:29:17 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 11:34:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:05:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:08:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:09:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:09:16 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 13:09:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:09:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:09:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 13:09:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 13:09:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:10:05 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 13:11:39 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.08 13:11:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
+2020.11.08 20:42:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/MoveZeros.scala
