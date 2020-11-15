@@ -4485,3 +4485,8 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.11.15 13:15:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
 2020.11.15 13:15:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
 2020.11.15 13:15:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:17:58 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MinSizeSubarraySum.scala
+2020.11.15 13:19:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:19:49 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:20:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MinSizeSubarraySum.scala
+2020.11.15 13:20:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MinSizeSubarraySum.scala
