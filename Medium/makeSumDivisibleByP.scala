@@ -1,9 +1,9 @@
 import scala.collection.mutable
 object Solution extends App {
   def minSubarray(nums: Array[Int], p: Int): Int = {
-    val mod = nums.foldLeft(0)((cMod, num) => (cMod + num) % p)
+    val originalMod = nums.foldLeft(0)((cMod, num) => (cMod + num) % p)
     var minAns = nums.length
-    mod match {
+    originalMod match {
       case 0 => 0
       case _ => {
         val brain = mutable.HashMap(0 -> -1)
@@ -11,7 +11,7 @@ object Solution extends App {
         nums.zipWithIndex.foldLeft(0, brain) {
           case ((runningMod, brain), (num, idx)) => {
             val modAtIdx = (runningMod + num) % p
-            val compliment = (p - mod + modAtIdx) % p
+            val compliment = (p - originalMod + modAtIdx) % p
             if (brain.contains(compliment)) {
               minAns = math.min(minAns, idx - brain(compliment))
             }
