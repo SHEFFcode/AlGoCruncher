@@ -4533,3 +4533,7 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.11.15 14:19:46 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.15 14:19:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
 2020.11.15 14:19:56 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:20:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minimumFallingPathSum.scala
+2020.11.15 14:21:06 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minimumFallingPathSum.scala
+Nov 15, 2020 2:23:29 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification

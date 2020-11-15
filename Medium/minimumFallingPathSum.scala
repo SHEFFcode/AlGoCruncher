@@ -16,7 +16,7 @@ object Solution extends App {
         }
       }
     }
-
+    // hello friends
     brain(dim - 1).min
   }
 }
