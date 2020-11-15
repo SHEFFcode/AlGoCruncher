@@ -4304,3 +4304,184 @@ something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxS
 2020.11.15 12:56:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.15 12:56:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
 2020.11.15 12:58:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 13:04:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:04:29 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:04:32 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:04:50 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+Nov 15, 2020 1:06:02 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:674)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 15, 2020 1:06:02 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:674)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 15, 2020 1:06:02 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:674)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 15, 2020 1:06:03 PM scala.meta.internal.pc.completions.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.MetalsGlobal.metalsSeenFromType(MetalsGlobal.scala:674)
+	at scala.meta.internal.pc.completions.MatchCaseCompletions$CaseKeywordCompletion.<init>(MatchCaseCompletions.scala:49)
+	at scala.meta.internal.pc.completions.Completions.fromIdentApply$1(Completions.scala:423)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe(Completions.scala:443)
+	at scala.meta.internal.pc.completions.Completions.completionPositionUnsafe$(Completions.scala:409)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.completions.Completions.completionPosition(Completions.scala:401)
+	at scala.meta.internal.pc.completions.Completions.completionPosition$(Completions.scala:386)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:29)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:446)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:57)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:184)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:137)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:197)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:103)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+2020.11.15 13:09:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:09:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:09:30 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:10:59 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:11:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:11:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 13:11:32 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+Nov 15, 2020 1:11:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.11.15 13:12:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala in Array[Int]RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala, 59, 59, 69)
+Nov 15, 2020 1:12:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+Nov 15, 2020 1:12:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: String index out of range: -2
+java.lang.StringIndexOutOfBoundsException: String index out of range: -2
+	at java.lang.String.<init>(String.java:196)
+	at scala.tools.nsc.interactive.Global.typeCompletions$1(Global.scala:1230)
+	at scala.tools.nsc.interactive.Global.completionsAt(Global.scala:1253)
+	at scala.meta.internal.pc.SignatureHelpProvider.$anonfun$treeSymbol$1(SignatureHelpProvider.scala:375)
+	at scala.Option.map(Option.scala:230)
+	at scala.meta.internal.pc.SignatureHelpProvider.treeSymbol(SignatureHelpProvider.scala:373)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCall$.unapply(SignatureHelpProvider.scala:198)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:309)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5(SignatureHelpProvider.scala:339)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$5$adapted(SignatureHelpProvider.scala:316)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3(SignatureHelpProvider.scala:316)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.$anonfun$visit$3$adapted(SignatureHelpProvider.scala:315)
+	at scala.collection.TraversableLike$WithFilter.$anonfun$foreach$1(TraversableLike.scala:924)
+	at scala.collection.immutable.List.foreach(List.scala:431)
+	at scala.collection.TraversableLike$WithFilter.foreach(TraversableLike.scala:923)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.visit(SignatureHelpProvider.scala:315)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.traverse(SignatureHelpProvider.scala:303)
+	at scala.meta.internal.pc.SignatureHelpProvider$MethodCallTraverser.fromTree(SignatureHelpProvider.scala:272)
+	at scala.meta.internal.pc.SignatureHelpProvider.signatureHelp(SignatureHelpProvider.scala:27)
+
+2020.11.15 13:12:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:13:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:13:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:14:26 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:15:01 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:15:03 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
+2020.11.15 13:15:47 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubrraySumWIndex.scala
