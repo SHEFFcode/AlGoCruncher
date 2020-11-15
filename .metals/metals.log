@@ -4491,3 +4491,38 @@ java.lang.StringIndexOutOfBoundsException: String index out of range: -2
 2020.11.15 13:20:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MinSizeSubarraySum.scala
 2020.11.15 13:20:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MinSizeSubarraySum.scala
 2020.11.15 13:36:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubarraySumWIndex.scala
+2020.11.15 13:37:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubarraySumWIndex.scala
+2020.11.15 13:37:28 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/MaxSubarraySumWIndex.scala
+2020.11.15 14:04:22 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:04:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:04:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:09:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:09:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:11:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:13 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala:35: error: ; expected but ) found
+          })
+           ^
+2020.11.15 14:14:13 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:14:21 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:21 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:24 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:24 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala:43: error: ; expected but ) found
+          })
+           ^
+2020.11.15 14:14:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:14:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:14:27 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala:43: error: ; expected but ) found
+          })
+           ^
+2020.11.15 14:14:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:15:23 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:15:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:15:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:15:33 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 14:15:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:15:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:16:09 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:16:18 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:16:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/makeSumDivisibleByP.scala
+2020.11.15 14:17:03 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 

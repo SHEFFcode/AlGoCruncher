@@ -7,10 +7,9 @@ object Solution extends App {
       case 0 => 0
       case _ => {
         val brain = mutable.HashMap(0 -> -1)
-        nums.zipWithIndex.foldLeft(0, brain) { (modWithBrain, numWithIndex) =>
-          {
-            val (runningMod, brain) = modWithBrain
-            val (num, i) = numWithIndex
+
+        nums.zipWithIndex.foldLeft(0, brain) {
+          case ((runningMod, brain), (num, idx)) => {
             val modAtIdx = (runningMod + num) % p
             val compliment = (p - mod + modAtIdx) % p
             println(
@@ -19,11 +18,11 @@ object Solution extends App {
             )
             if (brain.contains(compliment)) {
               println(
-                s"compliment is ${compliment}, i is ${i}, position of compliment is ${brain(compliment)}"
+                s"compliment is ${compliment}, idx is ${idx}, position of compliment is ${brain(compliment)}"
               )
-              minAns = math.min(minAns, i - brain(compliment))
+              minAns = math.min(minAns, idx - brain(compliment))
             }
-            brain(modAtIdx) = i
+            brain(modAtIdx) = idx
             (modAtIdx, brain)
           }
         }
