@@ -12,14 +12,7 @@ object Solution extends App {
           case ((runningMod, brain), (num, idx)) => {
             val modAtIdx = (runningMod + num) % p
             val compliment = (p - mod + modAtIdx) % p
-            println(
-              s"p is $p, mod is $mod, modAtIdx is $modAtIdx, compliment is $compliment, brain is ${scala.runtime.ScalaRunTime
-                .stringOf(brain)}"
-            )
             if (brain.contains(compliment)) {
-              println(
-                s"compliment is ${compliment}, idx is ${idx}, position of compliment is ${brain(compliment)}"
-              )
               minAns = math.min(minAns, idx - brain(compliment))
             }
             brain(modAtIdx) = idx
