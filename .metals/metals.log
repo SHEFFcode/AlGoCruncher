@@ -4193,3 +4193,114 @@ WARNING: Unmatched cancel notification for request id 4987
 2020.11.09 08:41:28 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
 2020.11.09 08:41:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
 2020.11.09 08:41:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/LongestSubtringWithKDistinct.scala
+2020.11.09 08:48:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.09 08:48:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.09 08:48:42 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+Nov 11, 2020 6:30:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+2020.11.12 17:49:40 INFO  shutting down Metals
+2020.11.12 18:05:41 INFO  Started: Metals version 0.9.5 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.11.12 18:05:44 INFO  time: initialize in 2.9s
+2020.11.12 18:05:44 WARN  Build server is not auto-connectable.
+2020.11.12 18:05:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.12 18:05:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.12 18:05:49 INFO  no build target: using presentation compiler with only scala-library
+2020.11.12 19:00:06 INFO  shutting down Metals
+2020.11.13 12:33:42 INFO  Started: Metals version 0.9.5 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.11.13 12:33:44 INFO  time: initialize in 1.77s
+2020.11.13 12:33:45 WARN  Build server is not auto-connectable.
+2020.11.13 12:33:45 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.13 12:33:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.13 12:33:48 INFO  no build target: using presentation compiler with only scala-library
+Nov 14, 2020 12:32:33 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 83
+2020.11.14 12:32:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.14 12:42:14 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.14 13:13:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/FaceBook/SubarraySumEqualsK.scala
+2020.11.14 13:19:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minSubarraySum.scala
+2020.11.15 11:35:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minSubarraySum.scala
+2020.11.15 12:23:54 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:26:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:27:16 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:27:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:27:23 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:27:33 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:28:10 INFO  shutting down Metals
+2020.11.15 12:28:30 INFO  Started: Metals version 0.9.5 in workspace '/Users/sheffmachine/Projects/algocruncher' for client vscode.
+2020.11.15 12:28:31 INFO  time: initialize in 0.66s
+2020.11.15 12:28:31 WARN  Build server is not auto-connectable.
+2020.11.15 12:28:31 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:28:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:28:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Medium/minSubarraySum.scala
+2020.11.15 12:28:33 INFO  no build target: using presentation compiler with only scala-library
+2020.11.15 12:29:27 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:30:21 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+Nov 15, 2020 12:30:31 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 147
+2020.11.15 12:30:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:31:19 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:31:31 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:31:39 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:34:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:38:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:38:54 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:39:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:40:00 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:40:40 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala:24: error: ; expected but else found
+    f (gMax == 0) negMax else gMax
+                         ^
+2020.11.15 12:40:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:40:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:40:44 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:40:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:40:48 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:41:44 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:41:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:41:52 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:42:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:42:20 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:42:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:43:20 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:43:29 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:43:35 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:43:43 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:43:46 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala in (Int, <error>)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala, 102, 102, 116)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala in (Int, <error>)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala, 102, 102, 117)
+something's wrong: no file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala in (Int, Int, <error>)RangePosition(file:///Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala, 102, 102, 122)
+2020.11.15 12:43:55 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:44:11 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:44:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:44:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:44:27 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:44:30 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:44:51 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:45:02 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:45:52 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:46:24 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala:4: error: ; expected but => found
+      (brian, cNum): (Int, Int, Int) =>
+                                     ^
+2020.11.15 12:46:24 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:49:41 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala:5: error: ; expected but ) found
+        cMax = cMax + cNum) max 0
+                          ^
+2020.11.15 12:49:41 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:49:49 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:50:25 ERROR scalafmt: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala:7: error: empty quoted identifier
+      }``
+       ^
+2020.11.15 12:50:25 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:50:40 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:51:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:04 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:51:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:04 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:06 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:51:08 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:56:35 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:56:38 WARN  no build tool detected in workspace '/Users/sheffmachine/Projects/algocruncher'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2020.11.15 12:56:45 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
+2020.11.15 12:58:15 WARN  no build target for: /Users/sheffmachine/Projects/algocruncher/Easy/MaxSubArray.scala
