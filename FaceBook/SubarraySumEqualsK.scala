@@ -1,5 +1,20 @@
-object Solution {
-  def subarraySum(nums: Array[Int], k: Int): Int = {}
+import scala.collection.mutable.HashMap
+object Solution extends App {
+  def subarraySum(nums: Array[Int], k: Int): Int = {
+    val (_, _, count) = nums
+      .foldLeft((0, HashMap[Int, Int](0 -> 1), 0)) {
+        case ((sumSoFar, brain, totalCnt), cNum) => {
+          val cSum = sumSoFar + cNum
+          val compliment = cSum - k
+          val cCount = totalCnt + brain.getOrElse(compliment, 0)
+          brain(cSum) = brain.getOrElse(cSum, 0) + 1
+          (cSum, brain, cCount)
+        }
+      }
+
+    count
+  }
+  println(subarraySum(Array(1, 2, 3), 3))
 }
 
 /*
@@ -15,31 +30,19 @@ Ex:
 
 [1,1,1], k = 2
 
-count = 2
+count = 1
+sumSoFar = 3
+{
+  0 -> -1
+  1 -> 0
+  2 -> 1
+  3 -> 2
+}
 
-  1 1 1    |      k = 2
-    i
-      j
+compliment = sumSoFar - k
 
-Ex2:
-[1,2,3], k = 3
+1 1 1  |  k = 2
 
-count = 2
 
-1 2 3      3
-    i
-    j
-
-Ex3:
-
-[1,2,3,4,5] => 5
-
-count = 2
-futureSum = 5 if future sum == k update count
-cSum = 4 < 5
-
-1 2 3 4 5 | 5
-        i
-        j
 
  */
