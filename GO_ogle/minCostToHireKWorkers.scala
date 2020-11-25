@@ -26,6 +26,7 @@ object Solution extends App {
       if (pq.size == K) {
         // since we have already sorted the workers, we know this workers ratio is highest
         // of the ones currently in the queue, and we can apply this foruma
+        // without fear of underpaying a worker already in the queue
         minCostForK =
           math.min(minCostForK, sumQualities.toDouble * worker._1 / worker._2)
       }
