@@ -13,8 +13,6 @@ object Solution extends App {
       ) // sorted by wage to quality
 
     val wageToQuality = workers.map((a) => a._1.toDouble / a._2.toDouble)
-    println(scala.runtime.ScalaRunTime.stringOf(workers))
-    println(scala.runtime.ScalaRunTime.stringOf(wageToQuality))
     var minCostForK = Double.MaxValue
     var sumQualities = 0
 
@@ -22,7 +20,6 @@ object Solution extends App {
     for (worker <- workers) {
       pq.enqueue(worker._2)
       sumQualities += worker._2
-      println(scala.runtime.ScalaRunTime.stringOf(pq))
       if (pq.size > K) {
         sumQualities -= pq.dequeue()
       }
@@ -31,7 +28,6 @@ object Solution extends App {
         // of the ones currently in the queue, and we can apply this foruma
         minCostForK =
           math.min(minCostForK, sumQualities.toDouble * worker._1 / worker._2)
-        println(sumQualities)
       }
     }
 
