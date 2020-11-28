@@ -19,7 +19,6 @@ object Solution {
       isValidBST(root.left, min, root) && isValidBST(root.right, root, max)
     }
   }
-
 }
 
 /*
