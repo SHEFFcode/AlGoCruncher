@@ -12,12 +12,12 @@ object Solution {
 
     def traverse(cNode: TreeNode): Int = {
       if (cNode == null) return 0
-      val leftGain = traverse(cNode.left) max 0
-      val rightGain = traverse(cNode.right) max 0
-      val newPathSum = cNode.value + rightGain + leftGain
-      maxSum = maxSum max newPathSum
+      val leftPath = traverse(cNode.left)
+      val rightPath = traverse(cNode.right)
+      val cNodeMaxPathSum = cNode.value + rightPath + leftPath
+      maxSum = maxSum max cNodeMaxPathSum
 
-      cNode.value + (leftGain max rightGain)
+      (cNode.value + (leftPath max rightPath)) max 0
     }
 
     traverse(root)
