@@ -19,16 +19,16 @@ object Solution {
     visited(graph) = new Node(graph.value)
 
     while (!q.isEmpty) {
-      val originalNode = q.dequeue
-      for (ogNeighbor <- originalNode.neighbors) {
+      val ogNode = q.dequeue // ogNode as in the original node :)
+      for (ogNeighbor <- ogNode.neighbors) {
         if (!visited.contains(ogNeighbor)) {
           visited(ogNeighbor) = new Node(ogNeighbor.value)
           q += ogNeighbor
         }
         // basically we want to add a copy of original neighbor to a copy of original node
         // to do this, we do the work above
-        val ogNodeNeighbors = visited(originalNode).neighbors
-        visited(originalNode).neighbors = ogNodeNeighbors :+ visited(ogNeighbor)
+        val copyNodeNeighbors = visited(ogNode).neighbors
+        visited(ogNode).neighbors = copyNodeNeighbors :+ visited(ogNeighbor)
       }
     }
 
