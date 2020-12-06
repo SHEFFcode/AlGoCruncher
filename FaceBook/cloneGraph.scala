@@ -25,7 +25,7 @@ object Solution {
           visited(ogNeighbor) = new Node(ogNeighbor.value)
           q += ogNeighbor
         }
-        // basically we want to add a copy of original neighbor to a copy of original node
+        // basically we want to add a copy of neighbor node to a copy of node's neighbors
         // to do this, we do the work above
         val copyNodeNeighbors = visited(ogNode).neighbors
         visited(ogNode).neighbors = copyNodeNeighbors :+ visited(ogNeighbor)
