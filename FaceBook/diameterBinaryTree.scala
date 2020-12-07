@@ -11,7 +11,7 @@ object Solution {
     if (root == null) return 0
 
     val (height, diameter) = traverse(root)
-    (height max diameter) - 1
+    (height max diameter) - 1 // since we pushed up an extra 1 to the root node, we have to subtract it
   }
 
   private def traverse(cNode: TreeNode): (Int, Int) = {
