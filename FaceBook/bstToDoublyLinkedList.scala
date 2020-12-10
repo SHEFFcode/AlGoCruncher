@@ -12,9 +12,11 @@ object Solution {
     if (root == null) return root
 
     val tail = buildListReturnTail(root, null)
-    println(runtime.ScalaRunTime.stringOf(tail))
+    // tail will be the 5 node in the following list: 1 <=> 2 <=> 3 <=> 4 <=> 5
+    // so to find head we want to go as left as possible till we hit null
     val head = findHead(tail)
 
+    // make the final link from head to tail and vice versa
     head.left = tail
     tail.right = head
 
@@ -23,30 +25,26 @@ object Solution {
 
   private def buildListReturnTail(cNode: Node, prevNode: Node): Node = {
     if (cNode == null)
-      return prevNode // we want tail, so if I am null, the tail is my parent
+      return prevNode // we want tail (rightmost node), so if I am null, the tail is my parent
 
-    val leftTail =
-      buildListReturnTail(
-        cNode.left,
-        prevNode
-      ) // the tail node of the left tree, which will be rightmost element of that subtree
-    cNode.left = leftTail // connect me in order to the tail of left subtree
+    // the tail node of the left tree, which will be rightmost element of that subtree
+    val leftTail = buildListReturnTail(cNode.left, prevNode)
+
     if (leftTail != null) {
-      leftTail.right = cNode // do the second connection in a doubly linked list
+      cNode.left = leftTail // connect me to the tail of left subtree
+      leftTail.right = cNode // reverse connection in a doubly linked list
     }
 
-    val rightTail =
-      buildListReturnTail(
-        cNode.right,
-        cNode
-      ) // cNode here will be the previous node
-    rightTail // we will just return the right tail to be processed by the next parent.
+    // cNode here will be the previous node
+    // so that cNode becomes the back up tail node
+    // in case the right child is null.
+    buildListReturnTail(cNode.right, cNode)
   }
 
   private def findHead(cNode: Node): Node = {
     if (cNode == null) return null
     if (cNode.left == null) return cNode
-    findHead(cNode.left)
+    findHead(cNode.left) // we go left from tail to head
   }
 }
 
