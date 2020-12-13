@@ -8,8 +8,8 @@ object Solution {
   ): Int = {
     val len = beginWord.length // since all words are of the same length
 
-    val wordsAdjToVariant = buildWordAdjToVariantMap(wordList)
-    // println(scala.runtime.ScalaRunTime.stringOf(wordsAdjToVariant))
+    val wordsAdjToVariant = buildWordAdjToVariantMap(wordList, len)
+    println(scala.runtime.ScalaRunTime.stringOf(wordsAdjToVariant))
     val q = mutable.Queue[(String, Int)]((beginWord, 1)) // word to level tuple
     val visited = mutable.HashMap[String, Boolean](beginWord -> true) // visited
 
@@ -31,7 +31,8 @@ object Solution {
   }
 
   private def buildWordAdjToVariantMap(
-      wordList: List[String]
+      wordList: List[String],
+      len: Int
   ): mutable.HashMap[String, mutable.ListBuffer[String]] = {
     val brain = mutable.HashMap[String, mutable.ListBuffer[String]]()
     wordList.foldLeft(brain) {
