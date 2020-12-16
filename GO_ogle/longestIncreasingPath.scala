@@ -24,12 +24,16 @@ object Solution {
     val (m, n) = (matrix.length, matrix(0).length)
     for (dir <- dirs) {
       val (x, y) = (i + dir._1, j + dir._2)
-      if (x > -1 && x < m && y > -1 && y < n && matrix(x)(y) > matrix(i)(j)) {
+      if (inBounds(x, y, m, n) && matrix(x)(y) > matrix(i)(j)) {
         brain(i)(j) = brain(i)(j) max traverse(matrix, x, y, brain)
       }
     }
     brain(i)(j) += 1
     brain(i)(j)
+  }
+
+  private def inBounds(x: Int, y: Int, m: Int, n: Int): Boolean = {
+    x > -1 && x < m && y > -1 && y < n
   }
 
   private def validInput(matrix: Array[Array[Int]]): Boolean = {
