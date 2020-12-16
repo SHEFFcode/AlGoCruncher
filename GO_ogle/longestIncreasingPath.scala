@@ -2,14 +2,15 @@ object Solution {
   val dirs = Array((0, 1), (1, 0), (0, -1), (-1, 0))
   def longestIncreasingPath(matrix: Array[Array[Int]]): Int = {
     if (!validInput(matrix)) return 0
+
     val (m, n) = (matrix.length, matrix(0).length)
     val brain = Array.ofDim[Int](m, n)
     var longestPath = 0
-    for (i <- 0 until m) {
-      for (j <- 0 until n) {
-        longestPath = longestPath max traverse(matrix, i, j, brain)
-      }
+
+    for (i <- 0 until m; j <- 0 until n) {
+      longestPath = longestPath max traverse(matrix, i, j, brain)
     }
+
     longestPath
   }
 
@@ -19,18 +20,16 @@ object Solution {
       j: Int,
       brain: Array[Array[Int]]
   ): Int = {
-    if (brain(i)(j) != 0) brain(i)(j)
-    else {
-      val (m, n) = (matrix.length, matrix(0).length)
-      for (dir <- dirs) {
-        val (x, y) = (i + dir._1, j + dir._2)
-        if (x > -1 && x < m && y > -1 && y < n && matrix(x)(y) > matrix(i)(j)) {
-          brain(i)(j) = brain(i)(j) max traverse(matrix, x, y, brain)
-        }
+    if (brain(i)(j) != 0) return brain(i)(j)
+    val (m, n) = (matrix.length, matrix(0).length)
+    for (dir <- dirs) {
+      val (x, y) = (i + dir._1, j + dir._2)
+      if (x > -1 && x < m && y > -1 && y < n && matrix(x)(y) > matrix(i)(j)) {
+        brain(i)(j) = brain(i)(j) max traverse(matrix, x, y, brain)
       }
-      brain(i)(j) += 1
-      brain(i)(j)
     }
+    brain(i)(j) += 1
+    brain(i)(j)
   }
 
   private def validInput(matrix: Array[Array[Int]]): Boolean = {
