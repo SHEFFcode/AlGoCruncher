@@ -54,7 +54,7 @@ object Solution {
           if (!v.contains(nNode)) {
             val result = traverse(g, nNode, tNode, aQ * nextAQ, v)
 
-            if (result != -1.0) return result
+            if (result != DIVISION_NOT_POSSIBLE) return result
           }
         }
       }
