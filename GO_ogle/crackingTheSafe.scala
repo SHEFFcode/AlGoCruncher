@@ -17,7 +17,7 @@ object Solution {
       if (!v.contains(combination)) {
         v += combination
         dfs(combination.tail, seq, v, k)
-        seq.append(i.toString)
+        seq.append(s"$i")
       }
     }
   }
