@@ -10,7 +10,7 @@ object Solution {
         val maxLen = oddPal max evenPal
         if (maxLen > end - start) {
           // doing this will make answer same for odd size (n around the petal) and diff for odd size. Odd size will include current letter @ idx
-          val nStart = idx - (maxLen - 1) / 2
+          val nStart = idx - (maxLen - 1) / 2 // adj for odd / even len
           val nEnd = idx + (maxLen / 2)
           (nStart, nEnd)
         } else (start, end)
