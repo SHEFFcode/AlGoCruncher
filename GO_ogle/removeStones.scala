@@ -30,7 +30,7 @@ object Solution {
       cols: HashMap[Int, List[Int]],
       points: HashSet[String]
   ): Unit = {
-    points -= point(r, c)
+    points -= point(r, c) // remove stone
     for (y <- rows(r)) {
       if (points.contains(point(r, y))) {
         dfs(r, y, rows, cols, points)
