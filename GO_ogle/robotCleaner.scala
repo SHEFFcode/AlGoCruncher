@@ -34,7 +34,7 @@ object Solution {
   ): Unit = {
     robot.clean()
     brain += s"$i:$j"
-    for (dir <- 0 to 3) {
+    for (dir <- 0 to 3) { // relative directions
       // if u come in at direction 3, and u want to go in direction 3
       // for you it would be as if u went in direction 2 on absolute coordinates
       val absoluteDir = (dir + direction) % 4
