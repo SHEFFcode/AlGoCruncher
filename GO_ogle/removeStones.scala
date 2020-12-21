@@ -3,53 +3,61 @@ import scala.collection.mutable.HashMap
 
 object Solution {
   def removeStones(stones: Array[Array[Int]]): Int = {
-    val rows = HashMap[Int, List[Int]]()
-    val cols = HashMap[Int, List[Int]]()
+    val (rows, cols, points) = stones.foldLeft((newMap, newMap, newSet)) {
+      case ((rows, cols, points), Array(r, c)) => {
+        rows(r) = rows.getOrElse(r, newList) :+ c
+        cols(c) = cols.getOrElse(c, newList) :+ r
+        points += point(r, c)
 
-    for (Array(i, j) <- stones) {
-      println(s"i is $i, j is $j")
-      rows(i) = rows.getOrElse(i, List[Int]()) :+ j
-      cols(j) = cols.getOrElse(j, List[Int]()) :+ i
-    }
-    var islands = 0
-    val points = stones.foldLeft(HashSet[String]()) {
-      case (set, Array(r, c)) => {
-        set += s"$r:$c"
-      }
-    }
-    println(scala.runtime.ScalaRunTime.stringOf(rows))
-    println(scala.runtime.ScalaRunTime.stringOf(cols))
-    println(scala.runtime.ScalaRunTime.stringOf(points))
-
-    for (Array(r, c) <- stones) {
-      if (points.contains(s"$r:$c")) {
-        dfs(r, c, rows, cols, points)
-        islands += 1
+        (rows, cols, points)
       }
     }
 
-    stones.length - islands
+    stones.foldLeft(stones.length) {
+      case (countRemovable, Array(r, c)) => {
+        if (points.contains(point(r, c))) {
+          dfs(r, c, rows, cols, points)
+          countRemovable - 1 // there will be 1 stone left per traversal
+        } else countRemovable
+      }
+    }
   }
 
-  def dfs(
+  private def dfs(
       r: Int,
       c: Int,
       rows: HashMap[Int, List[Int]],
       cols: HashMap[Int, List[Int]],
       points: HashSet[String]
   ): Unit = {
-    points -= s"$r:$c"
+    points -= point(r, c)
     for (y <- rows(r)) {
-      if (points.contains(s"$r:$y")) {
+      if (points.contains(point(r, y))) {
         dfs(r, y, rows, cols, points)
       }
     }
 
     for (x <- cols(c)) {
-      if (points.contains(s"$x:$c")) {
+      if (points.contains(point(x, c))) {
         dfs(x, c, rows, cols, points)
       }
     }
+  }
+
+  private def newMap: HashMap[Int, List[Int]] = {
+    HashMap[Int, List[Int]]()
+  }
+
+  private def newSet: HashSet[String] = {
+    HashSet[String]()
+  }
+
+  private def newList: List[Int] = {
+    List[Int]()
+  }
+
+  private def point(r: Int, c: Int): String = {
+    s"$r:$c"
   }
 }
 
