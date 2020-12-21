@@ -1,4 +1,4 @@
-import scala.collection.mutable.HashMap
+import scala.collection.mutable.HashSet
 
 /**
   * // This is the robot's control interface.
@@ -22,26 +22,25 @@ object Solution {
   val dirs = Array((-1, 0), (0, 1), (1, 0), (0, -1))
 
   def cleanRoom(robot: Robot): Unit = {
-    val brain = HashMap[String, Boolean]()
-    traverse(brain, 0, 0, robot, 0)
+    traverse(HashSet[String](), 0, 0, robot, 0)
   }
 
   private def traverse(
-      brain: HashMap[String, Boolean],
+      brain: HashSet[String],
       i: Int,
       j: Int,
       robot: Robot,
       direction: Int
   ): Unit = {
     robot.clean()
-    brain(s"$i:$j") = true
+    brain += s"$i:$j"
     for (dir <- 0 to 3) {
       // if u come in at direction 3, and u want to go in direction 3
       // for you it would be as if u went in direction 2 on absolute coordinates
-      val relativeDir = (dir + direction) % 4
-      val (iAdd, jAdd) = dirs(relativeDir)
+      val absoluteDir = (dir + direction) % 4
+      val (iAdd, jAdd) = dirs(absoluteDir)
       if (!brain.contains(s"${i + iAdd}:${j + jAdd}") && robot.move()) {
-        traverse(brain, i + iAdd, j + jAdd, robot, relativeDir)
+        traverse(brain, i + iAdd, j + jAdd, robot, absoluteDir)
         goBack(robot)
       }
       robot.turnRight()
@@ -49,11 +48,9 @@ object Solution {
   }
 
   private def goBack(robot: Robot): Unit = {
-    robot.turnRight()
-    robot.turnRight()
+    for (_ <- 0 to 1) robot.turnRight
     robot.move()
-    robot.turnRight()
-    robot.turnRight()
+    for (_ <- 0 to 1) robot.turnRight
   }
 }
 
