@@ -4,24 +4,21 @@ object Solution {
     traverse(0, s, HashMap[Int, Int]())
   }
 
-  private def traverse(i: Int, s: String, brain: HashMap[Int, Int]): Int = {
-    val len = s.length()
-    if (i == len) return 1 // in case we took 2 and ended up past str length - 1
-    if (i == len - 1) {
-      s(i) match {
-        case '0' => return 0 // 0 by itself not an answer per notes
-        case _   => return 1 // can be at most 1 answer
+  private def traverse(idx: Int, s: String, brain: HashMap[Int, Int]): Int = {
+    idx match {
+      case i if i == s.length     => 1
+      case i if s(i) == '0'       => 0
+      case i if i == s.length - 1 => 1
+      case i if brain.contains(i) => brain(i)
+      case i => {
+        var ans = rec(i + 1)
+        if (s.substring(i, i + 2).toInt <= 26) {
+          ans += rec(i + 2)
+        }
+        brain(i) = ans
+        ans
       }
     }
-    if (brain.contains(i)) return brain(i)
-
-    var ans = traverse(i + 1, s, brain)
-    if (s.substring(i, i + 2).toInt < 27) { // 26 letters in US alphabet
-      ans += traverse(i + 2, s, brain)
-    }
-
-    brain(i) = ans
-    ans
   }
 }
 
