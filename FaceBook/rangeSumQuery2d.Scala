@@ -1,19 +1,17 @@
 class NumMatrix(_matrix: Array[Array[Int]]) {
   var dp: Array[Array[Int]] = Array.ofDim[Int](1, 1) // initially
   if (_matrix.length != 0 && _matrix(0).length != 0) {
-      dp = Array.ofDim[Int](_matrix.size + 1, _matrix(0).size + 1) // + 1 makes code easier
-        for (r <- 0 until _matrix.length) {
-    for (c <- 0 until _matrix(0).length) {
-      dp(r + 1)(c + 1) = dp(r + 1)(c) + dp(r)(c + 1) + _matrix(r)(c) - dp(r)(c)
+    dp = Array.ofDim[Int](_matrix.size + 1, _matrix(0).size + 1) // + 1 makes code easier
+    for (r <- 0 until _matrix.length) {
+      for (c <- 0 until _matrix(0).length) {
+        dp(r + 1)(c + 1) = dp(r + 1)(c) + dp(r)(c + 1) + _matrix(r)(c) - dp(r)(c)
+      }
     }
   }
+
+  def sumRegion(row1: Int, col1: Int, row2: Int, col2: Int): Int = {
+      dp(row2 + 1)(col2 + 1) - dp(row1)(col2 + 1) - dp(row2 + 1)(col1) + dp(row1)(col1)
   }
-
-
-
-    def sumRegion(row1: Int, col1: Int, row2: Int, col2: Int): Int = {
-        dp(row2 + 1)(col2 + 1) - dp(row1)(col2 + 1) - dp(row2 + 1)(col1) + dp(row1)(col1)
-    }
 
 }
 
