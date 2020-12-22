@@ -7,12 +7,12 @@ object Solution {
   private def traverse(idx: Int, s: String, brain: HashMap[Int, Int]): Int = {
     idx match {
       case i if i == s.length     => 1
-      case i if s(i) == '0'       => 0
+      case i if s(i) == '0'       => 0 // if starts with 0, ans is 0
       case i if i == s.length - 1 => 1
       case i if brain.contains(i) => brain(i)
       case i => {
         var ans = rec(i + 1)
-        if (s.substring(i, i + 2).toInt <= 26) {
+        if (s.substring(i, i + 2).toInt <= 26) { // 26 us letters
           ans += rec(i + 2)
         }
         brain(i) = ans
