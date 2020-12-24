@@ -30,8 +30,8 @@ object Solution {
 /*
 G: nums: Array[Int], m: Int
 O: minSum: Int
-T: O(N)
-S: O(NM)
+T: O(n∗log(sumofarray))
+S: O(1)O(1)
 
 Notes:
   - Nums are non negative integers
