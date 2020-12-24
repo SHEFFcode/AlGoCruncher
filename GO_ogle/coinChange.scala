@@ -25,7 +25,6 @@ object Solution {
       brain(amount) = if (minSteps == Int.MaxValue) -1 else minSteps
       brain(amount)
     }
-
   }
 }
 
