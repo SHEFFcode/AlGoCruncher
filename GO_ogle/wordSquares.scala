@@ -1,0 +1,69 @@
+import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.HashMap
+object Solution {
+  def wordSquares(words: Array[String]): List[List[String]] = {
+    val result = ListBuffer[ListBuffer[String]]()
+    val map = createPrefixMap(words)
+    for (i <- 0 until words.length) {
+      backTrack(
+        1,
+        ListBuffer[String](words(i)),
+        result,
+        words(i).length,
+        map
+      )
+    }
+
+    result.map(_.toList).toList
+  }
+
+  private def backTrack(
+      step: Int,
+      list: ListBuffer[String],
+      result: ListBuffer[ListBuffer[String]],
+      len: Int,
+      map: HashMap[String, ListBuffer[String]]
+  ): Unit = {
+    if (list.size == len) {
+      result += list.clone
+      return ()
+    }
+    val sb = new StringBuilder()
+    for (word <- list) sb.append(word(step))
+    val prefix = sb.toString()
+    val wordList = map.getOrElse(prefix, ListBuffer[String]())
+
+    for (word <- wordList) {
+      list += word
+      backTrack(step + 1, list, result, len, map)
+      list.remove(list.size - 1)
+    }
+
+  }
+
+  private def createPrefixMap(
+      words: Array[String]
+  ): HashMap[String, ListBuffer[String]] = {
+    words.foldLeft(HashMap[String, ListBuffer[String]]()) {
+      case (map, word) => {
+        for (i <- 0 until word.length()) {
+          val prefix = word.substring(0, i)
+          map(prefix) = map.getOrElse(prefix, ListBuffer[String]()) :+ word
+        }
+        map
+      }
+    }
+  }
+}
+
+/*
+G: words: Array[String]
+O: allWordSquares: List[List[String]]
+T:
+S:
+
+Notes:
+
+Ex:
+
+ */
