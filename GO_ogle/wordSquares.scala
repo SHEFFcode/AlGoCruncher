@@ -5,13 +5,8 @@ object Solution {
     val result = ListBuffer[ListBuffer[String]]()
     val map = createPrefixMap(words)
     for (i <- 0 until words.length) {
-      backTrack(
-        1,
-        ListBuffer[String](words(i)),
-        result,
-        words(i).length,
-        map
-      )
+      val cList = ListBuffer[String](words(i))
+      backTrack(1, cList, result, words(i).length, map)
     }
 
     result.map(_.toList).toList
@@ -38,7 +33,6 @@ object Solution {
       backTrack(step + 1, list, result, len, map)
       list.remove(list.size - 1)
     }
-
   }
 
   private def createPrefixMap(
@@ -46,7 +40,7 @@ object Solution {
   ): HashMap[String, ListBuffer[String]] = {
     words.foldLeft(HashMap[String, ListBuffer[String]]()) {
       case (map, word) => {
-        for (i <- 0 until word.length()) {
+        for (i <- 0 until word.length) {
           val prefix = word.substring(0, i)
           map(prefix) = map.getOrElse(prefix, ListBuffer[String]()) :+ word
         }
