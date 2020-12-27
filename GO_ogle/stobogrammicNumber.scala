@@ -30,7 +30,6 @@ object Solution {
         acc += chars.mkString
       }
       return ()
-
     }
 
     for ((k, v) <- map) {
