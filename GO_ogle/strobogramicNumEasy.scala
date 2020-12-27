@@ -1,9 +1,9 @@
 import scala.collection.immutable.HashMap
 
 object Solution {
-  val IS_STROBO = true
-  val NOT_STROBO = false
-  val CharMap = HashMap[Char, Char]
+  private val IS_STROBO = true
+  private val NOT_STROBO = false
+  private type CharMap = HashMap[Char, Char]
   def isStrobogrammatic(num: String): Boolean = {
     val map = HashMap(
       ('0' -> '0'),
@@ -18,13 +18,13 @@ object Solution {
 
   private def checkStrobo(
       num: String,
-      start: Char,
-      end: Char,
+      start: Int,
+      end: Int,
       map: CharMap
   ): Boolean = {
     if (start > end) return IS_STROBO
-    if (start != map.getOrElse(start, ' ')) return NOT_STROBO
-    checkStrobo(num, num(start + 1), num(end - 1), map)
+    if (num(start) != map.getOrElse(num(end), ' ')) return NOT_STROBO
+    checkStrobo(num, start + 1, end - 1, map)
   }
 }
 
