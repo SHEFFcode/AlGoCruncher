@@ -5,9 +5,8 @@ object Solution {
   private final type Strings = List[String]
 
   def letterCombinations(digits: String): List[String] = {
-    if (digits.length == 0) return List()
-    val phoneList = buildPhoneList()
-    backTrack("", digits, phoneList, List[String]())
+    if (digits.length == 0) List()
+    else backTrack("", digits, buildPhoneList(), List[String]())
   }
 
   private def backTrack(
