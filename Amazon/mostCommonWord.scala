@@ -12,7 +12,11 @@ object Solution {
       val c = paragraph(idx)
       if (c.isLetter) {
         wordBuffer.append(c.toLower)
-      } else if (wordBuffer.length > 0 || idx == paragraph.length - 1) {
+      }
+
+      if (
+        (!c.isLetter && wordBuffer.length > 0) || idx == paragraph.length - 1
+      ) {
         val word = wordBuffer.toString
         if (!bSet.contains(word)) {
           val newCount = wordCount.getOrElse(word, 0) + 1
