@@ -3,6 +3,7 @@ object Solution {
     val res = nums.foldLeft(Option.empty[Int], Option.empty[Int], 0, 0) {
       case (brain, n) => {
         val (cnd1, cnd2, cnt1, cnt2) = brain
+
         if (cnd1.nonEmpty && cnd1.get == n) brain.copy(_3 = cnt1 + 1)
         else if (cnd2.nonEmpty && cnd2.get == n) brain.copy(_4 = cnt2 + 1)
         else if (cnt1 == 0) brain.copy(_1 = Some(n), _3 = cnt1 + 1)
