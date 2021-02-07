@@ -23,8 +23,9 @@ object Solution {
       input / digits + 1 + levelBound
     }
 
-    // println(s"Deduced number: $number, need $nthDigit th digit")
+    println(s"Deduced number: $number, need $nthDigit th digit")
 
-    ((number / math.pow(10, (digits - nthDigit)).toLong) % 10).toInt
+    s"$number" (nthDigit.toInt - 1) - '0'
+    // ((number / math.pow(10, (digits - nthDigit)).toLong) % 10).toInt
   }
 }
