@@ -10,8 +10,8 @@ object Solution {
       for (j <- 0 until matrix(0).length) {
         // update the state of this row's histogram using the last row's histogram
         // by keeping track of the number of consecutive ones
-        if (matrix(i)(j) == '1') cRow(j) += 1
-        else cRow(j) = 0
+        if (matrix(i)(j) == '1') cRow(j) += 1 // here += 1
+        else cRow(j) = 0 // here = 0, which means just zero out
       }
       // update maxarea with the maximum area from this row's histogram
       maxArea = maxArea max maxHistogramArea(cRow)
