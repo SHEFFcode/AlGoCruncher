@@ -1,26 +1,28 @@
-object Solution extends App {
+object Solution {
   def nextClosestTime(time: String): String = {
-    val hoursAndMins = time.split(":")
-    val sTimeInMinutes = hoursAndMins(0).toInt * 60 + hoursAndMins(1).toInt
+    val Array(hours, minutes) = time.split(":")
+    val sTimeInMinutes = hours.toInt * 60 + minutes.toInt
     val digits = Set[Int]() ++ time.filter(_ != ':').map(_.asDigit)
-    var elapsed = 24 * 60
-    var nextClosestTime = sTimeInMinutes
+    var elapsed = 24 * 60 // max time that could have elapsed in minutes
+    var nextClosestTime = sTimeInMinutes // for now let's set it to start time
 
     for {
-      h1 <- digits; h2 <- digits if ((h1 * 10 + h2) < 24)
-      m1 <- digits; m2 <- digits if ((m1 * 10 + m2) < 60)
+      h1 <- digits; h2 <- digits; hours <- h1 * 10 + h2
+      if (hours < 24) // _ _ is less than 24
+      m1 <- digits; m2 <- digits; minutes <- m1 * 10 + m2
+      if (minutes < 60) // _ _ is less than 60
     } yield {
-      val cTimeInMinutes = 60 * (h1 * 10 + h2) + (m1 * 10 + m2)
+      val cTimeInMinutes = 60 * hours + minutes
+      // Floormod: https://stackoverflow.com/questions/30003811/in-scala-why-could-remainder-operator-return-a-negative-number
       val minsElapsed = Math.floorMod(cTimeInMinutes - sTimeInMinutes, 24 * 60)
       if (minsElapsed > 0 && minsElapsed < elapsed) {
         nextClosestTime = cTimeInMinutes
         elapsed = minsElapsed
       }
     }
+    // for leading zeros https://stackoverflow.com/questions/8131291/how-to-convert-an-int-to-a-string-of-a-given-length-with-leading-zeros-to-align/8131682
     f"${nextClosestTime / 60}%02d:${nextClosestTime % 60}%02d"
   }
-
-  println(nextClosestTime("01:32"))
 }
 
 /*
