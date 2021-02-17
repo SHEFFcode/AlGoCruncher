@@ -6,6 +6,9 @@ object Solution extends App {
     coins.foreach(coin => {
       // if coin is bigger then amount, this will not run
       // if coin is smaller then or equal to amount, it will run
+      // starting at the coin, taking into account the count
+      // of ways to get to i - coin index and adding it
+      // to how many times we can get to i index
       (coin to amount).foreach(i => sum(i) += sum(i - coin))
       // this will then update the field at that index to be the number of ways at that index + number of ways we can get an amount smaller by this coin
     })
