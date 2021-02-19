@@ -9,30 +9,21 @@ object Solution extends App {
     val result = ListBuffer[String]()
     val nLen = nums.length
     //modify the array
-    if (nLen == 0 || nums(0) != lower) {
+    if (nLen == 0 || nums.head != lower) {
       mNums = (lower - 1) +: mNums
     }
-    if (nLen == 0 || nums(nums.length - 1) != upper) {
+    if (nLen == 0 || nums.last != upper) {
       mNums = mNums :+ (upper + 1)
     }
 
-    for (i <- 0 until (mNums.length - 1)) {
-      val j = i + 1
-      (mNums(j) - mNums(i)) match {
-        case n if n == 2 => result += s"${mNums(j) - 1}"
-        case n if n > 2  => result += s"${mNums(i) + 1}->${mNums(j) - 1}"
-        case _           => // do nothing
-      }
+    for (i <- 0 until (mNums.length - 1); j = i + 1) {
+      val distance = mNums(j) - mNums(i)
+      if (distance == 2) result += s"${mNums(j) - 1}"
+      if (distance > 2) result += s"${mNums(i) + 1}->${mNums(j) - 1}"
     }
 
     result.toList
   }
-
-  println(
-    scala.runtime.ScalaRunTime.stringOf(
-      findMissingRanges(Array(-1), -2, -1)
-    )
-  )
 }
 
 /*
