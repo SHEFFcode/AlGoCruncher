@@ -1,5 +1,5 @@
 object Solution {
-  val NO_REMAINDER = 0
+  val NO_COINS_NECESSARY = 0
   val NO_CHANGE_POSSIBLE = -1
   def coinChange(coins: Array[Int], amount: Int): Int = {
     traverse(coins, amount, Array.fill[Int](amount + 1)(0))
@@ -7,23 +7,23 @@ object Solution {
 
   private def traverse(
       coins: Array[Int],
-      amount: Int,
+      cAmount: Int,
       brain: Array[Int]
   ): Int = {
-    if (amount == 0) NO_REMAINDER
-    else if (amount < 0) NO_CHANGE_POSSIBLE
-    else if (brain(amount) != 0) brain(amount)
+    if (cAmount == 0) NO_COINS_NECESSARY
+    else if (cAmount < 0) NO_CHANGE_POSSIBLE
+    else if (brain(cAmount) != 0) brain(cAmount)
     else {
       val minSteps = coins.foldLeft(Int.MaxValue) {
         case (minSteps, coin) => {
-          val res = traverse(coins, amount - coin, brain)
+          val res = traverse(coins, cAmount - coin, brain)
           if (res >= 0 && res < minSteps) res + 1
           else minSteps
         }
       }
 
-      brain(amount) = if (minSteps == Int.MaxValue) -1 else minSteps
-      brain(amount)
+      brain(cAmount) = if (minSteps == Int.MaxValue) -1 else minSteps
+      brain(cAmount)
     }
   }
 }
