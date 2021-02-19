@@ -1,8 +1,8 @@
 import scala.collection.mutable.HashMap
 object Solution {
-  val goalX: Int = 0
-  val goalY: Int = 0
-  val brain: HashMap[String, Int] = HashMap[String, Int]()
+  private var goalX: Int = 0
+  private var goalY: Int = 0
+  private var brain: HashMap[String, Int] = HashMap[String, Int]()
   def uniquePaths(m: Int, n: Int): Int = {
     goalX = m - 1 // 0 based counting
     goalY = n - 1 // 0 based counting
