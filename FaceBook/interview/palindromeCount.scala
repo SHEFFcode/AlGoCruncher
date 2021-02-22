@@ -14,7 +14,7 @@ object Solution {
     var (lo, hi, ans) = (l, h, 0)
 
     while (lo > -1 && hi < s.length()) {
-      if (s(lo) != s(hi)) return ans
+      if (s(lo) != s(hi)) return ans // can't be a pal
       else {
         lo -= 1
         hi += 1
