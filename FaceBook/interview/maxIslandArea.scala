@@ -6,7 +6,7 @@ object Solution {
     val yIdxs = grid.head.indices
     // DFS to find area of current island
     for (i <- xIdxs; j <- yIdxs)
-      area = area max dfs(grid, i, j, grid.length, grid(0).length)
+      area = area max dfs(grid, i, j, grid.length, grid.head.length)
     area
   }
   def dfs(grid: Matrix, row: Int, col: Int, w: Int, h: Int): Int = {
