@@ -2,7 +2,7 @@ object Solution {
   def countSubstrings(s: String): Int = {
     (0 until s.length).foldLeft(0) {
       case (sum, i) => {
-        sum += (
+        sum + (
           countPalsAroundCenter(s, i, i) + // odd length pals
             countPalsAroundCenter(s, i, i + 1) // even length pals
         )
