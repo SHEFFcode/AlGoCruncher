@@ -1,23 +1,21 @@
 import scala.collection.mutable.HashMap
 object Solution {
-  private type DenseMatrix = HashMap[Int, Array[(Int, Int)]]
+  private type DenseMatrix = HashMap[(Int, Int), Int]
   private type SparseMatrix = Array[Array[Int]]
   def multiply(
       A: Array[Array[Int]],
       B: Array[Array[Int]]
   ): Array[Array[Int]] = {
-    val aDense = toDenseMatrix(A)
-    val bDense = toDenseMatrix(B)
-
-    toSparseMatrix(multiplyDenseMatrices(aDense, bDense), A.size, A.head.size)
+    multiplyDenseMatrices(A, B)
   }
 
   private def toDenseMatrix(sparseMatrix: SparseMatrix): DenseMatrix = {
-    val map = HashMap[Int, Array[(Int, Int)]]()
+    val map = HashMap[(Int, Int), Int]()
+
     for (r <- 0 until sparseMatrix.length) {
       for (c <- 0 until sparseMatrix.head.length) {
         if (sparseMatrix(r)(c) != 0) {
-          map(r) = map.getOrElse(r, Array()) :+ Tuple2(c, sparseMatrix(r)(c))
+          map((r, c)) = sparseMatrix(r)(c)
         }
       }
     }
@@ -31,35 +29,33 @@ object Solution {
   ): SparseMatrix = {
     val arr = Array.ofDim[Int](row, col)
 
-    for ((row, colValueArray) <- denseMatrix) {
-      for ((col, value) <- colValueArray) {
-        arr(row)(col) = value
-      }
+    for (((row, col), value) <- denseMatrix) {
+      arr(row)(col) = value
     }
 
     arr
   }
 
   private def multiplyDenseMatrices(
-      A: DenseMatrix,
-      B: DenseMatrix
-  ): DenseMatrix = {
-    if (B.size < A.size) return multiplyDenseMatrices(B, A)
-    val C: DenseMatrix = HashMap()
+      aSparse: SparseMatrix,
+      bSparse: SparseMatrix
+  ): SparseMatrix = {
+    val aDense = toDenseMatrix(aSparse)
+    val bDense = toDenseMatrix(bSparse)
+    val cDense: DenseMatrix = HashMap()
 
-    for ((row, colValueArr) <- A) {
-      for ((col, value) <- colValueArr) {
-        if (B.contains(col)) {
-          val bRow = col
-          B(col).foreach((bRow) => {
-            val (bCol, bValue) = bRow
-            C(row) = C.getOrElse(row, Array()) :+ Tuple2(col, value * bValue)
-          })
+    for (((aRow, aCol), aVal) <- aDense) {
+      for (bCol <- 0 until bSparse.head.size) {
+        val bRow = aCol // for lookup
+        if (bDense.contains(bRow, bCol)) {
+          val bVal = bDense(bRow, bCol)
+          cDense((aRow, bCol)) =
+            cDense.getOrElse((aRow, bCol), 0) + (aVal * bVal)
         }
       }
     }
 
-    C
+    toSparseMatrix(cDense, aSparse.size, bSparse.head.size)
   }
 }
 
