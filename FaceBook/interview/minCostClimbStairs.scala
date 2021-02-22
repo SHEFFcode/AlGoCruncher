@@ -1,12 +1,17 @@
+import scala.collection.mutable.HashMap
 object Solution {
-  def minCostClimbingStairs(cost: Array[Int]): Int = {
-    val (start1, start2) = (cost.length - 1 to 0 by -1).foldLeft(0, 0) {
-      case ((s1, s2), i) => {
-        val minCost = cost(i) + (s1 min s2)
-        (minCost, s1) // s1 = minCost, s2 = s1
-      }
+  def climbStairs(n: Int): Int = {
+    climb(n, HashMap[Int, Int]())
+  }
+
+  private def climb(n: Int, brain: HashMap[Int, Int]): Int = {
+    if (n < 3) return n
+    if (brain.contains(n - 1) && brain.contains(n - 2)) {
+      brain(n) = brain(n - 1) + brain(n - 2)
+    } else {
+      brain(n) = climb(n - 1, brain) + climb(n - 2, brain)
     }
-    start1 min start2 // take the min of starting at i or i + 1
+    brain(n)
   }
 }
 
