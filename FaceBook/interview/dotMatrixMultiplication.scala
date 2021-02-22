@@ -12,8 +12,8 @@ object Solution {
   private def toDenseMatrix(sparseMatrix: SparseMatrix): DenseMatrix = {
     val map = HashMap[(Int, Int), Int]()
 
-    for (r <- 0 until sparseMatrix.length) {
-      for (c <- 0 until sparseMatrix.head.length) {
+    for (r <- sparseMatrix.indices) {
+      for (c <- sparseMatrix.head.indices) {
         if (sparseMatrix(r)(c) != 0) {
           map((r, c)) = sparseMatrix(r)(c)
         }
