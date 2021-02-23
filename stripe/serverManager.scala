@@ -4,10 +4,11 @@ object ServerManager extends App {
   private val keyContainer = HashMap[String, Int]()
   private val MAX_SERVER_COUNT = 3
   private val MIN_SERVER_COUNT = 1
+  private val OPERATION_NOT_POSSIBLE = "-1"
 
   def allocateKey(key: String): String = {
     val keyCount = keyContainer.getOrElse(key, 0)
-    if (keyCount == MAX_SERVER_COUNT) "-1"
+    if (keyCount == MAX_SERVER_COUNT) OPERATION_NOT_POSSIBLE
     else {
       keyContainer(key) = keyCount + 1
       s"${keyContainer(key)}"
@@ -18,7 +19,7 @@ object ServerManager extends App {
     if (keyContainer.contains(key) && keyContainer(key) > MIN_SERVER_COUNT) {
       keyContainer(key) -= 1
       s"${keyContainer(key)}"
-    } else "-1"
+    } else OPERATION_NOT_POSSIBLE
   }
 
   println(allocateKey("apiBox"))
