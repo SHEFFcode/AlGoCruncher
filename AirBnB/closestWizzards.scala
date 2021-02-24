@@ -79,5 +79,5 @@ object Solution extends App {
     scala.runtime.ScalaRunTime.stringOf(obj)
   }
 
-  println(stringify(findMinPath(wizzards1, 0, 9)))
+  println(stringify(findMinPath(wizzards1, 0, 9))) // Array(0, 1, 2, 5, 6, 7, 9)
 }
