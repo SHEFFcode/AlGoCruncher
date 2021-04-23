@@ -13,4 +13,7 @@ object Playground extends App {
   val twoDArray = Array(Array(1, 2, 3), Array(4, 5, 6))
 
   println(pretty(twoDArray.flatten))
+
+  println(pretty(twoDArray))
+  println(pretty(twoDArray.transpose))
 }

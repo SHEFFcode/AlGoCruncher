@@ -26,4 +26,11 @@ object Playground extends App {
 
   println(stack.sortWith(_ > _))
 
+  val anotherLB = new ListBuffer[Int]()
+  2 +=: anotherLB
+  3 +=: anotherLB
+  println(anotherLB)
+  println(anotherLB.head)
+  println(anotherLB.remove(0))
+  println(anotherLB)
 }
