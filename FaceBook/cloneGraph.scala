@@ -12,28 +12,27 @@ import scala.collection.mutable.Queue
 object Solution {
   def cloneGraph(graph: Node): Node = {
     if (graph == null) return graph
+    val gClone = new Node(graph.value)
 
-    val visited = HashMap[Node, Node]() // node to node^ (node prime)
+    val clones =
+      HashMap[Node, Node](graph -> gClone) // node to node^ (node prime)
     val q = Queue[Node](graph) // contains only the original nodes
-
-    visited(graph) = new Node(graph.value)
 
     while (!q.isEmpty) {
       val ogNode = q.dequeue // ogNode as in the original node :)
       for (ogNeighbor <- ogNode.neighbors) {
-        if (!visited.contains(ogNeighbor)) {
-          visited(ogNeighbor) = new Node(ogNeighbor.value)
+        if (!clones.contains(ogNeighbor)) {
+          clones(ogNeighbor) = new Node(ogNeighbor.value)
           q += ogNeighbor
         }
         // basically we want to add a copy of neighbor node to a copy of node's neighbors
         // to do this, we do the work above
-        val copyNodeNeighbors = visited(ogNode).neighbors
-        visited(ogNode).neighbors = copyNodeNeighbors :+ visited(ogNeighbor)
+        clones(ogNode).neighbors :+= clones(ogNeighbor)
       }
     }
 
     // once we have traversed the whole graph, we will return the copy of original node
-    visited(graph)
+    clones(graph)
   }
 }
 
