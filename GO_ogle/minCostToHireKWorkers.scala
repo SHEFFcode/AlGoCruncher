@@ -17,11 +17,11 @@ object Solution extends App {
     val qualityQ = PriorityQueue[Integer]() // priority queue
 
     for (worker <- workers) {
-      qualityQ.enqueue(worker._2) // _2 =>quality
+      qualityQ.enqueue(worker._2) // _2 => quality
       sumQualities += worker._2 // increase quality
 
       if (qualityQ.size > K) {
-        // dequeue worker with lowest wage to quality so far
+        // dequeue worker with highest quality
         sumQualities -= qualityQ.dequeue()
       }
 
