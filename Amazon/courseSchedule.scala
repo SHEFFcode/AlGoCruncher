@@ -5,31 +5,38 @@ object Solution {
   private val CAN_FINISH = true
   private val CAN_NOT_FINISH = false
   def canFinish(numCourses: Int, prerequisites: Array[Array[Int]]): Boolean = {
-    val graph = prerequisites.foldLeft(HashMap[Int, List[Int]]()) {
+    val depGraph = prerequisites.foldLeft(HashMap[Int, List[Int]]()) {
       case (g, Array(course, dependency)) => {
-        g + (course -> (g.getOrElse(course, List[Int]()) :+ dependency))
+        // Course -> Array(depends*)
+        g + (course -> (safeGet(g, course) :+ dependency))
       }
     }
-    val visited = Array.ofDim[Int](numCourses)
 
+    val visited = Array.ofDim[Int](numCourses)
     (0 until numCourses).foldLeft(true) { (canF, course) =>
-      if (!dfs(course, visited, graph)) return false else canF
+      if (!acyclic(course, visited, depGraph)) return false else canF
     }
   }
 
-  private def dfs(i: Int, v: Array[Int], g: Int2List): Boolean = {
-    if (v(i) == -1) return CAN_NOT_FINISH // currently visiting, cycle!!!
-    else if (v(i) == 1) return CAN_FINISH // already visited
-    else {
-      v(i) = -1 // color node as visited, choose
+  private def safeGet(map: HashMap[Int, List[Int]], k: Int): List[Int] = {
+    map.getOrElse(k, List[Int]())
+  }
 
-      for (j <- g.getOrElse(i, List[Int]())) {
-        if (!dfs(j, v, g)) return false // explore
+  private def acyclic(i: Int, visited: Array[Int], g: Int2List): Boolean = {
+    visited(i) match {
+      case -1 => CAN_NOT_FINISH // already visited, so cycle
+      case 1  => CAN_FINISH // already completed this node, all good
+      case _ => {
+        visited(i) = -1 // color node as visited
+
+        for (courseReq <- safeGet(g, i)) {
+          if (!acyclic(courseReq, visited, g)) return false
+        }
+
+        visited(i) = 1 // color node as complete
+        CAN_FINISH
       }
-
-      v(i) = 1 // color node as no cycle, un-choose, mark complete
     }
-    CAN_FINISH
   }
 }
 
