@@ -12,23 +12,25 @@ object Solution extends App {
         a._1.toDouble / a._2.toDouble < b._1.toDouble / b._2.toDouble
       ) // sorted by wage to quality
 
-    val wageToQuality = workers.map((a) => a._1.toDouble / a._2.toDouble)
     var minCostForK = Double.MaxValue
     var sumQualities = 0
+    val qualityQ = PriorityQueue[Integer]() // priority queue
 
-    val pq = PriorityQueue[Integer]()
     for (worker <- workers) {
-      pq.enqueue(worker._2)
-      sumQualities += worker._2
-      if (pq.size > K) {
-        sumQualities -= pq.dequeue()
+      qualityQ.enqueue(worker._2) // _2 =>quality
+      sumQualities += worker._2 // increase quality
+
+      if (qualityQ.size > K) {
+        // dequeue worker with lowest wage to quality so far
+        sumQualities -= qualityQ.dequeue()
       }
-      if (pq.size == K) {
+
+      if (qualityQ.size == K) {
         // since we have already sorted the workers, we know this workers ratio is highest
         // of the ones currently in the queue, and we can apply this foruma
         // without fear of underpaying a worker already in the queue
         minCostForK =
-          math.min(minCostForK, sumQualities.toDouble * worker._1 / worker._2)
+          math.min(minCostForK, sumQualities.toDouble * (worker._1 / worker._2))
       }
     }
 
