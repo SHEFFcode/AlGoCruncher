@@ -3,26 +3,27 @@ object Solution {
     if (s.isEmpty) s
     else if (!s(0).isDigit) {
       // we want to grab all non digits
-      val letterString = s.takeWhile(!_.isDigit)
-      letterString + decodeString(s.drop(letterString.length))
+      val cSegment = s.takeWhile(!_.isDigit)
+      cSegment + decodeString(s.drop(cSegment.length))
     } else { // no other option here, since we cannot start with []
-      val count = s.takeWhile(_.isDigit) // grab all the digits
+      val xRepeat = s.takeWhile(_.isDigit) // grab all the digits
       // +1 because we want to drop the [
-      val repeat = strToRepeat(s.drop(count.length + 1), 1, "")
-      val cSegment = decodeString(repeat) * count.toInt
+      val cSegRaw = pealLayer(s.drop(xRepeat.length + 1), 1, "")
+      val cSegment = decodeString(cSegRaw) * xRepeat.toInt
       //+2 because we want to exclide []
-      val nextSegment = decodeString(s.drop(repeat.length + count.length + 2))
-      cSegment + nextSegment
+      val nSegment = decodeString(s.drop(cSegRaw.length + xRepeat.length + 2))
+      cSegment + nSegment
     }
   }
 
-  private def strToRepeat(s: String, braceCnt: Int, cString: String): String = {
-    if (braceCnt == 0) cString.dropRight(1) // drop ] from the right
+  private def pealLayer(s: String, braceCnt: Int, cString: String): String = {
+    if (braceCnt == 0) cString.dropRight(1) // drop ] from the right, see ln 10
     else {
       s.head match {
-        case '[' => strToRepeat(s.tail, braceCnt + 1, cString + '[')
-        case ']' => strToRepeat(s.tail, braceCnt - 1, cString + ']')
-        case c   => strToRepeat(s.tail, braceCnt, cString + c)
+        // we keep the inner layers by adding "[" and "]"
+        case '[' => pealLayer(s.tail, braceCnt + 1, cString + '[')
+        case ']' => pealLayer(s.tail, braceCnt - 1, cString + ']')
+        case c   => pealLayer(s.tail, braceCnt, cString + c)
       }
     }
   }
