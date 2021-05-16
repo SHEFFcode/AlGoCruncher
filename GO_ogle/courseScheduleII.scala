@@ -2,45 +2,44 @@ import scala.collection.mutable
 object Solution {
   val SRC_IDX = 1
   val DEST_IDX = 0
+  private type IntToListBuffer =
+    mutable.HashMap[Int, mutable.ListBuffer[Int]]
   def findOrder(
       numCourses: Int,
       prerequisites: Array[Array[Int]]
   ): Array[Int] = {
-    val adjList = mutable.HashMap[Integer, mutable.ListBuffer[Int]]()
+    val topoOrder = Array.ofDim[Int](numCourses)
     val inDegree = Array.ofDim[Int](numCourses)
-    val topologicalOrder = Array.ofDim[Int](numCourses)
-
-    for (i <- 0 until prerequisites.length) {
-      val src = prerequisites(i)(SRC_IDX)
-      val dest = prerequisites(i)(DEST_IDX)
-      adjList(src) = adjList.getOrElse(src, mutable.ListBuffer[Int]()) :+ dest
-
-      // record in degree
-      inDegree(dest) += 1
-    }
-
-    val q = (0 until numCourses).foldLeft(mutable.Queue[Int]()) { (q, i) =>
-      if (inDegree(i) == 0) q += i
+    var coursesReached = 0
+    val depGraph =
+      prerequisites.foldLeft(mutable.HashMap[Int, mutable.ListBuffer[Int]]()) {
+        case (graph, Array(course, prereq)) => {
+          inDegree(course) += 1
+          graph(prereq) = safeGet(graph, prereq) :+ course
+          graph
+        }
+      }
+    val q = (0 until numCourses).foldLeft(mutable.Queue[Int]()) { (q, course) =>
+      if (inDegree(course) == 0) q += course
       q
     }
 
-    var i = 0
     while (!q.isEmpty) {
-      val node = q.dequeue
-      topologicalOrder(i) = node
-      i += 1
+      val course = q.dequeue
+      topoOrder(coursesReached) = course
+      coursesReached += 1
 
-      for (nei <- adjList.getOrElse(node, mutable.ListBuffer[Int]())) {
+      for (nei <- safeGet(depGraph, course)) {
         inDegree(nei) -= 1
         if (inDegree(nei) == 0) q += nei
       }
     }
 
-    println(scala.runtime.ScalaRunTime.stringOf(adjList))
-    println(scala.runtime.ScalaRunTime.stringOf(inDegree))
-    println(scala.runtime.ScalaRunTime.stringOf(topologicalOrder))
+    if (coursesReached == numCourses) topoOrder else Array()
+  }
 
-    if (i == numCourses) topologicalOrder else Array[Int]()
+  private def safeGet(g: IntToListBuffer, k: Int): mutable.ListBuffer[Int] = {
+    g.getOrElse(k, mutable.ListBuffer[Int]())
   }
 }
 
