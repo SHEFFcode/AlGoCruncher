@@ -43,7 +43,7 @@ object Solution {
         traverse(brain, i + iAdd, j + jAdd, robot, absoluteDir)
         goBack(robot)
       }
-      robot.turnRight() // this plays with line 37, turn robot, turn direction
+      robot.turnRight() // this goes w/line 37, synchronize robot's internal state to loop
     }
   }
 
