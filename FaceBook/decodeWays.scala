@@ -6,8 +6,9 @@ object Solution {
 
   private def traverse(idx: Int, s: String, brain: HashMap[Int, Int]): Int = {
     idx match {
-      case i if i == s.length     => 1
-      case i if s(i) == '0'       => 0 // if starts with 0, ans is 0
+      case i if i == s.length => 1
+      case i if s(i) == '0' =>
+        0 // if starts with 0, ans is 0 and 0 at the end would not add to the answer.
       case i if i == s.length - 1 => 1
       case i if brain.contains(i) => brain(i)
       case i => {

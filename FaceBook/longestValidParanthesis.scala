@@ -1,21 +1,21 @@
-import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.Stack
 
 object Solution {
   def longestValidParentheses(s: String): Int = {
-    val stack = ListBuffer[Integer]()
+    val stack = Stack[Integer](-1)
 
     (0 until s.length).foldLeft(0) {
       case (maxLen, i) => {
         if (s(i) == '(') {
-          stack += i
+          stack.push(i)
           maxLen
         } else {
-          stack.remove(stack.length - 1)
+          stack.pop()
           if (stack.isEmpty) {
-            stack += (i) // this is the reverse bracket
+            stack.push(i) // this is the reverse bracket
             maxLen
           } else {
-            maxLen max (i - stack(stack.length - 1))
+            maxLen max (i - stack.head)
           }
         }
       }
