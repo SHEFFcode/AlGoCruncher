@@ -6,7 +6,7 @@ object Solution {
   def isBipartite(graph: Array[Array[Int]]): Boolean = {
     val colors = Array.fill(graph.size)(-1)
 
-    (0 until graph.size).forall(i => colors(i) != UNEXPLORED || dfs(i, RED))
+    (graph.indices).forall(i => colors(i) != UNEXPLORED || dfs(i, RED))
   }
 
   private def dfs(node: Int, color: Int, colors: Array[Int]): Boolean = {
