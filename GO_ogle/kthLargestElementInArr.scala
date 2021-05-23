@@ -1,47 +1,17 @@
-import scala.util.Random
-object Solution extends App {
+object Solution {
   def findKthLargest(nums: Array[Int], k: Int): Int = {
-    select(0, nums.length - 1, nums.length - k, nums)
+    quickSelect(nums.length - k, nums.toList)
+
   }
 
-  def partition(left: Int, right: Int, pIdx: Int, nums: Array[Int]): Int = {
-    val pivot = nums(pIdx) // let's keep track of it
-
-    // move pivot to end of current range
-    swap(right, pIdx, nums)
-
-    // move all smaller elements to the left
-    var storeIdx = left
-    for (i <- left until right) {
-      if (nums(i) < pivot) {
-        swap(storeIdx, i, nums)
-        storeIdx += 1
-      }
-    }
-
-    // move pivot to its final place
-    swap(right, storeIdx, nums)
-
-    storeIdx
+  def quickSelect(k: Int, nums: List[Int]): Int = {
+    val pivot = nums.head
+    val (less, more) = nums.tail.partition(_ < pivot)
+    if (less.length == k) pivot
+    else if (k < less.length) quickSelect(k, less)
+    else quickSelect(k - less.length - 1, more)
   }
 
-  def swap(a: Int, b: Int, arr: Array[Int]): Unit = {
-    val arrA = arr(a)
-    arr(a) = arr(b)
-    arr(b) = arrA
-  }
-
-  def select(left: Int, right: Int, kSmallest: Int, nums: Array[Int]): Int = {
-    if (left == right) return nums(left) // if 1 item, return it
-    val randomIdx = left + new Random().nextInt(right - left)
-    val pivotIdx = partition(left, right, randomIdx, nums)
-
-    if (kSmallest == pivotIdx) nums(kSmallest)
-    else if (kSmallest < pivotIdx) select(left, pivotIdx - 1, kSmallest, nums)
-    else select(pivotIdx + 1, right, kSmallest, nums)
-  }
-
-  println(findKthLargest(Array(3, 2, 1, 5, 6, 4), 2))
 }
 
 /*
