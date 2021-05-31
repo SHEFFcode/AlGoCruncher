@@ -1,30 +1,33 @@
-import scala.collection.mutable.ListBuffer
+import scala.collection.mutable.Stack
 object Solution {
   val ID = 0
   val STATE = 1
   val TS = 2
   def exclusiveTime(n: Int, logs: List[String]): Array[Int] = {
-    val res = Array.ofDim[Int](n)
-    val log = logs.head.split(":")
+    val prevLog = logs.head.split(":")
+    var prevTS = prevLog(TS).toInt
     var cLogs = logs.tail
-    val stack = ListBuffer[Int](log(ID).toInt)
-    var prev = log(TS).toInt
+
+    val res = Array.ofDim[Int](n)
+    val stack = Stack[Int](prevLog(ID).toInt)
 
     for (_ <- 1 until logs.size) {
       val cLog = cLogs.head.split(":")
       if (cLog(STATE) == "start") {
         if (!stack.isEmpty) {
-          res(stack.last) += cLog(TS).toInt - prev
+          // stack.head will have the previous functions id
+          // we will access it in the res array and increment its runtime
+          res(stack.head) += cLog(TS).toInt - prevTS // increase funcs runtime
         }
 
-        stack += cLog(ID).toInt // append to stack
-        prev = cLog(TS).toInt
+        stack.push(cLog(ID).toInt) // push current function id to the stack
+        prevTS = cLog(TS).toInt // update previousely seen TS (start or end)
       } else {
-        res(stack.last) += cLog(TS).toInt - prev + 1
-        stack.remove(stack.size - 1)
-        prev = cLog(TS).toInt + 1
+        res(stack.head) += cLog(TS).toInt - prevTS + 1 // update func runtime
+        stack.pop() // remove it off the stack frame
+        prevTS = cLog(TS).toInt + 1 // update previous TS whether start or end
       }
-      cLogs = cLogs.tail
+      cLogs = cLogs.tail // move on the the next logs segment
     }
 
     res
