@@ -16,7 +16,7 @@ object Solution {
     if (k == 2) return twoSum(nums, t, strt) // we got down to 2 sum, base case
 
     for (i <- strt until nums.length) { // pin a number
-      if (i == strt || nums(i - 1) != nums(i)) {
+      if (i == strt || nums(i - 1) != nums(i)) { // basically dupe check
         // if we are the first number or we are not a duplicate
         for (listOfKNums <- kSum(nums, t - nums(i), i + 1, k - 1)) {
           val listOfKWithNumAtIdx = nums(i) +: listOfKNums
