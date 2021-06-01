@@ -21,22 +21,23 @@ object Solution {
 
   // See largestRectangleInHistogram.scala
   private def maxHistogramArea(cRow: Array[Int]): Int = {
-    val stack = ListBuffer[Int](-1)
+    // cRow serves as the height stack in regular max hist area.
+    val posStack = ListBuffer[Int](-1) // position stack
     var maxArea = 0
 
     for (i <- 0 until cRow.length) {
-      while (stack.head != -1 && cRow(i) < cRow(stack.head)) {
-        val cHeight = cRow(stack.remove(0))
-        val cWidth = i - stack.head - 1
+      while (posStack.head != -1 && cRow(i) < cRow(posStack.head)) {
+        val cHeight = cRow(posStack.remove(0))
+        val cWidth = i - posStack.head - 1
         maxArea = maxArea max cHeight * cWidth
       }
 
-      i +=: stack
+      i +=: posStack
     }
 
-    while (stack.head != -1) {
-      val cHeight = cRow(stack.remove(0))
-      val cWidth = cRow.length - stack.head - 1
+    while (posStack.head != -1) {
+      val cHeight = cRow(posStack.remove(0))
+      val cWidth = cRow.length - posStack.head - 1
       maxArea = maxArea max cHeight * cWidth
     }
 
