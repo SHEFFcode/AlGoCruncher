@@ -6,7 +6,7 @@ object Solution {
   private val HI = true
   private val LO = false
   def fourSum(nums: Array[Int], target: Int): List[List[Int]] = {
-    kSum(nums.sorted, target, 0, 4).toList // because 4 sum
+    kSum(nums.sorted, target, 0, 4).toList // strt @ 0, k = 4 because 4 sum
   }
 
   private def kSum(nums: Array[Int], t: Int, strt: Int, k: Int): DoubleBuf = {
