@@ -50,7 +50,7 @@ object Solution {
         // ALSO look if you can count this as yet to be matched
         // opening brace, while adding to the cString
         dfs(idx + 1, cStr + c, lNoMatch + 1, lExtra, rExtra)
-      case c @ ')' =>
+      case c @ ')' => // no op if conditions not met, don't need rNoMatch
         if (rExtra > 0) {
           // IF we have some rExtras, reduce the count
           // without adding to the cString
