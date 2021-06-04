@@ -18,7 +18,6 @@ object Solution {
       .foldLeft(Map[String, Set[String]]()) { (res, emails) =>
         // we don't want the name here, so we do .tail
         emails.tail.foldLeft(res) { (res, email) =>
-          // parent email of this group can be a part of another union group
           val parent = find(emails(PARENT_EMAIL), emailToParent)
           val otherEmailsOfParent = res.getOrElse(parent, Set[String]())
           res + (parent -> (otherEmailsOfParent + email))
@@ -31,6 +30,6 @@ object Solution {
   private def find(m: String, emailToParent: Map[String, String]): String = {
     val parent = emailToParent.getOrElse(m, m) // find parent of this email
     if (parent == m) m // if you are the parent, return yourself
-    else find(p, emailToParent) // if you are not the parent, keep looking
+    else find(parent, emailToParent) // if you are not the parent, keep looking
   }
 }
