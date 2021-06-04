@@ -14,18 +14,22 @@ object Solution {
       if (cNode.left != null) {
         // if we have a left child
         // find it's rightmost node (rightMost child of cNode)
-        var rightMost = cNode.left
-        while (rightMost.right != null) {
-          rightMost = rightMost.right
+        var rightMostToLeftOfNode = cNode.left
+        while (rightMostToLeftOfNode.right != null) {
+          rightMostToLeftOfNode = rightMostToLeftOfNode.right
         }
 
         // rewrite the connections
 
         // regardless of existence of left node
         // rewire the connections
-        rightMost.right = cNode.right
-        cNode.right = cNode.left
-        cNode.left = null
+
+        // we know the right child here is null
+        // per above while loop, so safe to rewire
+        // rightMostToLeftOfNode's left child stays as is
+        rightMostToLeftOfNode.right = cNode.right
+        cNode.right = cNode.left // flatten this level
+        cNode.left = null // garbage collect the rewired nodes above
       }
       // move on to the right side of the tree
       cNode = cNode.right
