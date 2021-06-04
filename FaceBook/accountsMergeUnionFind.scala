@@ -29,7 +29,7 @@ object Solution {
 
   private def find(m: String, emailToParent: Map[String, String]): String = {
     val parent = emailToParent.getOrElse(m, m) // find parent of this email
-    if (parent == m) m // if you are the parent, return yourself
+    if (parent == m) parent // if you are the parent, return yourself
     else find(parent, emailToParent) // if you are not the parent, keep looking
   }
 }
